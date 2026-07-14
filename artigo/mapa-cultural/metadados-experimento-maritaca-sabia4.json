@@ -1,0 +1,24 @@
+{
+  "experiment": "Replicação em português de Tao et al. (2024), expressão cultural padrão",
+  "doi": "10.1093/pnasnexus/pgae346",
+  "endpoint": "https://chat.maritaca.ai/api/chat/completions",
+  "requested_model": "sabia-4",
+  "response_models": [
+    "sabia-4"
+  ],
+  "language": "pt-BR",
+  "cultural_prompt": false,
+  "temperature": 0,
+  "n_prompt_variants": 10,
+  "n_items": 10,
+  "n_calls": 100,
+  "first_response_recorded_utc": "2026-07-13T17:46:17.434340+00:00",
+  "last_response_recorded_utc": "2026-07-13T17:49:25.310039+00:00",
+  "usage": {
+    "prompt_tokens": 10740,
+    "completion_tokens": 1256,
+    "total_tokens": 11996
+  },
+  "translation_note": "Tradução própria das Tabelas 1 e 2; opções, escalas e instruções de formato preservadas.",
+  "credential_recorded": false
+}

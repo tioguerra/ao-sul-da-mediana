@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Se este repositório ajudar seu trabalho, cite-o usando os metadados abaixo."
+title: "Ao sul da mediana: inteligência artificial generativa, alinhamento cultural e a hipótese da mediocridade cognitiva"
+type: software
+authors:
+  - family-names: "Guerra"
+    given-names: "Rodrigo da Silva"
+    alias: "tioguerra"
+repository-code: "https://github.com/tioguerra/ao-sul-da-mediana"
+url: "https://github.com/tioguerra/ao-sul-da-mediana"
+version: "0.1.0"
+date-released: "2026-07-13"
+license: "CC-BY-NC-4.0"
+keywords:
+  - "inteligência artificial generativa"
+  - "alinhamento cultural"
+  - "World Values Survey"
+  - "colonialismo digital"
+  - "criatividade"
+  - "homogeneização"
+abstract: >-
+  Materiais, dados e código de um position paper sobre viés cultural e
+  compressão da diversidade coletiva na mediação por modelos de linguagem,
+  incluindo uma auditoria de cinco LLMs em quatro condições linguístico-culturais.
+

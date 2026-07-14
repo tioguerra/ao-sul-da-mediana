@@ -1,0 +1,201 @@
+backend,model_label,requested_model,condition,condition_label,prompt_language,cultural_identity,variant,x_survival_self_expression,y_traditional_secular,a008,a165,e018,e025,f063,f118,f120,g006,y002,y003
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,en_default,Inglês,en,none,0,0.9244413741934581,0.20542237679146116,2,2,1.0,1,7,7.0,5.0,2.0,1,0
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,en_default,Inglês,en,none,1,1.5354595856246207,-0.6218515990660879,2,2,1.0,1,7,8.0,5.0,1.0,1,1
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,en_default,Inglês,en,none,2,1.4866136074512328,0.5057155045206568,2,2,1.0,1,7,8.0,6.0,2.0,1,1
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,en_default,Inglês,en,none,3,1.1288318384364553,-0.8751478723083956,2,2,1.0,1,7,7.0,5.0,1.0,1,0
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,en_default,Inglês,en,none,4,1.5256405760666398,-0.5691670131104992,2,2,1.0,1,7,7.0,6.0,1.0,1,1
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,en_default,Inglês,en,none,5,1.2843763245060642,-0.8281510178215077,2,2,1.0,1,7,7.0,6.0,1.0,1,0
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,en_default,Inglês,en,none,6,0.9244413741934581,0.20542237679146116,2,2,1.0,1,7,7.0,5.0,2.0,1,0
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,en_default,Inglês,en,none,7,1.1288318384364553,-0.8751478723083956,2,2,1.0,1,7,7.0,5.0,1.0,1,0
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,en_default,Inglês,en,none,8,1.5354595856246207,-0.6218515990660879,2,2,1.0,1,7,8.0,5.0,1.0,1,1
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,en_default,Inglês,en,none,9,1.5354595856246207,-0.6218515990660879,2,2,1.0,1,7,8.0,5.0,1.0,1,1
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,pt_brazil,Prompt Brasil,pt-BR,Brazil,0,0.7464820207173988,-1.0321193129814858,2,2,1.0,1,10,7.0,3.0,1.0,1,1
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,pt_brazil,Prompt Brasil,pt-BR,Brazil,1,0.7074550521019913,0.042763204649670344,2,2,1.0,1,10,8.0,3.0,2.0,1,1
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,pt_brazil,Prompt Brasil,pt-BR,Brazil,2,0.9118455163449886,-1.0378070444501866,2,2,1.0,1,10,8.0,3.0,1.0,1,1
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,pt_brazil,Prompt Brasil,pt-BR,Brazil,3,0.21136456521922173,0.0598263990557725,2,2,1.0,1,10,5.0,3.0,2.0,1,1
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,pt_brazil,Prompt Brasil,pt-BR,Brazil,4,0.9118455163449886,-1.0378070444501866,2,2,1.0,1,10,8.0,3.0,1.0,1,1
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,pt_brazil,Prompt Brasil,pt-BR,Brazil,5,1.104263789732176,0.34874406384756673,2,2,1.0,1,10,8.0,4.0,2.0,1,2
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,pt_brazil,Prompt Brasil,pt-BR,Brazil,6,-0.09502816563206085,-1.037967060249775,2,2,1.0,2,10,7.0,3.0,1.0,1,0
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,pt_brazil,Prompt Brasil,pt-BR,Brazil,7,0.9877462722779744,-0.7731353082704773,2,2,1.0,1,10,7.0,3.0,1.0,1,2
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,pt_brazil,Prompt Brasil,pt-BR,Brazil,8,0.948719303662567,0.3017472093606788,2,2,1.0,1,10,8.0,3.0,2.0,1,2
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,pt_brazil,Prompt Brasil,pt-BR,Brazil,9,0.7074550521019913,0.042763204649670344,2,2,1.0,1,10,8.0,3.0,2.0,1,1
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,pt_default,Português,pt-BR,none,0,1.4069698773146093,0.7233903862134781,2,2,1.0,1,7,7.0,5.0,2.0,1,2
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,pt_default,Português,pt-BR,none,1,1.1657056257540337,0.4644063815024696,2,2,1.0,1,7,7.0,5.0,2.0,1,1
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,pt_default,Português,pt-BR,none,2,1.9737178604068897,0.46056767230349976,2,2,1.0,1,8,7.0,6.0,2.0,2,2
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,pt_default,Português,pt-BR,none,3,1.1657056257540337,0.4644063815024696,2,2,1.0,1,7,7.0,5.0,2.0,1,1
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,pt_default,Português,pt-BR,none,4,0.7308036021187159,0.36846126563643,2,2,1.0,1,8,5.0,5.0,2.0,1,1
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,pt_default,Português,pt-BR,none,5,1.9810133944487878,-0.6593602929222808,2,2,1.0,1,7,8.0,3.0,1.0,2,2
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,pt_default,Português,pt-BR,none,6,1.4069698773146093,0.7233903862134781,2,2,1.0,1,7,7.0,5.0,2.0,1,2
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,pt_default,Português,pt-BR,none,7,0.9206983999898204,0.6877689946639913,2,2,1.0,1,7,5.0,4.0,2.0,1,2
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,pt_default,Português,pt-BR,none,8,2.0877119023450086,0.5152036651513519,2,2,1.0,1,7,8.0,5.0,2.0,2,2
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,pt_default,Português,pt-BR,none,9,2.0019921368540423,0.3032165149272314,2,2,1.0,1,7,8.0,6.0,2.0,2,1
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,0,0.7464820207173988,-1.0321193129814858,2,2,1.0,1,10,7.0,3.0,1.0,1,1
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,1,0.7464820207173988,-1.0321193129814858,2,2,1.0,1,10,7.0,3.0,1.0,1,1
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,2,1.1531097679055642,-0.778823039739178,2,2,1.0,1,10,8.0,3.0,1.0,1,2
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,3,0.31159958155610457,-0.7846707870074671,2,2,1.0,2,10,8.0,3.0,1.0,1,1
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,4,0.9118455163449886,-1.0378070444501866,2,2,1.0,1,10,8.0,3.0,1.0,1,1
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,5,1.0673900024145977,-0.9908101899632985,2,2,1.0,1,10,8.0,4.0,1.0,1,1
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,6,0.7464820207173988,-1.0321193129814858,2,2,1.0,1,10,7.0,3.0,1.0,1,1
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,7,0.2639535175962475,-1.5500873224035026,2,2,1.0,1,10,7.0,3.0,1.0,1,-1
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,8,0.9118455163449886,-1.0378070444501866,2,2,1.0,1,10,8.0,3.0,1.0,1,1
+openrouter,Claude Sonnet 5,anthropic/claude-sonnet-5,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,9,0.22587981606513807,-0.9966579372315876,2,2,1.0,2,10,8.0,4.0,1.0,1,0
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,en_default,Inglês,en,none,0,2.0938824014009234,1.5808759010145552,2,2,2.0,2,7,10.0,7.0,2.0,2,2
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,en_default,Inglês,en,none,1,1.8526181498403478,1.3218918963035469,2,2,2.0,2,7,10.0,7.0,2.0,2,1
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,en_default,Inglês,en,none,2,2.923222152945343,1.9283066752679985,2,2,2.0,2,1,10.0,5.0,2.0,3,2
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,en_default,Inglês,en,none,3,1.8526181498403478,1.3218918963035469,2,2,2.0,2,7,10.0,7.0,2.0,2,1
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,en_default,Inglês,en,none,4,2.0938824014009234,1.5808759010145552,2,2,2.0,2,7,10.0,7.0,2.0,2,2
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,en_default,Inglês,en,none,5,2.296735833663319,1.0564151750108075,2,2,2.0,2,10,10.0,7.0,2.0,3,2
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,en_default,Inglês,en,none,6,2.0938824014009234,1.5808759010145552,2,2,2.0,2,7,10.0,7.0,2.0,2,2
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,en_default,Inglês,en,none,7,2.0938824014009234,1.5808759010145552,2,2,2.0,2,7,10.0,7.0,2.0,2,2
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,en_default,Inglês,en,none,8,1.5768659330381065,3.123561964236745,2,2,2.0,2,10,10.0,5.0,4.0,3,2
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,en_default,Inglês,en,none,9,3.2552898674898154,2.984877192091287,2,2,2.0,2,1,10.0,10.0,3.0,3,1
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,pt_brazil,Prompt Brasil,pt-BR,Brazil,0,0.7993453166488729,1.3204225907369942,2,2,2.0,2,10,10.0,4.0,2.0,1,2
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,pt_brazil,Prompt Brasil,pt-BR,Brazil,1,0.8347448461984717,0.5905048583528847,2,2,1.0,2,10,10.0,4.0,2.0,1,2
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,pt_brazil,Prompt Brasil,pt-BR,Brazil,2,1.50566786167089,0.4350027232463474,2,2,1.0,2,10,10.0,5.0,2.0,2,2
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,pt_brazil,Prompt Brasil,pt-BR,Brazil,3,0.43793610856828713,0.28452399915498827,2,2,1.0,2,10,10.0,3.0,2.0,1,1
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,pt_brazil,Prompt Brasil,pt-BR,Brazil,4,0.9045695667771143,0.42551456261565235,2,2,1.0,2,10,10.0,6.0,2.0,1,1
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,pt_brazil,Prompt Brasil,pt-BR,Brazil,5,3.2209655834401776,1.6358722049117544,2,2,1.0,2,1,10.0,10.0,2.0,2,2
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,pt_brazil,Prompt Brasil,pt-BR,Brazil,6,0.593480594637896,0.3315208536418762,2,2,1.0,2,10,10.0,4.0,2.0,1,1
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,pt_brazil,Prompt Brasil,pt-BR,Brazil,7,0.593480594637896,0.3315208536418762,2,2,1.0,2,10,10.0,4.0,2.0,1,1
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,pt_brazil,Prompt Brasil,pt-BR,Brazil,8,0.7136255511579062,1.1084354405128738,2,2,2.0,2,10,10.0,5.0,2.0,1,1
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,pt_brazil,Prompt Brasil,pt-BR,Brazil,9,2.006726510908761,1.1409207233538883,2,2,2.0,2,10,10.0,10.0,2.0,2,1
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,pt_default,Português,pt-BR,none,0,2.1787498067869984,1.5302386331652613,2,2,2.0,1,7,10.0,7.0,2.0,1,2
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,pt_default,Português,pt-BR,none,1,1.3013783044072988,0.7314954218135488,2,2,1.0,2,10,10.0,7.0,2.0,1,2
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,pt_default,Português,pt-BR,none,2,3.0982841602653206,3.2722528854512465,3,2,2.0,2,1,10.0,10.0,2.0,3,2
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,pt_default,Português,pt-BR,none,3,1.4743288396179757,1.67605431180454,2,2,2.0,2,8,10.0,7.0,2.0,1,2
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,pt_default,Português,pt-BR,none,4,0.8691700372275155,1.1554322949997617,2,2,2.0,2,10,10.0,6.0,2.0,1,1
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,pt_default,Português,pt-BR,none,5,1.9990626950565393,4.291946163061138,2,2,2.0,2,1,10.0,5.0,4.0,2,2
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,pt_default,Português,pt-BR,none,6,1.3187843535483668,1.6290574573176517,2,2,2.0,2,8,10.0,6.0,2.0,1,2
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,pt_default,Português,pt-BR,none,7,1.7484431174602095,1.214571317500106,2,2,2.0,2,8,10.0,7.0,2.0,2,1
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,pt_default,Português,pt-BR,none,8,1.9495948192200627,3.612665698526322,2,2,1.0,3,1,10.0,5.0,4.0,3,2
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,pt_default,Português,pt-BR,none,9,3.9053350475363855,1.0827206986025817,2,2,2.0,2,1,10.0,10.0,1.0,3,2
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,0,1.3013783044072988,0.7314954218135488,2,2,1.0,2,10,10.0,7.0,2.0,1,2
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,1,0.9902893322680806,0.6375017128397729,2,2,1.0,2,10,10.0,5.0,2.0,1,2
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,2,1.8167568338101083,0.5289964322201233,2,2,1.0,2,10,10.0,7.0,2.0,2,2
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,3,0.6792003601288628,0.5435080038659967,2,2,1.0,2,10,10.0,3.0,2.0,1,2
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,4,1.1946797965110778,-0.4430685362600839,2,2,1.0,2,10,10.0,5.0,1.0,1,2
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,5,1.8647504518786044,-0.8611950894400356,2,2,1.0,1,10,10.0,7.0,1.0,1,1
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,6,0.593480594637896,0.3315208536418762,2,2,1.0,2,10,10.0,4.0,2.0,1,1
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,7,0.48825634450965477,1.2264288817632183,2,2,2.0,2,10,10.0,2.0,2.0,1,2
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,8,1.3013783044072988,0.7314954218135488,2,2,1.0,2,10,10.0,7.0,2.0,1,2
+openrouter,GPT-5.6 Terra,openai/gpt-5.6-terra,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,9,2.0211472980531053,-0.5515738168797335,2,2,1.0,2,10,10.0,7.0,1.0,2,2
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,en_default,Inglês,en,none,0,2.076010899408056,1.650886081798367,2,2,2.0,1,5,10.0,5.0,2.0,1,2
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,en_default,Inglês,en,none,1,1.763485802267642,1.3289243453880446,2,2,2.0,1,8,10.0,5.0,2.0,1,2
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,en_default,Inglês,en,none,2,,,2,2,2.0,1,8,,,2.0,3,2
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,en_default,Inglês,en,none,3,2.076010899408056,1.650886081798367,2,2,2.0,1,5,10.0,5.0,2.0,1,2
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,en_default,Inglês,en,none,4,1.763485802267642,1.3289243453880446,2,2,2.0,1,8,10.0,5.0,2.0,1,2
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,en_default,Inglês,en,none,5,,,2,2,1.0,1,5,10.0,5.0,,3,2
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,en_default,Inglês,en,none,6,1.763485802267642,1.3289243453880446,2,2,2.0,1,8,10.0,5.0,2.0,1,2
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,en_default,Inglês,en,none,7,1.9678762665106393,0.24835409628818783,2,2,2.0,1,8,10.0,5.0,1.0,1,2
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,en_default,Inglês,en,none,8,,,2,2,2.0,1,5,10.0,,1.0,3,2
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,en_default,Inglês,en,none,9,,,2,2,2.0,1,5,,,2.0,3,2
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,pt_brazil,Prompt Brasil,pt-BR,Brazil,0,1.349271015496389,0.12538145068604525,2,2,1.0,1,10,10.0,5.0,2.0,1,1
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,pt_brazil,Prompt Brasil,pt-BR,Brazil,1,1.3138714859467904,0.8552991830701545,2,2,2.0,1,10,10.0,5.0,2.0,1,1
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,pt_brazil,Prompt Brasil,pt-BR,Brazil,2,1.7241266722007649,0.7636306710654164,2,2,3.0,1,10,10.0,5.0,1.0,1,2
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,pt_brazil,Prompt Brasil,pt-BR,Brazil,3,,,2,2,,1,10,10.0,5.0,2.0,1,1
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,pt_brazil,Prompt Brasil,pt-BR,Brazil,4,,,2,2,1.0,1,10,10.0,,1.0,1,1
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,pt_brazil,Prompt Brasil,pt-BR,Brazil,5,1.7949257312999618,-0.6962047937028031,2,2,1.0,1,10,10.0,5.0,1.0,1,2
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,pt_brazil,Prompt Brasil,pt-BR,Brazil,6,1.349271015496389,0.12538145068604525,2,2,1.0,1,10,10.0,5.0,2.0,1,1
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,pt_brazil,Prompt Brasil,pt-BR,Brazil,7,1.5536614797393862,-0.9551887984138115,2,2,1.0,1,10,10.0,5.0,1.0,1,1
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,pt_brazil,Prompt Brasil,pt-BR,Brazil,8,1.7949257312999618,-0.6962047937028031,2,2,1.0,1,10,10.0,5.0,1.0,1,2
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,pt_brazil,Prompt Brasil,pt-BR,Brazil,9,1.8991007636800998,-0.5888842148993623,2,2,1.0,1,9,10.0,5.0,1.0,1,2
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,pt_default,Português,pt-BR,none,0,1.763485802267642,1.3289243453880446,2,2,2.0,1,8,10.0,5.0,2.0,1,2
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,pt_default,Português,pt-BR,none,1,2.550493266763387,1.4392029409784222,2,2,3.0,1,10,10.0,5.0,2.0,3,2
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,pt_default,Português,pt-BR,none,2,,,2,2,2.0,1,10,10.0,,1.0,1,2
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,pt_default,Português,pt-BR,none,3,1.763485802267642,1.3289243453880446,2,2,2.0,1,8,10.0,5.0,2.0,1,2
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,pt_default,Português,pt-BR,none,4,1.7595262017503632,0.033712938681306204,2,2,2.0,1,10,10.0,5.0,1.0,1,2
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,pt_default,Português,pt-BR,none,5,,,2,2,2.0,1,10,10.0,,1.0,3,1
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,pt_default,Português,pt-BR,none,6,1.7988853318172406,0.5990066130039353,2,2,1.0,1,8,10.0,5.0,2.0,1,2
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,pt_default,Português,pt-BR,none,7,1.7988853318172406,0.5990066130039353,2,2,1.0,1,8,10.0,5.0,2.0,1,2
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,pt_default,Português,pt-BR,none,8,,,2,2,2.0,1,1,10.0,,1.0,1,2
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,pt_default,Português,pt-BR,none,9,2.3983873905273736,0.09649237454405624,2,2,2.0,2,8,10.0,5.0,1.0,3,2
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,0,1.1227190566213474,0.24407749242688728,2,2,1.0,1,9,8.0,5.0,2.0,1,1
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,1,1.349271015496389,0.12538145068604525,2,2,1.0,1,10,10.0,5.0,2.0,1,1
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,2,1.4828624206401892,0.5046466663544079,2,2,3.0,1,10,10.0,5.0,1.0,1,1
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,3,1.349271015496389,0.12538145068604525,2,2,1.0,1,10,10.0,5.0,2.0,1,1
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,4,1.5536614797393862,-0.9551887984138115,2,2,1.0,1,10,10.0,5.0,1.0,1,1
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,5,1.349271015496389,0.12538145068604525,2,2,1.0,1,10,10.0,5.0,2.0,1,1
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,6,1.5536614797393862,-0.9551887984138115,2,2,1.0,1,10,10.0,5.0,1.0,1,1
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,7,1.5536614797393862,-0.9551887984138115,2,2,1.0,1,10,10.0,5.0,1.0,1,1
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,8,1.5536614797393862,-0.9551887984138115,2,2,1.0,1,10,10.0,5.0,1.0,1,1
+openrouter,Gemini 3.5 Flash,google/gemini-3.5-flash,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,9,1.5536614797393862,-0.9551887984138115,2,2,1.0,1,10,10.0,5.0,1.0,1,1
+openrouter,Grok 4.5,x-ai/grok-4.5,en_default,Inglês,en,none,0,1.1303060962044351,1.1943241138865788,2,2,2.0,1,7,7.0,5.0,2.0,1,1
+openrouter,Grok 4.5,x-ai/grok-4.5,en_default,Inglês,en,none,1,1.8307870473302017,0.09669067038062021,2,2,2.0,1,7,10.0,5.0,1.0,1,1
+openrouter,Grok 4.5,x-ai/grok-4.5,en_default,Inglês,en,none,2,3.382457400803295,2.069799543969402,2,2,3.0,1,5,10.0,7.0,2.0,3,2
+openrouter,Grok 4.5,x-ai/grok-4.5,en_default,Inglês,en,none,3,1.0615305933738957,0.3570858026990288,2,2,1.0,1,8,7.0,5.0,2.0,1,1
+openrouter,Grok 4.5,x-ai/grok-4.5,en_default,Inglês,en,none,4,0.9352136508357363,-0.3687153416233687,2,2,1.0,2,7,8.0,5.0,1.0,1,1
+openrouter,Grok 4.5,x-ai/grok-4.5,en_default,Inglês,en,none,5,3.799157530323847,2.4990818591831654,2,2,3.0,1,1,10.0,7.0,2.0,3,2
+openrouter,Grok 4.5,x-ai/grok-4.5,en_default,Inglês,en,none,6,1.370096089997031,-0.6161638675973872,2,2,1.0,1,7,7.0,5.0,1.0,1,1
+openrouter,Grok 4.5,x-ai/grok-4.5,en_default,Inglês,en,none,7,1.3310691213816235,0.4587186500337689,2,2,1.0,1,7,8.0,5.0,2.0,1,1
+openrouter,Grok 4.5,x-ai/grok-4.5,en_default,Inglês,en,none,8,3.163012146737939,0.11781869378403242,2,2,1.0,2,1,10.0,5.0,1.0,3,2
+openrouter,Grok 4.5,x-ai/grok-4.5,en_default,Inglês,en,none,9,2.612267264236715,3.195041450587109,2,2,2.0,1,5,10.0,6.0,4.0,3,1
+openrouter,Grok 4.5,x-ai/grok-4.5,pt_brazil,Prompt Brasil,pt-BR,Brazil,0,-0.5016559128202265,-1.2912633334920827,2,2,1.0,2,10,6.0,3.0,1.0,1,-1
+openrouter,Grok 4.5,x-ai/grok-4.5,pt_brazil,Prompt Brasil,pt-BR,Brazil,1,0.5909375346477896,-1.0791161674683738,2,2,1.0,1,10,7.0,2.0,1.0,1,1
+openrouter,Grok 4.5,x-ai/grok-4.5,pt_brazil,Prompt Brasil,pt-BR,Brazil,2,0.9534155449505022,-0.7020525409710924,2,2,1.0,2,10,10.0,5.0,1.0,1,1
+openrouter,Grok 4.5,x-ai/grok-4.5,pt_brazil,Prompt Brasil,pt-BR,Brazil,3,-0.4918369032622456,-1.3439479194476713,2,2,1.0,2,10,7.0,2.0,1.0,1,-1
+openrouter,Grok 4.5,x-ai/grok-4.5,pt_brazil,Prompt Brasil,pt-BR,Brazil,4,0.10840903152663842,-1.5970841768903905,2,2,1.0,1,10,7.0,2.0,1.0,1,-1
+openrouter,Grok 4.5,x-ai/grok-4.5,pt_brazil,Prompt Brasil,pt-BR,Brazil,5,0.7270719997816961,0.7107860693102392,2,2,3.0,2,10,10.0,4.0,1.0,1,1
+openrouter,Grok 4.5,x-ai/grok-4.5,pt_brazil,Prompt Brasil,pt-BR,Brazil,6,0.2639535175962475,-1.5500873224035026,2,2,1.0,1,10,7.0,3.0,1.0,1,-1
+openrouter,Grok 4.5,x-ai/grok-4.5,pt_brazil,Prompt Brasil,pt-BR,Brazil,7,-0.6473813893318547,-1.3909447739345593,2,2,1.0,2,10,7.0,1.0,1.0,1,-1
+openrouter,Grok 4.5,x-ai/grok-4.5,pt_brazil,Prompt Brasil,pt-BR,Brazil,8,0.6423265728112844,-0.7960462499448685,2,2,1.0,2,10,10.0,3.0,1.0,1,1
+openrouter,Grok 4.5,x-ai/grok-4.5,pt_brazil,Prompt Brasil,pt-BR,Brazil,9,0.6423265728112844,-0.7960462499448685,2,2,1.0,2,10,10.0,3.0,1.0,1,1
+openrouter,Grok 4.5,x-ai/grok-4.5,pt_default,Português,pt-BR,none,0,1.557621080256665,0.34002260829292685,2,2,1.0,1,8,10.0,5.0,2.0,1,1
+openrouter,Grok 4.5,x-ai/grok-4.5,pt_default,Português,pt-BR,none,1,1.9030603641973787,0.7063271918073761,2,2,1.0,1,7,10.0,5.0,2.0,1,2
+openrouter,Grok 4.5,x-ai/grok-4.5,pt_default,Português,pt-BR,none,2,2.3006573014138136,0.5101226229591176,2,2,1.0,2,5,10.0,5.0,2.0,3,1
+openrouter,Grok 4.5,x-ai/grok-4.5,pt_default,Português,pt-BR,none,3,1.7620115444996622,-0.7405476408069299,2,2,1.0,1,8,10.0,5.0,1.0,1,1
+openrouter,Grok 4.5,x-ai/grok-4.5,pt_default,Português,pt-BR,none,4,1.7155549584117675,0.09353435775712016,2,2,1.0,2,5,10.0,5.0,1.0,1,2
+openrouter,Grok 4.5,x-ai/grok-4.5,pt_default,Português,pt-BR,none,5,3.3558497977425548,0.8645834437592141,2,1,1.0,2,1,10.0,5.0,2.0,2,2
+openrouter,Grok 4.5,x-ai/grok-4.5,pt_default,Português,pt-BR,none,6,1.0615501778479186,0.7004794445390868,2,2,1.0,2,7,10.0,5.0,2.0,1,1
+openrouter,Grok 4.5,x-ai/grok-4.5,pt_default,Português,pt-BR,none,7,1.2659406420909158,-0.38009080456076993,2,2,1.0,2,7,10.0,5.0,1.0,1,1
+openrouter,Grok 4.5,x-ai/grok-4.5,pt_default,Português,pt-BR,none,8,4.784977722312651,-0.35288377460924314,1,1,1.0,2,1,10.0,7.0,2.0,3,2
+openrouter,Grok 4.5,x-ai/grok-4.5,pt_default,Português,pt-BR,none,9,2.2377774433491746,4.560380901140814,2,2,3.0,2,1,10.0,5.0,4.0,3,1
+openrouter,Grok 4.5,x-ai/grok-4.5,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,0,0.6339241037804759,-0.8587872783927913,2,2,1.0,1,8,6.0,2.0,1.0,1,1
+openrouter,Grok 4.5,x-ai/grok-4.5,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,1,0.44028633170573367,-0.6957483895478223,2,2,1.0,1,9,4.0,2.0,1.0,1,2
+openrouter,Grok 4.5,x-ai/grok-4.5,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,2,0.88359082437186,-0.53706224523386,2,2,1.0,2,10,10.0,3.0,1.0,1,2
+openrouter,Grok 4.5,x-ai/grok-4.5,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,3,0.6462665888545396,0.15577151492181188,2,2,1.0,1,9,7.0,3.0,2.0,1,1
+openrouter,Grok 4.5,x-ai/grok-4.5,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,4,0.25041111830865237,-0.6716624767353258,2,2,1.0,2,9,7.0,3.0,1.0,1,1
+openrouter,Grok 4.5,x-ai/grok-4.5,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,5,0.9363964030625263,-0.36941794211386636,2,2,1.0,2,8,10.0,2.0,1.0,1,2
+openrouter,Grok 4.5,x-ai/grok-4.5,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,6,-0.08031587294652745,-0.6602870137979243,2,2,1.0,2,9,5.0,3.0,1.0,1,1
+openrouter,Grok 4.5,x-ai/grok-4.5,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,7,-0.26413463546328836,-0.5499327109085441,2,2,1.0,2,10,4.0,2.0,1.0,1,2
+openrouter,Grok 4.5,x-ai/grok-4.5,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,8,0.88359082437186,-0.53706224523386,2,2,1.0,2,10,10.0,3.0,1.0,1,2
+openrouter,Grok 4.5,x-ai/grok-4.5,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,9,0.88359082437186,-0.53706224523386,2,2,1.0,2,10,10.0,3.0,1.0,1,2
+maritaca,Sabiá-4,sabia-4,en_default,Inglês,en,none,0,1.03959709692211,1.0327478057205617,2,2,3.0,2,7,10.0,4.0,1.0,1,1
+maritaca,Sabiá-4,sabia-4,en_default,Inglês,en,none,1,0.9867915182314428,0.865103502600568,2,2,3.0,2,9,10.0,5.0,1.0,1,1
+maritaca,Sabiá-4,sabia-4,en_default,Inglês,en,none,2,0.9867915182314428,0.865103502600568,2,2,3.0,2,9,10.0,5.0,1.0,1,1
+maritaca,Sabiá-4,sabia-4,en_default,Inglês,en,none,3,0.9354220645419717,0.9254272269171209,2,2,3.0,2,8,10.0,4.0,1.0,1,1
+maritaca,Sabiá-4,sabia-4,en_default,Inglês,en,none,4,1.03959709692211,1.0327478057205617,2,2,3.0,2,7,10.0,4.0,1.0,1,1
+maritaca,Sabiá-4,sabia-4,en_default,Inglês,en,none,5,1.2280557697920185,1.1240875073115766,2,2,3.0,2,9,10.0,5.0,1.0,1,2
+maritaca,Sabiá-4,sabia-4,en_default,Inglês,en,none,6,1.03959709692211,1.0327478057205617,2,2,3.0,2,7,10.0,4.0,1.0,1,1
+maritaca,Sabiá-4,sabia-4,en_default,Inglês,en,none,7,0.8666465617114323,0.0881889157295698,2,2,2.0,2,9,10.0,4.0,1.0,1,1
+maritaca,Sabiá-4,sabia-4,en_default,Inglês,en,none,8,1.5021700476342523,0.6626045130071425,2,2,3.0,2,9,10.0,5.0,1.0,2,1
+maritaca,Sabiá-4,sabia-4,en_default,Inglês,en,none,9,0.9867915182314428,0.865103502600568,2,2,3.0,2,9,10.0,5.0,1.0,1,1
+maritaca,Sabiá-4,sabia-4,pt_brazil,Prompt Brasil,pt-BR,Brazil,0,1.3132495882837028,-0.951548385051406,2,2,1.0,2,10,10.0,4.0,1.0,2,1
+maritaca,Sabiá-4,sabia-4,pt_brazil,Prompt Brasil,pt-BR,Brazil,1,1.3651319523593624,-1.128093600822679,1,2,2.0,2,10,10.0,4.0,1.0,1,1
+maritaca,Sabiá-4,sabia-4,pt_brazil,Prompt Brasil,pt-BR,Brazil,2,1.8805104817621718,-1.3305925904161042,1,2,2.0,2,10,10.0,4.0,1.0,2,1
+maritaca,Sabiá-4,sabia-4,pt_brazil,Prompt Brasil,pt-BR,Brazil,3,1.3132495882837028,-0.951548385051406,2,2,1.0,2,10,10.0,4.0,1.0,2,1
+maritaca,Sabiá-4,sabia-4,pt_brazil,Prompt Brasil,pt-BR,Brazil,4,1.400531481908961,-1.8580113332067882,1,2,1.0,2,10,10.0,4.0,1.0,1,1
+maritaca,Sabiá-4,sabia-4,pt_brazil,Prompt Brasil,pt-BR,Brazil,5,1.5047065142890987,-1.750690754403347,1,2,1.0,2,9,10.0,4.0,1.0,1,1
+maritaca,Sabiá-4,sabia-4,pt_brazil,Prompt Brasil,pt-BR,Brazil,6,0.43793610856828713,0.28452399915498827,2,2,1.0,2,10,10.0,3.0,2.0,1,1
+maritaca,Sabiá-4,sabia-4,pt_brazil,Prompt Brasil,pt-BR,Brazil,7,0.43793610856828713,0.28452399915498827,2,2,1.0,2,10,10.0,3.0,2.0,1,1
+maritaca,Sabiá-4,sabia-4,pt_brazil,Prompt Brasil,pt-BR,Brazil,8,1.277850058734104,-0.22163065266729648,2,2,2.0,2,10,10.0,4.0,1.0,2,1
+maritaca,Sabiá-4,sabia-4,pt_brazil,Prompt Brasil,pt-BR,Brazil,9,1.5086661148063776,-0.45547934769660847,1,2,1.0,2,7,10.0,4.0,2.0,1,1
+maritaca,Sabiá-4,sabia-4,pt_default,Português,pt-BR,none,0,1.3820250911142418,-0.11431007386385567,2,2,2.0,2,9,10.0,4.0,1.0,2,1
+maritaca,Sabiá-4,sabia-4,pt_default,Português,pt-BR,none,1,1.3651319523593624,-1.128093600822679,1,2,2.0,2,10,10.0,4.0,1.0,1,1
+maritaca,Sabiá-4,sabia-4,pt_default,Português,pt-BR,none,2,1.6761200175191746,-0.25002234131624756,1,2,2.0,2,10,10.0,4.0,2.0,2,1
+maritaca,Sabiá-4,sabia-4,pt_default,Português,pt-BR,none,3,1.7115195470687732,-0.9799400737003569,1,2,1.0,2,10,10.0,4.0,2.0,2,1
+maritaca,Sabiá-4,sabia-4,pt_default,Português,pt-BR,none,4,1.400531481908961,-1.8580113332067882,1,2,1.0,2,10,10.0,4.0,1.0,1,1
+maritaca,Sabiá-4,sabia-4,pt_default,Português,pt-BR,none,5,1.8316394074350935,0.35931508845403454,2,2,2.0,2,7,10.0,4.0,1.0,2,2
+maritaca,Sabiá-4,sabia-4,pt_default,Português,pt-BR,none,6,1.1433103428216065,-0.38274481194353127,2,2,1.0,2,9,10.0,4.0,1.0,1,2
+maritaca,Sabiá-4,sabia-4,pt_default,Português,pt-BR,none,7,1.3137624986698913,-1.0677698765061256,1,2,2.0,2,9,10.0,3.0,1.0,1,1
+maritaca,Sabiá-4,sabia-4,pt_default,Português,pt-BR,none,8,1.5191143102946796,0.037353352043711985,2,2,2.0,2,10,10.0,4.0,1.0,2,2
+maritaca,Sabiá-4,sabia-4,pt_default,Português,pt-BR,none,9,2.2653088957697625,-0.3989943325790255,1,2,1.0,2,7,10.0,4.0,2.0,2,2
+maritaca,Sabiá-4,sabia-4,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,0,1.3491620282194898,-1.797687608890235,1,2,1.0,2,9,10.0,3.0,1.0,1,1
+maritaca,Sabiá-4,sabia-4,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,1,1.9159100113117704,-2.0605103228002135,1,2,1.0,2,10,10.0,4.0,1.0,2,1
+maritaca,Sabiá-4,sabia-4,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,2,1.9159100113117704,-2.0605103228002135,1,2,1.0,2,10,10.0,4.0,1.0,2,1
+maritaca,Sabiá-4,sabia-4,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,3,2.020085043691908,-1.9531897439967723,1,2,1.0,2,9,10.0,4.0,1.0,2,1
+maritaca,Sabiá-4,sabia-4,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,4,1.3491620282194898,-1.797687608890235,1,2,1.0,2,9,10.0,3.0,1.0,1,1
+maritaca,Sabiá-4,sabia-4,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,5,2.5161559461006546,-2.3136465802429327,1,2,1.0,1,10,10.0,4.0,1.0,2,1
+maritaca,Sabiá-4,sabia-4,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,6,1.109372034426894,0.012800372593731263,1,2,2.0,2,9,10.0,3.0,2.0,1,1
+maritaca,Sabiá-4,sabia-4,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,7,1.8645405576222993,-2.00018659848366,1,2,1.0,2,9,10.0,3.0,1.0,2,1
+maritaca,Sabiá-4,sabia-4,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,8,1.8645405576222993,-2.00018659848366,1,2,1.0,2,9,10.0,3.0,1.0,2,1
+maritaca,Sabiá-4,sabia-4,pt_rs,Prompt RS,pt-BR,Rio Grande do Sul,9,1.9159100113117704,-2.0605103228002135,1,2,1.0,2,10,10.0,4.0,1.0,2,1

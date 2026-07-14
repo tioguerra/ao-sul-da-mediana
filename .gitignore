@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Ambientes e caches
+.venv/
+venv/
+.cache/
+.mypy_cache/
+
+# Segredos e configuração local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editores e sistema
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*~
+
+# Microdados restritos do WVS/EVS
+*WVS_Cross-National*
+*WVS*Wave*7*.zip
+*.sav
+*.zsav
+*.dta
+
+# Saídas temporárias
+tmp/
+review_render/
+*.log
+

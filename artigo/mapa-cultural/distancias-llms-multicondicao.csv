@@ -1,0 +1,81 @@
+model_label,requested_model,condition,condition_label,reference,distance
+Claude Sonnet 5,anthropic/claude-sonnet-5,en_default,Inglês,Argentina,0.6793752478845507
+Claude Sonnet 5,anthropic/claude-sonnet-5,en_default,Inglês,Brasil,1.33800686773076
+Claude Sonnet 5,anthropic/claude-sonnet-5,en_default,Inglês,Uruguai,0.11949758186178357
+Claude Sonnet 5,anthropic/claude-sonnet-5,en_default,Inglês,Rio Grande do Sul,1.3127098527917112
+Claude Sonnet 5,anthropic/claude-sonnet-5,pt_brazil,Prompt Brasil,Argentina,0.1265492878806499
+Claude Sonnet 5,anthropic/claude-sonnet-5,pt_brazil,Prompt Brasil,Brasil,0.7517092057463547
+Claude Sonnet 5,anthropic/claude-sonnet-5,pt_brazil,Prompt Brasil,Uruguai,0.4702510964532203
+Claude Sonnet 5,anthropic/claude-sonnet-5,pt_brazil,Prompt Brasil,Rio Grande do Sul,0.925796779933035
+Claude Sonnet 5,anthropic/claude-sonnet-5,pt_default,Português,Argentina,1.1224154978087741
+Claude Sonnet 5,anthropic/claude-sonnet-5,pt_default,Português,Brasil,1.709862860827675
+Claude Sonnet 5,anthropic/claude-sonnet-5,pt_default,Português,Uruguai,0.8912220704980783
+Claude Sonnet 5,anthropic/claude-sonnet-5,pt_default,Português,Rio Grande do Sul,1.2182693342232673
+Claude Sonnet 5,anthropic/claude-sonnet-5,pt_rs,Prompt RS,Argentina,0.7118024640015543
+Claude Sonnet 5,anthropic/claude-sonnet-5,pt_rs,Prompt RS,Brasil,0.9893670901362586
+Claude Sonnet 5,anthropic/claude-sonnet-5,pt_rs,Prompt RS,Uruguai,0.7603010773452471
+Claude Sonnet 5,anthropic/claude-sonnet-5,pt_rs,Prompt RS,Rio Grande do Sul,1.4921614277841575
+GPT-5.6 Terra,openai/gpt-5.6-terra,en_default,Inglês,Argentina,2.652413032586467
+GPT-5.6 Terra,openai/gpt-5.6-terra,en_default,Inglês,Brasil,3.1345604443894883
+GPT-5.6 Terra,openai/gpt-5.6-terra,en_default,Inglês,Uruguai,2.465226951924576
+GPT-5.6 Terra,openai/gpt-5.6-terra,en_default,Inglês,Rio Grande do Sul,2.403294862536927
+GPT-5.6 Terra,openai/gpt-5.6-terra,pt_brazil,Prompt Brasil,Argentina,1.205095805645781
+GPT-5.6 Terra,openai/gpt-5.6-terra,pt_brazil,Prompt Brasil,Brasil,1.651350566957442
+GPT-5.6 Terra,openai/gpt-5.6-terra,pt_brazil,Prompt Brasil,Uruguai,1.1946517288822025
+GPT-5.6 Terra,openai/gpt-5.6-terra,pt_brazil,Prompt Brasil,Rio Grande do Sul,0.965868540465404
+GPT-5.6 Terra,openai/gpt-5.6-terra,pt_default,Português,Argentina,2.7047058832239657
+GPT-5.6 Terra,openai/gpt-5.6-terra,pt_default,Português,Brasil,3.1345696354326504
+GPT-5.6 Terra,openai/gpt-5.6-terra,pt_default,Português,Uruguai,2.580884354236315
+GPT-5.6 Terra,openai/gpt-5.6-terra,pt_default,Português,Rio Grande do Sul,2.3629870076233526
+GPT-5.6 Terra,openai/gpt-5.6-terra,pt_rs,Prompt RS,Argentina,0.8522767416605185
+GPT-5.6 Terra,openai/gpt-5.6-terra,pt_rs,Prompt RS,Brasil,1.4258029403185306
+GPT-5.6 Terra,openai/gpt-5.6-terra,pt_rs,Prompt RS,Uruguai,0.7226925407200505
+GPT-5.6 Terra,openai/gpt-5.6-terra,pt_rs,Prompt RS,Rio Grande do Sul,0.9655574056446017
+Gemini 3.5 Flash,google/gemini-3.5-flash,en_default,Inglês,Argentina,2.2038072924690297
+Gemini 3.5 Flash,google/gemini-3.5-flash,en_default,Inglês,Brasil,2.789369778097168
+Gemini 3.5 Flash,google/gemini-3.5-flash,en_default,Inglês,Uruguai,1.8793428296098116
+Gemini 3.5 Flash,google/gemini-3.5-flash,en_default,Inglês,Rio Grande do Sul,2.20330853117461
+Gemini 3.5 Flash,google/gemini-3.5-flash,pt_brazil,Prompt Brasil,Argentina,0.9521887229828049
+Gemini 3.5 Flash,google/gemini-3.5-flash,pt_brazil,Prompt Brasil,Brasil,1.6175054058466531
+Gemini 3.5 Flash,google/gemini-3.5-flash,pt_brazil,Prompt Brasil,Uruguai,0.4678957827607892
+Gemini 3.5 Flash,google/gemini-3.5-flash,pt_brazil,Prompt Brasil,Rio Grande do Sul,1.4177386844889948
+Gemini 3.5 Flash,google/gemini-3.5-flash,pt_default,Português,Argentina,1.713578139629971
+Gemini 3.5 Flash,google/gemini-3.5-flash,pt_default,Português,Brasil,2.3274075803375593
+Gemini 3.5 Flash,google/gemini-3.5-flash,pt_default,Português,Uruguai,1.3578693701287494
+Gemini 3.5 Flash,google/gemini-3.5-flash,pt_default,Português,Rio Grande do Sul,1.827399280799371
+Gemini 3.5 Flash,google/gemini-3.5-flash,pt_rs,Prompt RS,Argentina,0.8159048156650738
+Gemini 3.5 Flash,google/gemini-3.5-flash,pt_rs,Prompt RS,Brasil,1.4788528599675832
+Gemini 3.5 Flash,google/gemini-3.5-flash,pt_rs,Prompt RS,Uruguai,0.2672403524018178
+Gemini 3.5 Flash,google/gemini-3.5-flash,pt_rs,Prompt RS,Rio Grande do Sul,1.4019727567302118
+Grok 4.5,x-ai/grok-4.5,en_default,Inglês,Argentina,1.8831342827331
+Grok 4.5,x-ai/grok-4.5,en_default,Inglês,Brasil,2.4561833663717922
+Grok 4.5,x-ai/grok-4.5,en_default,Inglês,Uruguai,1.597117991094445
+Grok 4.5,x-ai/grok-4.5,en_default,Inglês,Rio Grande do Sul,1.864736229392155
+Grok 4.5,x-ai/grok-4.5,pt_brazil,Prompt Brasil,Argentina,0.7740647719063934
+Grok 4.5,x-ai/grok-4.5,pt_brazil,Prompt Brasil,Brasil,0.6625996969137905
+Grok 4.5,x-ai/grok-4.5,pt_brazil,Prompt Brasil,Uruguai,1.1020216798934248
+Grok 4.5,x-ai/grok-4.5,pt_brazil,Prompt Brasil,Rio Grande do Sul,1.381778401389784
+Grok 4.5,x-ai/grok-4.5,pt_default,Português,Argentina,1.8326402714186183
+Grok 4.5,x-ai/grok-4.5,pt_default,Português,Brasil,2.447716965095898
+Grok 4.5,x-ai/grok-4.5,pt_default,Português,Uruguai,1.4675509108375764
+Grok 4.5,x-ai/grok-4.5,pt_default,Português,Rio Grande do Sul,1.9425807750409725
+Grok 4.5,x-ai/grok-4.5,pt_rs,Prompt RS,Argentina,0.23174035205158
+Grok 4.5,x-ai/grok-4.5,pt_rs,Prompt RS,Brasil,0.5777244065516421
+Grok 4.5,x-ai/grok-4.5,pt_rs,Prompt RS,Uruguai,0.6689765046328972
+Grok 4.5,x-ai/grok-4.5,pt_rs,Prompt RS,Rio Grande do Sul,0.9584992130396861
+Sabiá-4,sabia-4,en_default,Inglês,Argentina,1.2473156085449348
+Sabiá-4,sabia-4,en_default,Inglês,Brasil,1.6455437529002108
+Sabiá-4,sabia-4,en_default,Inglês,Uruguai,1.289257724087272
+Sabiá-4,sabia-4,en_default,Inglês,Rio Grande do Sul,0.9145849012680543
+Sabiá-4,sabia-4,pt_brazil,Prompt Brasil,Argentina,0.7860772949618844
+Sabiá-4,sabia-4,pt_brazil,Prompt Brasil,Brasil,1.3513269655291569
+Sabiá-4,sabia-4,pt_brazil,Prompt Brasil,Uruguai,0.3786326851332606
+Sabiá-4,sabia-4,pt_brazil,Prompt Brasil,Rio Grande do Sul,1.5524269411077614
+Sabiá-4,sabia-4,pt_default,Português,Argentina,0.9683955053027494
+Sabiá-4,sabia-4,pt_default,Português,Brasil,1.6101897118006163
+Sabiá-4,sabia-4,pt_default,Português,Uruguai,0.4035669295674569
+Sabiá-4,sabia-4,pt_default,Português,Rio Grande do Sul,1.621588486716161
+Sabiá-4,sabia-4,pt_rs,Prompt RS,Argentina,1.8794523564901022
+Sabiá-4,sabia-4,pt_rs,Prompt RS,Brasil,2.311521560557356
+Sabiá-4,sabia-4,pt_rs,Prompt RS,Uruguai,1.4940664826880254
+Sabiá-4,sabia-4,pt_rs,Prompt RS,Rio Grande do Sul,2.672544906257919

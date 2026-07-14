@@ -1,0 +1,6 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Segurança
+    url: https://github.com/tioguerra/ao-sul-da-mediana/security/policy
+    about: Não publique chaves ou vulnerabilidades sensíveis em issues.
+

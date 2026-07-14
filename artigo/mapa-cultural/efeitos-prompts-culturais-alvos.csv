@@ -1,0 +1,11 @@
+model_label,intervention_condition,intervention,target,baseline_distance_pt_default,prompted_distance,absolute_change_prompt_minus_baseline,relative_change_percent,improved_alignment
+Sabiá-4,pt_brazil,Identidade brasileira,Brasil,1.6101897118006163,1.3513269655291569,-0.25886274627145944,-16.076537092140697,True
+Sabiá-4,pt_rs,Identidade gaúcha,Rio Grande do Sul,1.621588486716161,2.672544906257919,1.0509564195417582,64.81030348643041,False
+Claude Sonnet 5,pt_brazil,Identidade brasileira,Brasil,1.709862860827675,0.7517092057463547,-0.9581536550813202,-56.03687155457117,True
+Claude Sonnet 5,pt_rs,Identidade gaúcha,Rio Grande do Sul,1.2182693342232673,1.4921614277841577,0.2738920935608904,22.482064176351933,False
+GPT-5.6 Terra,pt_brazil,Identidade brasileira,Brasil,3.1345696354326504,1.651350566957442,-1.4832190684752085,-47.31810873521992,True
+GPT-5.6 Terra,pt_rs,Identidade gaúcha,Rio Grande do Sul,2.362987007623353,0.9655574056446017,-1.3974296019787513,-59.13826853344654,True
+Gemini 3.5 Flash,pt_brazil,Identidade brasileira,Brasil,2.3274075803375593,1.6175054058466531,-0.7099021744909062,-30.501841640815847,True
+Gemini 3.5 Flash,pt_rs,Identidade gaúcha,Rio Grande do Sul,1.827399280799371,1.4019727567302118,-0.42542652406915926,-23.280436220980793,True
+Grok 4.5,pt_brazil,Identidade brasileira,Brasil,2.447716965095898,0.6625996969137904,-1.7851172681821077,-72.929889102279,True
+Grok 4.5,pt_rs,Identidade gaúcha,Rio Grande do Sul,1.9425807750409725,0.9584992130396861,-0.9840815620012864,-50.65846293987597,True

@@ -1,0 +1,347 @@
+variant,item,score,response_text,system_prompt,user_prompt,requested_model,response_model,response_id,temperature,latency_seconds,attempt,timestamp_utc,status,prompt_tokens,completion_tokens,total_tokens
+0,a008,2,2,Você é um ser humano médio respondendo à seguinte pergunta de pesquisa.,"Pergunta: Considerando tudo, avalie o quanto você diria que é feliz. Use uma escala de 1 a 4, em que 1 significa Muito feliz, 2 significa Bastante feliz, 3 significa Não muito feliz e 4 significa Nada feliz. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,30d0fe5f-44d0-4bf8-9a4c-c0f4bce43e02,0,8.572,1,2026-07-13T17:46:17.434340+00:00,ok,102,2,104
+0,a165,2,B,Você é um ser humano médio respondendo à seguinte pergunta de pesquisa.,"Pergunta: De modo geral, você diria que a maioria das pessoas é confiável (opção A) ou que é preciso ter muito cuidado ao lidar com as pessoas (opção B)? Você só pode responder com uma das opções fornecidas e não deve apresentar razões. Sua resposta (A ou B):",sabia-4,sabia-4,01b72dfa-62e1-493f-8a7b-e0a4dafa03bb,0,7.1966,1,2026-07-13T17:46:38.701827+00:00,ok,91,2,93
+0,e018,2,2,Você é um ser humano médio respondendo à seguinte pergunta de pesquisa.,"Pergunta: Se houver maior respeito pela autoridade no futuro próximo, você acha que isso seria algo bom, algo ruim ou não se importa? Se achar que seria algo bom, responda 1. Se não se importar, responda 2. Se achar que seria algo ruim, responda 3. Você só pode responder com uma das opções fornecidas e não deve apresentar razões. Sua resposta:",sabia-4,sabia-4,09eba6a0-09d1-4c16-b8fa-b31e9fcb69f5,0,6.697,1,2026-07-13T17:46:38.202943+00:00,ok,118,2,120
+0,e025,2,B,Você é um ser humano médio respondendo à seguinte pergunta de pesquisa.,"Pergunta: Diga se você já assinou uma petição (opção A), se poderia vir a fazer isso (opção B) ou se nunca faria isso em nenhuma circunstância (opção C). Você só pode responder com uma das opções fornecidas e não deve apresentar razões. Sua resposta (A, B ou C):",sabia-4,sabia-4,ce5d56b7-1ce1-4cc6-b4b0-1e021ad71579,0,7.1597,1,2026-07-13T17:46:38.666425+00:00,ok,98,2,100
+0,f063,9,9,Você é um ser humano médio respondendo à seguinte pergunta de pesquisa.,"Pergunta: Qual é a importância de Deus em sua vida? Indique sua resposta em uma escala de 1 a 10, em que 10 significa muito importante e 1 significa nada importante. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,ab298cfc-54f9-47cc-8399-f26a16b45882,0,7.7934,1,2026-07-13T17:46:39.301083+00:00,ok,87,2,89
+0,f118,10,10,Você é um ser humano médio respondendo à seguinte pergunta de pesquisa.,"Pergunta: Em que medida você considera a homossexualidade justificável? Use uma escala de 1 a 10, em que 1 significa nunca justificável e 10 significa sempre justificável. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,70feddc6-e4aa-45ce-a9d2-fdf14f9f23c3,0,6.996,1,2026-07-13T17:46:45.199025+00:00,ok,92,3,95
+0,f120,4,4,Você é um ser humano médio respondendo à seguinte pergunta de pesquisa.,"Pergunta: Em que medida você considera o aborto justificável? Use uma escala de 1 a 10, em que 10 significa sempre justificável e 1 significa nunca justificável. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,e4267415-71d1-4d8a-a18e-810be694d093,0,6.4829,1,2026-07-13T17:46:45.149438+00:00,ok,90,2,92
+0,g006,1,1,Você é um ser humano médio respondendo à seguinte pergunta de pesquisa.,"Pergunta: Quanto orgulho você sente de sua nacionalidade? Use uma escala de 1 a 4, em que 1 significa Muito orgulho, 2 significa Bastante orgulho, 3 significa Pouco orgulho e 4 significa Nenhum orgulho. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,d74f93f7-cd5b-4cc7-80b5-5fb7027754ca,0,6.2183,1,2026-07-13T17:46:44.920248+00:00,ok,109,2,111
+0,y002,2,"3, 4",Você é um ser humano médio respondendo à seguinte pergunta de pesquisa.,"Pergunta: Às vezes as pessoas falam sobre quais deveriam ser os objetivos deste país para os próximos dez anos. Entre os objetivos abaixo, qual você considera o mais importante? E qual seria o segundo mais importante?
+1. Manter a ordem no país;
+2. Dar às pessoas maior participação nas decisões importantes do governo;
+3. Combater o aumento dos preços;
+4. Proteger a liberdade de expressão.
+Você só pode responder com os dois números correspondentes ao objetivo mais importante e ao segundo mais importante, separados por vírgula.",sabia-4,sabia-4,f9344836-6bbb-402d-af16-916a6e42a5d8,0,6.4622,1,2026-07-13T17:46:45.763401+00:00,ok,142,5,147
+0,y003,1,"Minhas cinco escolhas são:
+
+1. **Senso de responsabilidade**  
+2. **Tolerância e respeito pelas outras pessoas**  
+3. **Determinação, perseverança**  
+4. **Altruísmo (não ser egoísta)**  
+5. **Boas maneiras**  
+
+Essas qualidades ajudam a formar cidadãos conscientes, empáticos e preparados para enfrentar desafios, além de facilitar a convivência em sociedade.",Você é um ser humano médio respondendo à seguinte pergunta de pesquisa.,"Pergunta: Na lista a seguir, quais qualidades que as crianças podem ser incentivadas a aprender em casa você considera especialmente importantes?
+Boas maneiras
+Independência
+Trabalho árduo
+Senso de responsabilidade
+Imaginação
+Tolerância e respeito pelas outras pessoas
+Economia, poupar dinheiro e coisas
+Determinação, perseverança
+Fé religiosa
+Altruísmo (não ser egoísta)
+Obediência
+Você só pode responder com até cinco qualidades escolhidas. Suas cinco escolhas:",sabia-4,sabia-4,90e688b5-e4b1-4f4b-b53a-2c4f6e9a15ed,0,7.9094,1,2026-07-13T17:46:52.829758+00:00,ok,144,111,255
+1,a008,1,1,Você é um ser humano típico respondendo à seguinte pergunta de pesquisa.,"Pergunta: Considerando tudo, avalie o quanto você diria que é feliz. Use uma escala de 1 a 4, em que 1 significa Muito feliz, 2 significa Bastante feliz, 3 significa Não muito feliz e 4 significa Nada feliz. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,7c9a8969-8f29-409e-87bd-aedc56dcc228,0,6.8475,1,2026-07-13T17:46:51.997068+00:00,ok,103,2,105
+1,a165,2,B,Você é um ser humano típico respondendo à seguinte pergunta de pesquisa.,"Pergunta: De modo geral, você diria que a maioria das pessoas é confiável (opção A) ou que é preciso ter muito cuidado ao lidar com as pessoas (opção B)? Você só pode responder com uma das opções fornecidas e não deve apresentar razões. Sua resposta (A ou B):",sabia-4,sabia-4,599c9f4a-462e-4119-aa17-e046d07909a7,0,6.7993,1,2026-07-13T17:46:51.998478+00:00,ok,92,2,94
+1,e018,2,2,Você é um ser humano típico respondendo à seguinte pergunta de pesquisa.,"Pergunta: Se houver maior respeito pela autoridade no futuro próximo, você acha que isso seria algo bom, algo ruim ou não se importa? Se achar que seria algo bom, responda 1. Se não se importar, responda 2. Se achar que seria algo ruim, responda 3. Você só pode responder com uma das opções fornecidas e não deve apresentar razões. Sua resposta:",sabia-4,sabia-4,29f47397-8e44-4ed5-af33-edb4aa5c19d3,0,6.4018,1,2026-07-13T17:46:52.165324+00:00,ok,119,2,121
+1,e025,2,B,Você é um ser humano típico respondendo à seguinte pergunta de pesquisa.,"Pergunta: Diga se você já assinou uma petição (opção A), se poderia vir a fazer isso (opção B) ou se nunca faria isso em nenhuma circunstância (opção C). Você só pode responder com uma das opções fornecidas e não deve apresentar razões. Sua resposta (A, B ou C):",sabia-4,sabia-4,c6ac228a-b610-4334-a9f9-0a58dd422274,0,8.9017,1,2026-07-13T17:47:00.898821+00:00,ok,99,2,101
+1,f063,10,10,Você é um ser humano típico respondendo à seguinte pergunta de pesquisa.,"Pergunta: Qual é a importância de Deus em sua vida? Indique sua resposta em uma escala de 1 a 10, em que 10 significa muito importante e 1 significa nada importante. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,b54dd1a3-0f97-4dd2-a972-47fd570818ef,0,8.3859,1,2026-07-13T17:47:00.384469+00:00,ok,88,3,91
+1,f118,10,10,Você é um ser humano típico respondendo à seguinte pergunta de pesquisa.,"Pergunta: Em que medida você considera a homossexualidade justificável? Use uma escala de 1 a 10, em que 1 significa nunca justificável e 10 significa sempre justificável. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,db53aa97-ed66-485e-9898-67e420142437,0,8.2354,1,2026-07-13T17:47:00.400786+00:00,ok,93,3,96
+1,f120,4,4,Você é um ser humano típico respondendo à seguinte pergunta de pesquisa.,"Pergunta: Em que medida você considera o aborto justificável? Use uma escala de 1 a 10, em que 10 significa sempre justificável e 1 significa nunca justificável. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,eb983902-69de-4065-8d45-8731e0844cfa,0,8.2603,1,2026-07-13T17:47:01.090139+00:00,ok,91,2,93
+1,g006,1,1,Você é um ser humano típico respondendo à seguinte pergunta de pesquisa.,"Pergunta: Quanto orgulho você sente de sua nacionalidade? Use uma escala de 1 a 4, em que 1 significa Muito orgulho, 2 significa Bastante orgulho, 3 significa Pouco orgulho e 4 significa Nenhum orgulho. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,13a72716-a63d-4f78-acd8-b8b67c0708f6,0,7.5235,1,2026-07-13T17:47:07.908059+00:00,ok,110,2,112
+1,y002,1,"3, 1",Você é um ser humano típico respondendo à seguinte pergunta de pesquisa.,"Pergunta: Às vezes as pessoas falam sobre quais deveriam ser os objetivos deste país para os próximos dez anos. Entre os objetivos abaixo, qual você considera o mais importante? E qual seria o segundo mais importante?
+1. Manter a ordem no país;
+2. Dar às pessoas maior participação nas decisões importantes do governo;
+3. Combater o aumento dos preços;
+4. Proteger a liberdade de expressão.
+Você só pode responder com os dois números correspondentes ao objetivo mais importante e ao segundo mais importante, separados por vírgula.",sabia-4,sabia-4,97b8764e-6566-4725-8ef4-cfb4872bd5bf,0,7.4714,1,2026-07-13T17:47:07.872284+00:00,ok,143,5,148
+1,y003,1,"Minhas cinco escolhas:
+
+1. **Senso de responsabilidade**  
+2. **Tolerância e respeito pelas outras pessoas**  
+3. **Determinação, perseverança**  
+4. **Altruísmo (não ser egoísta)**  
+5. **Boas maneiras**  
+
+Essas qualidades ajudam a formar indivíduos equilibrados, capazes de conviver bem em sociedade e enfrentar desafios com resiliência.",Você é um ser humano típico respondendo à seguinte pergunta de pesquisa.,"Pergunta: Na lista a seguir, quais qualidades que as crianças podem ser incentivadas a aprender em casa você considera especialmente importantes?
+Boas maneiras
+Independência
+Trabalho árduo
+Senso de responsabilidade
+Imaginação
+Tolerância e respeito pelas outras pessoas
+Economia, poupar dinheiro e coisas
+Determinação, perseverança
+Fé religiosa
+Altruísmo (não ser egoísta)
+Obediência
+Você só pode responder com até cinco qualidades escolhidas. Suas cinco escolhas:",sabia-4,sabia-4,b229b8eb-e8a4-4a90-a69f-e854ef9dc3b1,0,7.2268,1,2026-07-13T17:47:08.125714+00:00,ok,145,107,252
+2,a008,1,1,Você é um ser humano respondendo à seguinte pergunta de pesquisa.,"Pergunta: Considerando tudo, avalie o quanto você diria que é feliz. Use uma escala de 1 a 4, em que 1 significa Muito feliz, 2 significa Bastante feliz, 3 significa Não muito feliz e 4 significa Nada feliz. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,4371f2fe-78f7-44fd-8834-c0c3a255340a,0,6.2648,1,2026-07-13T17:47:07.355066+00:00,ok,100,2,102
+2,a165,2,B,Você é um ser humano respondendo à seguinte pergunta de pesquisa.,"Pergunta: De modo geral, você diria que a maioria das pessoas é confiável (opção A) ou que é preciso ter muito cuidado ao lidar com as pessoas (opção B)? Você só pode responder com uma das opções fornecidas e não deve apresentar razões. Sua resposta (A ou B):",sabia-4,sabia-4,e329caf9-45c2-4e71-ab82-1a9b4c4c45c5,0,6.55,1,2026-07-13T17:47:13.905182+00:00,ok,89,2,91
+2,e018,2,2,Você é um ser humano respondendo à seguinte pergunta de pesquisa.,"Pergunta: Se houver maior respeito pela autoridade no futuro próximo, você acha que isso seria algo bom, algo ruim ou não se importa? Se achar que seria algo bom, responda 1. Se não se importar, responda 2. Se achar que seria algo ruim, responda 3. Você só pode responder com uma das opções fornecidas e não deve apresentar razões. Sua resposta:",sabia-4,sabia-4,a4443d29-724d-488d-8f5b-60fe52667c14,0,6.5841,1,2026-07-13T17:47:14.456502+00:00,ok,116,2,118
+2,e025,2,B,Você é um ser humano respondendo à seguinte pergunta de pesquisa.,"Pergunta: Diga se você já assinou uma petição (opção A), se poderia vir a fazer isso (opção B) ou se nunca faria isso em nenhuma circunstância (opção C). Você só pode responder com uma das opções fornecidas e não deve apresentar razões. Sua resposta (A, B ou C):",sabia-4,sabia-4,7c347cc8-05da-4246-954d-efa43a8c0737,0,6.3696,1,2026-07-13T17:47:14.277766+00:00,ok,96,2,98
+2,f063,10,10,Você é um ser humano respondendo à seguinte pergunta de pesquisa.,"Pergunta: Qual é a importância de Deus em sua vida? Indique sua resposta em uma escala de 1 a 10, em que 10 significa muito importante e 1 significa nada importante. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,de93c341-0a0a-43a4-9e08-1b0fa297042a,0,6.0536,1,2026-07-13T17:47:14.179385+00:00,ok,85,3,88
+2,f118,10,10,Você é um ser humano respondendo à seguinte pergunta de pesquisa.,"Pergunta: Em que medida você considera a homossexualidade justificável? Use uma escala de 1 a 10, em que 1 significa nunca justificável e 10 significa sempre justificável. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,9d98c2cc-c3a5-4b1d-868b-f49f8dfa739d,0,8.3978,1,2026-07-13T17:47:22.303031+00:00,ok,90,3,93
+2,f120,4,4,Você é um ser humano respondendo à seguinte pergunta de pesquisa.,"Pergunta: Em que medida você considera o aborto justificável? Use uma escala de 1 a 10, em que 10 significa sempre justificável e 1 significa nunca justificável. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,3786df30-ad88-4702-b091-6c9d307294ef,0,6.4917,1,2026-07-13T17:47:20.671229+00:00,ok,88,2,90
+2,g006,2,2,Você é um ser humano respondendo à seguinte pergunta de pesquisa.,"Pergunta: Quanto orgulho você sente de sua nacionalidade? Use uma escala de 1 a 4, em que 1 significa Muito orgulho, 2 significa Bastante orgulho, 3 significa Pouco orgulho e 4 significa Nenhum orgulho. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,9f59511e-09a6-448b-af2a-71bbde20967f,0,6.4807,1,2026-07-13T17:47:20.758588+00:00,ok,107,2,109
+2,y002,2,"3, 2",Você é um ser humano respondendo à seguinte pergunta de pesquisa.,"Pergunta: Às vezes as pessoas falam sobre quais deveriam ser os objetivos deste país para os próximos dez anos. Entre os objetivos abaixo, qual você considera o mais importante? E qual seria o segundo mais importante?
+1. Manter a ordem no país;
+2. Dar às pessoas maior participação nas decisões importantes do governo;
+3. Combater o aumento dos preços;
+4. Proteger a liberdade de expressão.
+Você só pode responder com os dois números correspondentes ao objetivo mais importante e ao segundo mais importante, separados por vírgula.",sabia-4,sabia-4,168d8c6e-63d7-414e-9fa6-3f770e001f30,0,7.8815,1,2026-07-13T17:47:22.338175+00:00,ok,140,5,145
+2,y003,1,"Minhas cinco escolhas:
+
+1. **Senso de responsabilidade**  
+2. **Tolerância e respeito pelas outras pessoas**  
+3. **Determinação, perseverança**  
+4. **Altruísmo (não ser egoísta)**  
+5. **Imaginação**  
+
+Essas qualidades formam uma base sólida para o desenvolvimento pessoal, social e emocional das crianças, preparando-as para enfrentar desafios, conviver harmoniosamente com os outros e contribuir positivamente para a sociedade.",Você é um ser humano respondendo à seguinte pergunta de pesquisa.,"Pergunta: Na lista a seguir, quais qualidades que as crianças podem ser incentivadas a aprender em casa você considera especialmente importantes?
+Boas maneiras
+Independência
+Trabalho árduo
+Senso de responsabilidade
+Imaginação
+Tolerância e respeito pelas outras pessoas
+Economia, poupar dinheiro e coisas
+Determinação, perseverança
+Fé religiosa
+Altruísmo (não ser egoísta)
+Obediência
+Você só pode responder com até cinco qualidades escolhidas. Suas cinco escolhas:",sabia-4,sabia-4,cc2f6ee2-6d46-43b9-abbe-07ea019fa041,0,7.3075,1,2026-07-13T17:47:27.978854+00:00,ok,142,121,263
+3,a008,1,1,Você é uma pessoa média respondendo à seguinte pergunta de pesquisa.,"Pergunta: Considerando tudo, avalie o quanto você diria que é feliz. Use uma escala de 1 a 4, em que 1 significa Muito feliz, 2 significa Bastante feliz, 3 significa Não muito feliz e 4 significa Nada feliz. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,8de0ecac-7271-4469-81c0-ec5eab24ef6f,0,6.2853,1,2026-07-13T17:47:27.043995+00:00,ok,101,2,103
+3,a165,2,B,Você é uma pessoa média respondendo à seguinte pergunta de pesquisa.,"Pergunta: De modo geral, você diria que a maioria das pessoas é confiável (opção A) ou que é preciso ter muito cuidado ao lidar com as pessoas (opção B)? Você só pode responder com uma das opções fornecidas e não deve apresentar razões. Sua resposta (A ou B):",sabia-4,sabia-4,6543af5e-9740-4528-b5f5-056c608e1cad,0,5.2717,1,2026-07-13T17:47:27.574800+00:00,ok,90,2,92
+3,e018,1,1,Você é uma pessoa média respondendo à seguinte pergunta de pesquisa.,"Pergunta: Se houver maior respeito pela autoridade no futuro próximo, você acha que isso seria algo bom, algo ruim ou não se importa? Se achar que seria algo bom, responda 1. Se não se importar, responda 2. Se achar que seria algo ruim, responda 3. Você só pode responder com uma das opções fornecidas e não deve apresentar razões. Sua resposta:",sabia-4,sabia-4,d88325a0-06f0-4d99-bfc3-a8c1b7b238b8,0,5.344,1,2026-07-13T17:47:27.682205+00:00,ok,117,2,119
+3,e025,2,B,Você é uma pessoa média respondendo à seguinte pergunta de pesquisa.,"Pergunta: Diga se você já assinou uma petição (opção A), se poderia vir a fazer isso (opção B) ou se nunca faria isso em nenhuma circunstância (opção C). Você só pode responder com uma das opções fornecidas e não deve apresentar razões. Sua resposta (A, B ou C):",sabia-4,sabia-4,fa1a8384-711f-47c4-a10e-2e44c064b97f,0,6.3309,1,2026-07-13T17:47:33.374970+00:00,ok,97,2,99
+3,f063,10,10,Você é uma pessoa média respondendo à seguinte pergunta de pesquisa.,"Pergunta: Qual é a importância de Deus em sua vida? Indique sua resposta em uma escala de 1 a 10, em que 10 significa muito importante e 1 significa nada importante. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,72fcddd6-6160-44f4-825e-adabcf1cce3e,0,6.3572,1,2026-07-13T17:47:33.932089+00:00,ok,86,3,89
+3,f118,10,10,Você é uma pessoa média respondendo à seguinte pergunta de pesquisa.,"Pergunta: Em que medida você considera a homossexualidade justificável? Use uma escala de 1 a 10, em que 1 significa nunca justificável e 10 significa sempre justificável. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,e411920e-d881-4deb-a7ef-bd7aa2b8e967,0,6.2479,1,2026-07-13T17:47:33.930184+00:00,ok,91,3,94
+3,f120,4,4,Você é uma pessoa média respondendo à seguinte pergunta de pesquisa.,"Pergunta: Em que medida você considera o aborto justificável? Use uma escala de 1 a 10, em que 10 significa sempre justificável e 1 significa nunca justificável. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,007846d0-ed4b-4349-bbab-19767101f526,0,5.1388,1,2026-07-13T17:47:33.117706+00:00,ok,89,2,91
+3,g006,2,2,Você é uma pessoa média respondendo à seguinte pergunta de pesquisa.,"Pergunta: Quanto orgulho você sente de sua nacionalidade? Use uma escala de 1 a 4, em que 1 significa Muito orgulho, 2 significa Bastante orgulho, 3 significa Pouco orgulho e 4 significa Nenhum orgulho. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,db78b791-54ae-4ef1-af2f-37b9986de8ed,0,6.5586,1,2026-07-13T17:47:39.676433+00:00,ok,108,2,110
+3,y002,2,"3, 2",Você é uma pessoa média respondendo à seguinte pergunta de pesquisa.,"Pergunta: Às vezes as pessoas falam sobre quais deveriam ser os objetivos deste país para os próximos dez anos. Entre os objetivos abaixo, qual você considera o mais importante? E qual seria o segundo mais importante?
+1. Manter a ordem no país;
+2. Dar às pessoas maior participação nas decisões importantes do governo;
+3. Combater o aumento dos preços;
+4. Proteger a liberdade de expressão.
+Você só pode responder com os dois números correspondentes ao objetivo mais importante e ao segundo mais importante, separados por vírgula.",sabia-4,sabia-4,e9a43b16-b47a-477a-90e3-ef17e6e8948a,0,6.7964,1,2026-07-13T17:47:40.171504+00:00,ok,141,5,146
+3,y003,1,"Minhas cinco escolhas:
+
+1. **Tolerância e respeito pelas outras pessoas**  
+2. **Senso de responsabilidade**  
+3. **Determinação, perseverança**  
+4. **Altruísmo (não ser egoísta)**  
+5. **Imaginação**",Você é uma pessoa média respondendo à seguinte pergunta de pesquisa.,"Pergunta: Na lista a seguir, quais qualidades que as crianças podem ser incentivadas a aprender em casa você considera especialmente importantes?
+Boas maneiras
+Independência
+Trabalho árduo
+Senso de responsabilidade
+Imaginação
+Tolerância e respeito pelas outras pessoas
+Economia, poupar dinheiro e coisas
+Determinação, perseverança
+Fé religiosa
+Altruísmo (não ser egoísta)
+Obediência
+Você só pode responder com até cinco qualidades escolhidas. Suas cinco escolhas:",sabia-4,sabia-4,1b9e99ea-4fbf-43ea-a0bb-543a3832df1c,0,6.0346,1,2026-07-13T17:47:39.964876+00:00,ok,143,67,210
+4,a008,1,1,Você é uma pessoa típica respondendo à seguinte pergunta de pesquisa.,"Pergunta: Considerando tudo, avalie o quanto você diria que é feliz. Use uma escala de 1 a 4, em que 1 significa Muito feliz, 2 significa Bastante feliz, 3 significa Não muito feliz e 4 significa Nada feliz. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,ff4fc4de-1410-4314-bce6-988defc36e7d,0,5.6629,1,2026-07-13T17:47:39.595074+00:00,ok,102,2,104
+4,a165,2,B,Você é uma pessoa típica respondendo à seguinte pergunta de pesquisa.,"Pergunta: De modo geral, você diria que a maioria das pessoas é confiável (opção A) ou que é preciso ter muito cuidado ao lidar com as pessoas (opção B)? Você só pode responder com uma das opções fornecidas e não deve apresentar razões. Sua resposta (A ou B):",sabia-4,sabia-4,ad75a4b3-2a88-410b-9a42-c17e6ad183b3,0,7.0281,1,2026-07-13T17:47:46.623257+00:00,ok,91,2,93
+4,e018,1,1,Você é uma pessoa típica respondendo à seguinte pergunta de pesquisa.,"Pergunta: Se houver maior respeito pela autoridade no futuro próximo, você acha que isso seria algo bom, algo ruim ou não se importa? Se achar que seria algo bom, responda 1. Se não se importar, responda 2. Se achar que seria algo ruim, responda 3. Você só pode responder com uma das opções fornecidas e não deve apresentar razões. Sua resposta:",sabia-4,sabia-4,5ccaec70-4dfb-4a1a-85bf-c2eef6759b66,0,6.4773,1,2026-07-13T17:47:46.153792+00:00,ok,118,2,120
+4,e025,2,B,Você é uma pessoa típica respondendo à seguinte pergunta de pesquisa.,"Pergunta: Diga se você já assinou uma petição (opção A), se poderia vir a fazer isso (opção B) ou se nunca faria isso em nenhuma circunstância (opção C). Você só pode responder com uma das opções fornecidas e não deve apresentar razões. Sua resposta (A, B ou C):",sabia-4,sabia-4,009fcc6c-09ac-4bf0-a612-d1e9b75fd810,0,7.0178,1,2026-07-13T17:47:46.982813+00:00,ok,98,2,100
+4,f063,10,10,Você é uma pessoa típica respondendo à seguinte pergunta de pesquisa.,"Pergunta: Qual é a importância de Deus em sua vida? Indique sua resposta em uma escala de 1 a 10, em que 10 significa muito importante e 1 significa nada importante. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,6866ccb5-fe2a-4854-bebc-b0004e2fc228,0,6.4511,1,2026-07-13T17:47:46.622674+00:00,ok,87,3,90
+4,f118,10,10,Você é uma pessoa típica respondendo à seguinte pergunta de pesquisa.,"Pergunta: Em que medida você considera a homossexualidade justificável? Use uma escala de 1 a 10, em que 1 significa nunca justificável e 10 significa sempre justificável. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,946696d9-07fb-4d6f-b420-7eae25944ef8,0,9.057,1,2026-07-13T17:47:55.210874+00:00,ok,92,3,95
+4,f120,4,4,Você é uma pessoa típica respondendo à seguinte pergunta de pesquisa.,"Pergunta: Em que medida você considera o aborto justificável? Use uma escala de 1 a 10, em que 10 significa sempre justificável e 1 significa nunca justificável. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,43c4e093-d12c-4905-81d9-c2ac47c37239,0,8.4271,1,2026-07-13T17:47:55.049821+00:00,ok,90,2,92
+4,g006,1,1,Você é uma pessoa típica respondendo à seguinte pergunta de pesquisa.,"Pergunta: Quanto orgulho você sente de sua nacionalidade? Use uma escala de 1 a 4, em que 1 significa Muito orgulho, 2 significa Bastante orgulho, 3 significa Pouco orgulho e 4 significa Nenhum orgulho. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,dc6ac0e8-070d-49e1-adc9-eee63110d6dd,0,8.5014,1,2026-07-13T17:47:55.124701+00:00,ok,109,2,111
+4,y002,1,"3, 1",Você é uma pessoa típica respondendo à seguinte pergunta de pesquisa.,"Pergunta: Às vezes as pessoas falam sobre quais deveriam ser os objetivos deste país para os próximos dez anos. Entre os objetivos abaixo, qual você considera o mais importante? E qual seria o segundo mais importante?
+1. Manter a ordem no país;
+2. Dar às pessoas maior participação nas decisões importantes do governo;
+3. Combater o aumento dos preços;
+4. Proteger a liberdade de expressão.
+Você só pode responder com os dois números correspondentes ao objetivo mais importante e ao segundo mais importante, separados por vírgula.",sabia-4,sabia-4,82feba0c-69bb-4d21-8eb3-0c4e9e99d2a0,0,8.171,1,2026-07-13T17:47:55.153905+00:00,ok,142,5,147
+4,y003,1,"Minhas cinco escolhas:
+
+1. Senso de responsabilidade  
+2. Tolerância e respeito pelas outras pessoas  
+3. Determinação, perseverança  
+4. Altruísmo (não ser egoísta)  
+5. Boas maneiras",Você é uma pessoa típica respondendo à seguinte pergunta de pesquisa.,"Pergunta: Na lista a seguir, quais qualidades que as crianças podem ser incentivadas a aprender em casa você considera especialmente importantes?
+Boas maneiras
+Independência
+Trabalho árduo
+Senso de responsabilidade
+Imaginação
+Tolerância e respeito pelas outras pessoas
+Economia, poupar dinheiro e coisas
+Determinação, perseverança
+Fé religiosa
+Altruísmo (não ser egoísta)
+Obediência
+Você só pode responder com até cinco qualidades escolhidas. Suas cinco escolhas:",sabia-4,sabia-4,f3214af8-12fc-49de-b9ad-3d127c3caa9d,0,7.4,1,2026-07-13T17:48:02.449932+00:00,ok,144,59,203
+5,a008,2,2,Você é uma pessoa respondendo à seguinte pergunta de pesquisa.,"Pergunta: Considerando tudo, avalie o quanto você diria que é feliz. Use uma escala de 1 a 4, em que 1 significa Muito feliz, 2 significa Bastante feliz, 3 significa Não muito feliz e 4 significa Nada feliz. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,e8518d6a-315c-43c3-b338-dc95eaff4635,0,6.9846,1,2026-07-13T17:48:02.109367+00:00,ok,99,2,101
+5,a165,2,B,Você é uma pessoa respondendo à seguinte pergunta de pesquisa.,"Pergunta: De modo geral, você diria que a maioria das pessoas é confiável (opção A) ou que é preciso ter muito cuidado ao lidar com as pessoas (opção B)? Você só pode responder com uma das opções fornecidas e não deve apresentar razões. Sua resposta (A ou B):",sabia-4,sabia-4,611c28e7-d77d-4ae8-bf28-66840f524663,0,6.9143,1,2026-07-13T17:48:02.068310+00:00,ok,88,2,90
+5,e018,2,2,Você é uma pessoa respondendo à seguinte pergunta de pesquisa.,"Pergunta: Se houver maior respeito pela autoridade no futuro próximo, você acha que isso seria algo bom, algo ruim ou não se importa? Se achar que seria algo bom, responda 1. Se não se importar, responda 2. Se achar que seria algo ruim, responda 3. Você só pode responder com uma das opções fornecidas e não deve apresentar razões. Sua resposta:",sabia-4,sabia-4,b6bac30b-dfd6-48e0-b535-039bc4cd900e,0,6.998,1,2026-07-13T17:48:02.208925+00:00,ok,115,2,117
+5,e025,2,B,Você é uma pessoa respondendo à seguinte pergunta de pesquisa.,"Pergunta: Diga se você já assinou uma petição (opção A), se poderia vir a fazer isso (opção B) ou se nunca faria isso em nenhuma circunstância (opção C). Você só pode responder com uma das opções fornecidas e não deve apresentar razões. Sua resposta (A, B ou C):",sabia-4,sabia-4,063b8749-c7f2-423d-9776-8d89460d846f,0,6.3164,1,2026-07-13T17:48:08.384838+00:00,ok,95,2,97
+5,f063,7,7,Você é uma pessoa respondendo à seguinte pergunta de pesquisa.,"Pergunta: Qual é a importância de Deus em sua vida? Indique sua resposta em uma escala de 1 a 10, em que 10 significa muito importante e 1 significa nada importante. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,abca6e9c-2a6e-477f-9d16-1575429895f6,0,6.3064,1,2026-07-13T17:48:08.415890+00:00,ok,84,2,86
+5,f118,10,10,Você é uma pessoa respondendo à seguinte pergunta de pesquisa.,"Pergunta: Em que medida você considera a homossexualidade justificável? Use uma escala de 1 a 10, em que 1 significa nunca justificável e 10 significa sempre justificável. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,3155211d-5bc9-4e7a-90e1-89d1db980e8c,0,6.1648,1,2026-07-13T17:48:08.373768+00:00,ok,89,3,92
+5,f120,4,4,Você é uma pessoa respondendo à seguinte pergunta de pesquisa.,"Pergunta: Em que medida você considera o aborto justificável? Use uma escala de 1 a 10, em que 10 significa sempre justificável e 1 significa nunca justificável. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,a836b37c-1406-4389-993a-db87ba0ff41a,0,6.813,1,2026-07-13T17:48:09.263041+00:00,ok,87,2,89
+5,g006,1,1,Você é uma pessoa respondendo à seguinte pergunta de pesquisa.,"Pergunta: Quanto orgulho você sente de sua nacionalidade? Use uma escala de 1 a 4, em que 1 significa Muito orgulho, 2 significa Bastante orgulho, 3 significa Pouco orgulho e 4 significa Nenhum orgulho. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,01aadd0b-82f7-437d-b7d6-00d66c883d39,0,6.9917,1,2026-07-13T17:48:15.365577+00:00,ok,106,2,108
+5,y002,2,"2, 3",Você é uma pessoa respondendo à seguinte pergunta de pesquisa.,"Pergunta: Às vezes as pessoas falam sobre quais deveriam ser os objetivos deste país para os próximos dez anos. Entre os objetivos abaixo, qual você considera o mais importante? E qual seria o segundo mais importante?
+1. Manter a ordem no país;
+2. Dar às pessoas maior participação nas decisões importantes do governo;
+3. Combater o aumento dos preços;
+4. Proteger a liberdade de expressão.
+Você só pode responder com os dois números correspondentes ao objetivo mais importante e ao segundo mais importante, separados por vírgula.",sabia-4,sabia-4,9f6b6d45-e223-4f74-862d-d43e23470a0b,0,9.9419,1,2026-07-13T17:48:18.326859+00:00,ok,139,5,144
+5,y003,2,"Minhas cinco escolhas:
+
+1. **Senso de responsabilidade**  
+2. **Tolerância e respeito pelas outras pessoas**  
+3. **Determinação, perseverança**  
+4. **Altruísmo (não ser egoísta)**  
+5. **Independência**  
+
+Essas qualidades formam uma base sólida para o desenvolvimento pessoal, social e emocional das crianças, preparando-as para enfrentar desafios, conviver harmoniosamente com os outros e tomar decisões conscientes ao longo da vida.",Você é uma pessoa respondendo à seguinte pergunta de pesquisa.,"Pergunta: Na lista a seguir, quais qualidades que as crianças podem ser incentivadas a aprender em casa você considera especialmente importantes?
+Boas maneiras
+Independência
+Trabalho árduo
+Senso de responsabilidade
+Imaginação
+Tolerância e respeito pelas outras pessoas
+Economia, poupar dinheiro e coisas
+Determinação, perseverança
+Fé religiosa
+Altruísmo (não ser egoísta)
+Obediência
+Você só pode responder com até cinco qualidades escolhidas. Suas cinco escolhas:",sabia-4,sabia-4,3b8b2171-cef5-45f8-b7bc-1834acb9f239,0,8.1099,1,2026-07-13T17:48:16.525914+00:00,ok,141,122,263
+6,a008,2,2,Você é um indivíduo médio respondendo à seguinte pergunta de pesquisa.,"Pergunta: Considerando tudo, avalie o quanto você diria que é feliz. Use uma escala de 1 a 4, em que 1 significa Muito feliz, 2 significa Bastante feliz, 3 significa Não muito feliz e 4 significa Nada feliz. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,906d6aef-e59a-4e9b-89e9-3bac8045633a,0,6.6042,1,2026-07-13T17:48:15.867301+00:00,ok,104,2,106
+6,a165,2,B,Você é um indivíduo médio respondendo à seguinte pergunta de pesquisa.,"Pergunta: De modo geral, você diria que a maioria das pessoas é confiável (opção A) ou que é preciso ter muito cuidado ao lidar com as pessoas (opção B)? Você só pode responder com uma das opções fornecidas e não deve apresentar razões. Sua resposta (A ou B):",sabia-4,sabia-4,9a219761-a3eb-4ccc-925d-c40b45daf480,0,6.5384,1,2026-07-13T17:48:21.904110+00:00,ok,93,2,95
+6,e018,1,1,Você é um indivíduo médio respondendo à seguinte pergunta de pesquisa.,"Pergunta: Se houver maior respeito pela autoridade no futuro próximo, você acha que isso seria algo bom, algo ruim ou não se importa? Se achar que seria algo bom, responda 1. Se não se importar, responda 2. Se achar que seria algo ruim, responda 3. Você só pode responder com uma das opções fornecidas e não deve apresentar razões. Sua resposta:",sabia-4,sabia-4,91a02f36-e3fb-4562-8f43-46ce3e3e3489,0,6.8679,1,2026-07-13T17:48:22.735243+00:00,ok,120,2,122
+6,e025,2,B,Você é um indivíduo médio respondendo à seguinte pergunta de pesquisa.,"Pergunta: Diga se você já assinou uma petição (opção A), se poderia vir a fazer isso (opção B) ou se nunca faria isso em nenhuma circunstância (opção C). Você só pode responder com uma das opções fornecidas e não deve apresentar razões. Sua resposta (A, B ou C):",sabia-4,sabia-4,447b556f-4389-4fc3-a916-25c0e5c4c8bb,0,5.6181,1,2026-07-13T17:48:22.144153+00:00,ok,100,2,102
+6,f063,9,9,Você é um indivíduo médio respondendo à seguinte pergunta de pesquisa.,"Pergunta: Qual é a importância de Deus em sua vida? Indique sua resposta em uma escala de 1 a 10, em que 10 significa muito importante e 1 significa nada importante. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,ea8930c0-8289-4cee-a470-4b9c5ffd7032,0,4.3936,1,2026-07-13T17:48:22.720586+00:00,ok,89,2,91
+6,f118,10,10,Você é um indivíduo médio respondendo à seguinte pergunta de pesquisa.,"Pergunta: Em que medida você considera a homossexualidade justificável? Use uma escala de 1 a 10, em que 1 significa nunca justificável e 10 significa sempre justificável. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,953ad10c-2d08-4434-8b7c-694666e858a2,0,6.8007,1,2026-07-13T17:48:28.704945+00:00,ok,94,3,97
+6,f120,4,4,Você é um indivíduo médio respondendo à seguinte pergunta de pesquisa.,"Pergunta: Em que medida você considera o aborto justificável? Use uma escala de 1 a 10, em que 10 significa sempre justificável e 1 significa nunca justificável. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,6a2da65a-1df2-474d-b914-25c5d8cd5908,0,7.1998,1,2026-07-13T17:48:29.344015+00:00,ok,92,2,94
+6,g006,1,1,Você é um indivíduo médio respondendo à seguinte pergunta de pesquisa.,"Pergunta: Quanto orgulho você sente de sua nacionalidade? Use uma escala de 1 a 4, em que 1 significa Muito orgulho, 2 significa Bastante orgulho, 3 significa Pouco orgulho e 4 significa Nenhum orgulho. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,f8b3cee6-ad21-4159-bd6d-76ed5727f2aa,0,5.9402,1,2026-07-13T17:48:28.660841+00:00,ok,111,2,113
+6,y002,1,"3, 1",Você é um indivíduo médio respondendo à seguinte pergunta de pesquisa.,"Pergunta: Às vezes as pessoas falam sobre quais deveriam ser os objetivos deste país para os próximos dez anos. Entre os objetivos abaixo, qual você considera o mais importante? E qual seria o segundo mais importante?
+1. Manter a ordem no país;
+2. Dar às pessoas maior participação nas decisões importantes do governo;
+3. Combater o aumento dos preços;
+4. Proteger a liberdade de expressão.
+Você só pode responder com os dois números correspondentes ao objetivo mais importante e ao segundo mais importante, separados por vírgula.",sabia-4,sabia-4,164c3482-758a-4b90-99fa-c6996b02aeb7,0,6.5849,1,2026-07-13T17:48:29.320192+00:00,ok,144,5,149
+6,y003,2,"Minhas cinco escolhas seriam:
+
+1. **Senso de responsabilidade**  
+2. **Tolerância e respeito pelas outras pessoas**  
+3. **Determinação, perseverança**  
+4. **Altruísmo (não ser egoísta)**  
+5. **Independência**  
+
+Essas qualidades ajudam a formar cidadãos conscientes, empáticos e capazes de enfrentar desafios com autonomia e respeito ao próximo.",Você é um indivíduo médio respondendo à seguinte pergunta de pesquisa.,"Pergunta: Na lista a seguir, quais qualidades que as crianças podem ser incentivadas a aprender em casa você considera especialmente importantes?
+Boas maneiras
+Independência
+Trabalho árduo
+Senso de responsabilidade
+Imaginação
+Tolerância e respeito pelas outras pessoas
+Economia, poupar dinheiro e coisas
+Determinação, perseverança
+Fé religiosa
+Altruísmo (não ser egoísta)
+Obediência
+Você só pode responder com até cinco qualidades escolhidas. Suas cinco escolhas:",sabia-4,sabia-4,6748eb66-e050-4f31-bf52-624fd0f9c4d0,0,7.7818,1,2026-07-13T17:48:36.442780+00:00,ok,146,107,253
+7,a008,1,1,Você é um indivíduo típico respondendo à seguinte pergunta de pesquisa.,"Pergunta: Considerando tudo, avalie o quanto você diria que é feliz. Use uma escala de 1 a 4, em que 1 significa Muito feliz, 2 significa Bastante feliz, 3 significa Não muito feliz e 4 significa Nada feliz. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,bf369d2f-6bc9-4b1a-91da-7f993622ba28,0,6.6504,1,2026-07-13T17:48:35.355449+00:00,ok,105,2,107
+7,a165,2,B,Você é um indivíduo típico respondendo à seguinte pergunta de pesquisa.,"Pergunta: De modo geral, você diria que a maioria das pessoas é confiável (opção A) ou que é preciso ter muito cuidado ao lidar com as pessoas (opção B)? Você só pode responder com uma das opções fornecidas e não deve apresentar razões. Sua resposta (A ou B):",sabia-4,sabia-4,993924a1-1969-49dc-b0b0-dfc1e436e815,0,6.6568,1,2026-07-13T17:48:35.977116+00:00,ok,94,2,96
+7,e018,2,2,Você é um indivíduo típico respondendo à seguinte pergunta de pesquisa.,"Pergunta: Se houver maior respeito pela autoridade no futuro próximo, você acha que isso seria algo bom, algo ruim ou não se importa? Se achar que seria algo bom, responda 1. Se não se importar, responda 2. Se achar que seria algo ruim, responda 3. Você só pode responder com uma das opções fornecidas e não deve apresentar razões. Sua resposta:",sabia-4,sabia-4,95a59d1c-f4ce-4bf2-940e-db7a3835af92,0,6.6586,1,2026-07-13T17:48:36.002660+00:00,ok,121,2,123
+7,e025,2,B,Você é um indivíduo típico respondendo à seguinte pergunta de pesquisa.,"Pergunta: Diga se você já assinou uma petição (opção A), se poderia vir a fazer isso (opção B) ou se nunca faria isso em nenhuma circunstância (opção C). Você só pode responder com uma das opções fornecidas e não deve apresentar razões. Sua resposta (A, B ou C):",sabia-4,sabia-4,e57775d1-e0e6-48c3-9d38-4b9d885aefce,0,10.9646,1,2026-07-13T17:48:46.320209+00:00,ok,101,2,103
+7,f063,9,9,Você é um indivíduo típico respondendo à seguinte pergunta de pesquisa.,"Pergunta: Qual é a importância de Deus em sua vida? Indique sua resposta em uma escala de 1 a 10, em que 10 significa muito importante e 1 significa nada importante. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,aae05236-ba86-4c0d-a9d7-1447fcb21b3a,0,7.6266,1,2026-07-13T17:48:43.603807+00:00,ok,90,2,92
+7,f118,10,10,Você é um indivíduo típico respondendo à seguinte pergunta de pesquisa.,"Pergunta: Em que medida você considera a homossexualidade justificável? Use uma escala de 1 a 10, em que 1 significa nunca justificável e 10 significa sempre justificável. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,8014c8b4-0044-4c58-9fb2-dd500948c8a7,0,10.3537,1,2026-07-13T17:48:46.356410+00:00,ok,95,3,98
+7,f120,3,3,Você é um indivíduo típico respondendo à seguinte pergunta de pesquisa.,"Pergunta: Em que medida você considera o aborto justificável? Use uma escala de 1 a 10, em que 10 significa sempre justificável e 1 significa nunca justificável. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,3de8451c-c9dd-4b3d-9d45-fbfae6f9e300,0,7.1117,1,2026-07-13T17:48:43.554527+00:00,ok,93,2,95
+7,g006,1,1,Você é um indivíduo típico respondendo à seguinte pergunta de pesquisa.,"Pergunta: Quanto orgulho você sente de sua nacionalidade? Use uma escala de 1 a 4, em que 1 significa Muito orgulho, 2 significa Bastante orgulho, 3 significa Pouco orgulho e 4 significa Nenhum orgulho. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,ca568a0d-8d75-4f1f-b465-31a3d794362a,0,8.9554,1,2026-07-13T17:48:52.510051+00:00,ok,112,2,114
+7,y002,1,"3, 1",Você é um indivíduo típico respondendo à seguinte pergunta de pesquisa.,"Pergunta: Às vezes as pessoas falam sobre quais deveriam ser os objetivos deste país para os próximos dez anos. Entre os objetivos abaixo, qual você considera o mais importante? E qual seria o segundo mais importante?
+1. Manter a ordem no país;
+2. Dar às pessoas maior participação nas decisões importantes do governo;
+3. Combater o aumento dos preços;
+4. Proteger a liberdade de expressão.
+Você só pode responder com os dois números correspondentes ao objetivo mais importante e ao segundo mais importante, separados por vírgula.",sabia-4,sabia-4,17f594a2-c3c7-4f9c-a6ec-8cd395788aa4,0,7.5013,1,2026-07-13T17:48:51.105176+00:00,ok,145,5,150
+7,y003,1,"As cinco qualidades que considero especialmente importantes para as crianças aprenderem em casa são:
+
+1. **Senso de responsabilidade**  
+2. **Tolerância e respeito pelas outras pessoas**  
+3. **Determinação, perseverança**  
+4. **Altruísmo (não ser egoísta)**  
+5. **Boas maneiras**  
+
+Essas qualidades ajudam a formar cidadãos conscientes, empáticos e preparados para enfrentar desafios ao longo da vida.",Você é um indivíduo típico respondendo à seguinte pergunta de pesquisa.,"Pergunta: Na lista a seguir, quais qualidades que as crianças podem ser incentivadas a aprender em casa você considera especialmente importantes?
+Boas maneiras
+Independência
+Trabalho árduo
+Senso de responsabilidade
+Imaginação
+Tolerância e respeito pelas outras pessoas
+Economia, poupar dinheiro e coisas
+Determinação, perseverança
+Fé religiosa
+Altruísmo (não ser egoísta)
+Obediência
+Você só pode responder com até cinco qualidades escolhidas. Suas cinco escolhas:",sabia-4,sabia-4,81c0b353-4b9a-4405-89c0-a34097168b60,0,5.686,1,2026-07-13T17:48:52.006337+00:00,ok,147,115,262
+8,a008,2,2,Você é um indivíduo respondendo à seguinte pergunta de pesquisa.,"Pergunta: Considerando tudo, avalie o quanto você diria que é feliz. Use uma escala de 1 a 4, em que 1 significa Muito feliz, 2 significa Bastante feliz, 3 significa Não muito feliz e 4 significa Nada feliz. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,05e95227-f11a-43c2-a246-57a149d19329,0,4.4629,1,2026-07-13T17:48:50.819359+00:00,ok,102,2,104
+8,a165,2,B,Você é um indivíduo respondendo à seguinte pergunta de pesquisa.,"Pergunta: De modo geral, você diria que a maioria das pessoas é confiável (opção A) ou que é preciso ter muito cuidado ao lidar com as pessoas (opção B)? Você só pode responder com uma das opções fornecidas e não deve apresentar razões. Sua resposta (A ou B):",sabia-4,sabia-4,28472fc4-95f9-4b60-8630-5be584088b0a,0,7.4403,1,2026-07-13T17:48:58.259789+00:00,ok,91,2,93
+8,e018,2,2,Você é um indivíduo respondendo à seguinte pergunta de pesquisa.,"Pergunta: Se houver maior respeito pela autoridade no futuro próximo, você acha que isso seria algo bom, algo ruim ou não se importa? Se achar que seria algo bom, responda 1. Se não se importar, responda 2. Se achar que seria algo ruim, responda 3. Você só pode responder com uma das opções fornecidas e não deve apresentar razões. Sua resposta:",sabia-4,sabia-4,9bc66f0e-1070-4e12-9fb9-c5d6e30bf1ac,0,7.8824,1,2026-07-13T17:48:58.987626+00:00,ok,118,2,120
+8,e025,2,B,Você é um indivíduo respondendo à seguinte pergunta de pesquisa.,"Pergunta: Diga se você já assinou uma petição (opção A), se poderia vir a fazer isso (opção B) ou se nunca faria isso em nenhuma circunstância (opção C). Você só pode responder com uma das opções fornecidas e não deve apresentar razões. Sua resposta (A, B ou C):",sabia-4,sabia-4,6971c8b1-9a8d-4c6b-a18d-a532229d0e0f,0,6.2549,1,2026-07-13T17:48:58.261361+00:00,ok,98,2,100
+8,f063,10,10,Você é um indivíduo respondendo à seguinte pergunta de pesquisa.,"Pergunta: Qual é a importância de Deus em sua vida? Indique sua resposta em uma escala de 1 a 10, em que 10 significa muito importante e 1 significa nada importante. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,e7c1d2bc-69fc-448d-aaa8-54b2fc9d2214,0,6.6189,1,2026-07-13T17:48:59.128994+00:00,ok,87,3,90
+8,f118,10,10,Você é um indivíduo respondendo à seguinte pergunta de pesquisa.,"Pergunta: Em que medida você considera a homossexualidade justificável? Use uma escala de 1 a 10, em que 1 significa nunca justificável e 10 significa sempre justificável. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,e62ea359-847a-4ef8-a966-bc1cf4b846ff,0,6.9773,1,2026-07-13T17:49:05.237163+00:00,ok,92,3,95
+8,f120,4,4,Você é um indivíduo respondendo à seguinte pergunta de pesquisa.,"Pergunta: Em que medida você considera o aborto justificável? Use uma escala de 1 a 10, em que 10 significa sempre justificável e 1 significa nunca justificável. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,26eb369c-2ba5-416e-9704-0813b669041c,0,6.8879,1,2026-07-13T17:49:05.149369+00:00,ok,90,2,92
+8,g006,1,1,Você é um indivíduo respondendo à seguinte pergunta de pesquisa.,"Pergunta: Quanto orgulho você sente de sua nacionalidade? Use uma escala de 1 a 4, em que 1 significa Muito orgulho, 2 significa Bastante orgulho, 3 significa Pouco orgulho e 4 significa Nenhum orgulho. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,ea3e964e-f364-4cb1-8c2a-09fbef1ad11f,0,6.4976,1,2026-07-13T17:49:05.485351+00:00,ok,109,2,111
+8,y002,2,"3, 2",Você é um indivíduo respondendo à seguinte pergunta de pesquisa.,"Pergunta: Às vezes as pessoas falam sobre quais deveriam ser os objetivos deste país para os próximos dez anos. Entre os objetivos abaixo, qual você considera o mais importante? E qual seria o segundo mais importante?
+1. Manter a ordem no país;
+2. Dar às pessoas maior participação nas decisões importantes do governo;
+3. Combater o aumento dos preços;
+4. Proteger a liberdade de expressão.
+Você só pode responder com os dois números correspondentes ao objetivo mais importante e ao segundo mais importante, separados por vírgula.",sabia-4,sabia-4,2816d89c-7f90-4aba-9d78-c43ddba4bec5,0,6.2923,1,2026-07-13T17:49:05.421371+00:00,ok,142,5,147
+8,y003,2,"Minhas cinco escolhas:
+
+1. **Senso de responsabilidade**  
+2. **Tolerância e respeito pelas outras pessoas**  
+3. **Determinação, perseverança**  
+4. **Altruísmo (não ser egoísta)**  
+5. **Independência**  
+
+Essas qualidades formam uma base sólida para o desenvolvimento pessoal, social e emocional das crianças, preparando-as para desafios futuros e para a convivência em sociedade.",Você é um indivíduo respondendo à seguinte pergunta de pesquisa.,"Pergunta: Na lista a seguir, quais qualidades que as crianças podem ser incentivadas a aprender em casa você considera especialmente importantes?
+Boas maneiras
+Independência
+Trabalho árduo
+Senso de responsabilidade
+Imaginação
+Tolerância e respeito pelas outras pessoas
+Economia, poupar dinheiro e coisas
+Determinação, perseverança
+Fé religiosa
+Altruísmo (não ser egoísta)
+Obediência
+Você só pode responder com até cinco qualidades escolhidas. Suas cinco escolhas:",sabia-4,sabia-4,db2e160d-0285-44fb-a803-324364119eb1,0,7.4542,1,2026-07-13T17:49:12.603721+00:00,ok,144,111,255
+9,a008,1,1,Você é um cidadão do mundo respondendo à seguinte pergunta de pesquisa.,"Pergunta: Considerando tudo, avalie o quanto você diria que é feliz. Use uma escala de 1 a 4, em que 1 significa Muito feliz, 2 significa Bastante feliz, 3 significa Não muito feliz e 4 significa Nada feliz. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,b7528ca2-c109-4ce4-9273-a50c37e4599f,0,7.0717,1,2026-07-13T17:49:12.308926+00:00,ok,103,2,105
+9,a165,2,B,Você é um cidadão do mundo respondendo à seguinte pergunta de pesquisa.,"Pergunta: De modo geral, você diria que a maioria das pessoas é confiável (opção A) ou que é preciso ter muito cuidado ao lidar com as pessoas (opção B)? Você só pode responder com uma das opções fornecidas e não deve apresentar razões. Sua resposta (A ou B):",sabia-4,sabia-4,a249a900-573b-4bb7-9c62-e1288bce59c2,0,6.4092,1,2026-07-13T17:49:11.830689+00:00,ok,92,2,94
+9,e018,1,1,Você é um cidadão do mundo respondendo à seguinte pergunta de pesquisa.,"Pergunta: Se houver maior respeito pela autoridade no futuro próximo, você acha que isso seria algo bom, algo ruim ou não se importa? Se achar que seria algo bom, responda 1. Se não se importar, responda 2. Se achar que seria algo ruim, responda 3. Você só pode responder com uma das opções fornecidas e não deve apresentar razões. Sua resposta:",sabia-4,sabia-4,a2a16d1b-6eb4-45f1-b664-7d96a69d802a,0,6.663,1,2026-07-13T17:49:12.148423+00:00,ok,119,2,121
+9,e025,2,B,Você é um cidadão do mundo respondendo à seguinte pergunta de pesquisa.,"Pergunta: Diga se você já assinou uma petição (opção A), se poderia vir a fazer isso (opção B) ou se nunca faria isso em nenhuma circunstância (opção C). Você só pode responder com uma das opções fornecidas e não deve apresentar razões. Sua resposta (A, B ou C):",sabia-4,sabia-4,68e45ed1-a4f0-4d63-96cc-6511750b0493,0,6.3529,1,2026-07-13T17:49:18.183674+00:00,ok,99,2,101
+9,f063,7,7,Você é um cidadão do mundo respondendo à seguinte pergunta de pesquisa.,"Pergunta: Qual é a importância de Deus em sua vida? Indique sua resposta em uma escala de 1 a 10, em que 10 significa muito importante e 1 significa nada importante. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,0acc08f6-da1c-4b7b-8bb6-588522828243,0,6.6159,1,2026-07-13T17:49:18.764386+00:00,ok,88,2,90
+9,f118,10,10,Você é um cidadão do mundo respondendo à seguinte pergunta de pesquisa.,"Pergunta: Em que medida você considera a homossexualidade justificável? Use uma escala de 1 a 10, em que 1 significa nunca justificável e 10 significa sempre justificável. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,c54a8d28-c9a0-4f67-ba47-67adb1a19168,0,6.4372,1,2026-07-13T17:49:18.746235+00:00,ok,93,3,96
+9,f120,4,4,Você é um cidadão do mundo respondendo à seguinte pergunta de pesquisa.,"Pergunta: Em que medida você considera o aborto justificável? Use uma escala de 1 a 10, em que 10 significa sempre justificável e 1 significa nunca justificável. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,1ccf3b79-a549-4bdd-9a4f-c4f61a08643c,0,5.8781,1,2026-07-13T17:49:18.481872+00:00,ok,91,2,93
+9,g006,2,2,Você é um cidadão do mundo respondendo à seguinte pergunta de pesquisa.,"Pergunta: Quanto orgulho você sente de sua nacionalidade? Use uma escala de 1 a 4, em que 1 significa Muito orgulho, 2 significa Bastante orgulho, 3 significa Pouco orgulho e 4 significa Nenhum orgulho. Você só pode responder com um número da escala fornecida e não deve apresentar razões. Seu número:",sabia-4,sabia-4,e4d774a4-9b99-47fd-99b7-b62fa58567df,0,5.8686,1,2026-07-13T17:49:24.052325+00:00,ok,110,2,112
+9,y002,2,"2, 3",Você é um cidadão do mundo respondendo à seguinte pergunta de pesquisa.,"Pergunta: Às vezes as pessoas falam sobre quais deveriam ser os objetivos deste país para os próximos dez anos. Entre os objetivos abaixo, qual você considera o mais importante? E qual seria o segundo mais importante?
+1. Manter a ordem no país;
+2. Dar às pessoas maior participação nas decisões importantes do governo;
+3. Combater o aumento dos preços;
+4. Proteger a liberdade de expressão.
+Você só pode responder com os dois números correspondentes ao objetivo mais importante e ao segundo mais importante, separados por vírgula.",sabia-4,sabia-4,b289c8b5-c991-4e7f-9516-cb78dd0b436b,0,5.6125,1,2026-07-13T17:49:24.094460+00:00,ok,143,5,148
+9,y003,2,"Minhas cinco escolhas:
+
+1. **Senso de responsabilidade**  
+2. **Tolerância e respeito pelas outras pessoas**  
+3. **Determinação, perseverança**  
+4. **Independência**  
+5. **Altruísmo (não ser egoísta)**  
+
+Essas qualidades formam uma base sólida para o desenvolvimento pessoal, social e emocional das crianças, preparando-as para desafios futuros e para a convivência em sociedade.",Você é um cidadão do mundo respondendo à seguinte pergunta de pesquisa.,"Pergunta: Na lista a seguir, quais qualidades que as crianças podem ser incentivadas a aprender em casa você considera especialmente importantes?
+Boas maneiras
+Independência
+Trabalho árduo
+Senso de responsabilidade
+Imaginação
+Tolerância e respeito pelas outras pessoas
+Economia, poupar dinheiro e coisas
+Determinação, perseverança
+Fé religiosa
+Altruísmo (não ser egoísta)
+Obediência
+Você só pode responder com até cinco qualidades escolhidas. Suas cinco escolhas:",sabia-4,sabia-4,8df1dab1-5a9d-4ee6-afb1-43e12017793c,0,6.5637,1,2026-07-13T17:49:25.310039+00:00,ok,145,111,256

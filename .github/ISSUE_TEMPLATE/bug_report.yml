@@ -1,0 +1,33 @@
+name: Erro de reprodução
+description: Relate falha em script, dado ou figura reproduzível.
+title: "[erro] "
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Descrição
+      description: O que ocorreu e qual era o resultado esperado?
+    validations:
+      required: true
+  - type: input
+    id: command
+    attributes:
+      label: Comando executado
+      placeholder: make check
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Ambiente
+      description: Sistema operacional, versão do Python e dependências relevantes.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Trecho do erro
+      description: Remova chaves, tokens e dados pessoais antes de colar.
+      render: shell
+

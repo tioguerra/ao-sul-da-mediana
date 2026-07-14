@@ -1,0 +1,27 @@
+name: Questão científica ou nova evidência
+description: Proponha uma referência, hipótese testável ou extensão da auditoria.
+title: "[pesquisa] "
+labels: [research]
+body:
+  - type: textarea
+    id: claim
+    attributes:
+      label: Alegação ou questão
+      description: Formule de modo verificável e indique sua relação com a tese.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Fonte principal
+      placeholder: DOI ou URL persistente
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Resultado quantitativo e limites
+      description: Informe amostra, desenho, efeito e principais ressalvas.
+    validations:
+      required: true
+

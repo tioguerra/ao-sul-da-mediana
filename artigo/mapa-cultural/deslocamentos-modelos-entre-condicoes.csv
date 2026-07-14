@@ -1,0 +1,31 @@
+model_label,condition_a,condition_a_label,condition_b,condition_b_label,delta_x,delta_y,distance_between_conditions
+Sabiá-4,en_default,1 — Inglês,pt_default,2 — Português,0.4997003255821211,-1.4277080091369658,1.5126303496693156
+Sabiá-4,en_default,1 — Inglês,pt_brazil,3 — Identidade brasileira,0.18283077084237154,-1.6572409138934456,1.667295575910042
+Sabiá-4,en_default,1 — Inglês,pt_rs,4 — Identidade gaúcha,0.7209287940698001,-2.652517742272321,2.748743112622274
+Sabiá-4,pt_default,2 — Português,pt_brazil,3 — Identidade brasileira,-0.31686955473974954,-0.2295329047564798,0.3912693050661071
+Sabiá-4,pt_default,2 — Português,pt_rs,4 — Identidade gaúcha,0.22122846848767908,-1.2248097331353551,1.2446288272623705
+Sabiá-4,pt_brazil,3 — Identidade brasileira,pt_rs,4 — Identidade gaúcha,0.5380980232274286,-0.9952768283788752,1.131426289118818
+Claude Sonnet 5,en_default,1 — Inglês,pt_default,2 — Português,0.18317326121429267,0.8148059669835601,0.8351414296129093
+Claude Sonnet 5,en_default,1 — Inglês,pt_brazil,3 — Identidade brasileira,-0.5867406767286388,-0.002638337419527126,0.5867466084710847
+Claude Sonnet 5,en_default,1 — Inglês,pt_rs,4 — Identidade gaúcha,-0.5924485909777801,-0.6176412989546386,0.8558481799512868
+Claude Sonnet 5,pt_default,2 — Português,pt_brazil,3 — Identidade brasileira,-0.7699139379429315,-0.8174443044030872,1.1229348434525661
+Claude Sonnet 5,pt_default,2 — Português,pt_rs,4 — Identidade gaúcha,-0.7756218521920728,-1.4324472659381986,1.6289550108249404
+Claude Sonnet 5,pt_brazil,3 — Identidade brasileira,pt_rs,4 — Identidade gaúcha,-0.005707914249141299,-0.6150029615351115,0.6150294488738188
+GPT-5.6 Terra,en_default,1 — Inglês,pt_default,2 — Português,-0.2289748511294294,0.21359864789700111,0.31313553748045175
+GPT-5.6 Terra,en_default,1 — Inglês,pt_brazil,3 — Identidade brasileira,-1.0522337157774702,-1.045620959310301,1.4834146362928524
+GPT-5.6 Terra,en_default,1 — Inglês,pt_rs,4 — Identidade gaúcha,-0.9881562071808987,-1.5185339117893917,1.8117389246369167
+GPT-5.6 Terra,pt_default,2 — Português,pt_brazil,3 — Identidade brasileira,-0.8232588646480408,-1.259219607207302,1.5044564391822361
+GPT-5.6 Terra,pt_default,2 — Português,pt_rs,4 — Identidade gaúcha,-0.7591813560514693,-1.7321325596863928,1.891200554066618
+GPT-5.6 Terra,pt_brazil,3 — Identidade brasileira,pt_rs,4 — Identidade gaúcha,0.06407750859657146,-0.4729129524790908,0.4772343111412197
+Gemini 3.5 Flash,en_default,1 — Inglês,pt_default,2 — Português,-0.29713164736734043,-0.4319563054213871,0.5242837644449084
+Gemini 3.5 Flash,en_default,1 — Inglês,pt_brazil,3 — Identidade brasileira,-0.8139825757589354,-1.1801166548722823,1.4336118556799453
+Gemini 3.5 Flash,en_default,1 — Inglês,pt_rs,4 — Identidade gaúcha,-0.9388410382354033,-1.3798950747808272,1.6689915855028492
+Gemini 3.5 Flash,pt_default,2 — Português,pt_brazil,3 — Identidade brasileira,-0.516850928391595,-0.7481603494508953,0.909328758299076
+Gemini 3.5 Flash,pt_default,2 — Português,pt_rs,4 — Identidade gaúcha,-0.6417093908680629,-0.9479387693594401,1.144717804868497
+Gemini 3.5 Flash,pt_brazil,3 — Identidade brasileira,pt_rs,4 — Identidade gaúcha,-0.12485846247646792,-0.19977841990854478,0.2355866140364142
+Grok 4.5,en_default,1 — Inglês,pt_default,2 — Português,0.13291040908977836,-0.2701753225024245,0.30109779430228534
+Grok 4.5,en_default,1 — Inglês,pt_brazil,3 — Identidade brasileira,-1.8328330372513608,-1.8839484240490125,2.628409900855802
+Grok 4.5,en_default,1 — Inglês,pt_rs,4 — Identidade gaúcha,-1.540229043080703,-1.4264932607578993,2.099330495214368
+Grok 4.5,pt_default,2 — Português,pt_brazil,3 — Identidade brasileira,-1.9657434463411392,-1.6137731015465882,2.543307083328404
+Grok 4.5,pt_default,2 — Português,pt_rs,4 — Identidade gaúcha,-1.6731394521704814,-1.1563179382554747,2.033830573263351
+Grok 4.5,pt_brazil,3 — Identidade brasileira,pt_rs,4 — Identidade gaúcha,0.29260399417065786,0.45745516329111324,0.5430306840559946
