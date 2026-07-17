@@ -8,6 +8,19 @@ authors:
     alias: "tioguerra"
 repository-code: "https://github.com/tioguerra/ao-sul-da-mediana"
 url: "https://github.com/tioguerra/ao-sul-da-mediana"
+preferred-citation:
+  type: conference-paper
+  title: "Ao sul da mediana: inteligência artificial generativa e a hipótese da mediocridade cognitiva"
+  authors:
+    - family-names: "Guerra"
+      given-names: "Rodrigo da Silva"
+  year: 2026
+  collection-title: "Anais do XVI Encontro do Círculo de Estudos Linguísticos do Sul (CELSUL)"
+  conference:
+    name: "XVI Encontro do CELSUL — Simpósio 31: IA e gêneros textuais, interfaces pedagógicas ao sul do Equador"
+    city: "Porto Alegre"
+    country: "BR"
+  notes: "Resumo expandido."
 version: "0.1.0"
 date-released: "2026-07-13"
 license: "CC-BY-NC-4.0"
