@@ -159,6 +159,20 @@ O trabalho foi apresentado como **resumo expandido** no XVI Encontro do CELSUL e
 
 > GUERRA, Rodrigo da Silva. Ao sul da mediana: inteligência artificial generativa e a hipótese da mediocridade cognitiva. In: ENCONTRO DO CÍRCULO DE ESTUDOS LINGUÍSTICOS DO SUL (CELSUL), 16., 2026, Porto Alegre. *Anais eletrônicos* [...]. Porto Alegre: CELSUL, 2026. Resumo expandido, Simpósio 31 (*IA e gêneros textuais: interfaces pedagógicas ao sul do Equador*).
 
+Em BibTeX:
+
+```bibtex
+@inproceedings{guerra2026aosuldamediana,
+  author    = {Guerra, Rodrigo da Silva},
+  title     = {Ao sul da mediana: inteligência artificial generativa e a hipótese da mediocridade cognitiva},
+  booktitle = {Anais do XVI Encontro do Círculo de Estudos Linguísticos do Sul (CELSUL)},
+  year      = {2026},
+  address   = {Porto Alegre},
+  publisher = {CELSUL},
+  note      = {Resumo expandido. Simpósio 31: IA e gêneros textuais, interfaces pedagógicas ao sul do Equador},
+}
+```
+
 Para citar os dados e o código deste repositório, use o metadado de [CITATION.cff](CITATION.cff):
 
 > Guerra, Rodrigo da Silva. *Ao sul da mediana: inteligência artificial generativa, alinhamento cultural e a hipótese da mediocridade cognitiva* (repositório de dados e código). Versão 0.1.0, 2026. https://github.com/tioguerra/ao-sul-da-mediana
