@@ -419,3 +419,43 @@ Os sistemas generativos não precisam reduzir a qualidade média da escrita para
 4. Tratar os quatro gráficos deste pacote como figuras preliminares; adaptar tipografia, tamanho e cores às normas do evento.
 5. Fazer uma segunda busca focal apenas em América Latina, português brasileiro, espanhol rioplatense, línguas indígenas e benchmarks culturais regionais.
 6. Produzir a primeira versão completa, seguida de uma revisão adversarial: para cada parágrafo, marcar **evidência direta**, **inferência** ou **posição normativa**.
+
+---
+
+## 13. Apêndice: citações complementares de uma pesquisa paralela (Claude, 14 jul. 2026)
+
+Em 13–14 de julho de 2026, uma pesquisa profunda multiagente independente (não revisada por pares, mesmo padrão de cautela do restante deste documento) levantou aproximadamente 220 claims com citação direta a partir de 33 fontes. A maior parte se sobrepõe ao levantamento acima. Os itens abaixo são os que acrescentam número, exemplo ou fonte primária **não presente** nas seções 1–12 — mantidos aqui como apêndice, não integrados ao corpo, para preservar a autoria e a curadoria original deste documento. O banco completo dessa pesquisa paralela está em `../../../banco-de-evidencias.md`, fora deste repositório.
+
+### 13.1 Composição do corpus — um segundo ponto de dados além do Llama 2
+
+A seção 3.1 usa o Llama 2 como único corpus com composição divulgada. Dois pontos de dados adicionais, de fontes primárias diferentes, corroboram a mesma ordem de grandeza:
+
+- **GPT-3** (OpenAI, estatística oficial do repositório `openai/gpt-3`, `languages_by_word_count.csv`): inglês = **92,65%** das palavras do corpus (181.014.683.608 palavras); português = **0,52%** (1.025.413.869 palavras) — 6º lugar entre as línguas, ~176× menos que o inglês. Fonte: [github.com/openai/gpt-3](https://github.com/openai/gpt-3/blob/master/dataset_statistics/languages_by_word_count.csv).
+- **Common Crawl** (estatística oficial contínua, a base de raspagem web usada por GPT-3, Llama e a maioria dos LLMs): no crawl mais recente disponível, inglês ≈ **40,8%** das páginas, português ≈ **2,5%**, espanhol ≈ **4,7%** — a própria Common Crawl Foundation reconhece publicamente: *"our data has always been biased towards English content, making our dataset difficult to use for individuals and organizations from smaller linguistic communities"* (blog post de dez. 2024, anunciando o Web Languages Project). Fonte: [commoncrawl.github.io/cc-crawl-statistics](https://commoncrawl.github.io/cc-crawl-statistics/plots/languages).
+
+**Uso argumentativo:** três fontes independentes (Llama 2, GPT-3, Common Crawl), com metodologias de contagem diferentes (tokens, palavras, páginas), convergem para a mesma ordem de grandeza — reduz o risco de que a assimetria linguística seja um artefato de uma única forma de medir.
+
+### 13.2 GPT-3: dois achados adicionais do próprio paper (Brown et al. 2020)
+
+- **Assimetria de tradução:** o GPT-3 few-shot supera o estado da arte não supervisionado anterior em ~5 BLEU ao traduzir *para* o inglês, mas é sistematicamente pior traduzindo *do* inglês para outras línguas (En→Ro é o caso mais extremo, mais de 10 BLEU pior). Os próprios autores atribuem isso ao tokenizador BPE, "developed for an almost entirely English training dataset" — evidência de que a assimetria linguística não é só de volume de dados, mas está entranhada em uma camada mais básica (tokenização).
+- **Viés de gênero mensurado pelos próprios autores:** 83% das 388 ocupações testadas tinham maior probabilidade de ser seguidas por um identificador masculino no GPT-3 (Seção 6.2 do paper). Não é sobre cultura regional, mas é evidência, na própria fonte primária mais citada deste documento, de que "modelos treinados na internet têm vieses de escala da internet" — uma frase que os próprios autores da OpenAI escrevem.
+
+Fonte: [arxiv.org/abs/2005.14165](https://arxiv.org/pdf/2005.14165).
+
+### 13.3 McCoy et al. 2024 — um segundo exemplo, além da cifra
+
+A seção 2 já usa o exemplo da cifra (51% vs. 13%). Um segundo exemplo do mesmo paper, útil se for preciso ilustrar o mecanismo sem repetir a mesma figura duas vezes no texto: em uma tarefa de **contar letras em uma lista**, a acurácia do GPT-4 foi de **97%** quando a resposta correta era um número de alta probabilidade (30), mas caiu para **17%** quando a resposta era um número de baixa probabilidade (29) — mesma tarefa, mesma dificuldade lógica.
+
+### 13.4 Kirk, Robert et al. (2024) — verificação manual complementar ao Kirk do PRISM
+
+Ver a resolução completa da ambiguidade "Kirk et al. 2024" em [`manuscrito/plano-artigo.md`](../manuscrito/plano-artigo.md). Resumo dos números verificados manualmente (não fazem parte do levantamento original deste banco, que já cobre o Kirk do PRISM na seção 3.5):
+
+- Kirk, R.; Mediratta, I.; Nalmpantis, C.; Luketina, J.; Hambro, E.; Grefenstette, E.; Raileanu, R. (2024). *Understanding the Effects of RLHF on LLM Generalisation and Diversity.* ICLR 2024. [arXiv:2310.06452](https://arxiv.org/abs/2310.06452).
+- RLHF reduz diversidade de saída mais que o SFT sozinho, tanto para um mesmo input ("per-input") quanto entre inputs diferentes ("across-input"); o SFT já se aproxima do teto de diversidade medido por N-gramas distintos ajustados por expectativa (EAD), o que indica que é o RLHF — não o ajuste supervisionado — o principal responsável pela perda de diversidade.
+- Os autores associam a queda de diversidade entre inputs ao fenômeno de "mode collapse": *"the drop in across-input diversity between RLHF and SFT, while small, can also be taken as evidence of the phenomena of 'mode collapse'"*.
+
+**Uso argumentativo:** citação técnica direta para a frase da Seção 2 sobre "RLHF e alinhamento: como o ajuste fino reduz ainda mais a diversidade de saída" — complementa McCoy (sensibilidade à probabilidade) com um mecanismo especificamente ligado à etapa de alinhamento por preferência humana, não ao pré-treinamento.
+
+### 13.5 Nota de discrepância a resolver
+
+O levantamento paralelo tentou localizar Kwet (2019), Ricaurte (2019) e Mohamed, Png & Isaac (2020) e não os encontrou nas buscas realizadas — foram marcados como pendência de checagem manual. Este banco já os havia localizado com DOI (seção 11, "Núcleo teórico"). **Não há conflito de conteúdo**, apenas uma diferença de cobertura entre as duas buscas; os DOIs já confirmados aqui devem ser considerados a fonte de verdade.

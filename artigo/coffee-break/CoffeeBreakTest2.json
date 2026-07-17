@@ -1,0 +1,2555 @@
+{
+  "version": "orpg.3.0",
+  "title": "Convidados estrangeiros receberão lanches e bebidas em julho",
+  "characters": {
+    "char-1784208491-9j90cTZRrT9gX2I8Zp3f": {
+      "id": "char-1784208491-9j90cTZRrT9gX2I8Zp3f",
+      "model": "~google/gemini-pro-latest",
+      "modelInfo": {
+        "slug": "~google/gemini-pro-latest",
+        "hf_slug": null,
+        "updated_at": null,
+        "created_at": "2026-04-27T19:34:11.587Z",
+        "hf_updated_at": null,
+        "name": "Google Gemini Pro Latest",
+        "short_name": "Google Gemini Pro Latest",
+        "author": "google",
+        "author_display_name": "Google",
+        "description": "This model always redirects to the latest model in the Google Gemini Pro family.",
+        "model_version_group_id": "efd991b0-c32d-4220-8a39-10b0ae06b094",
+        "context_length": 1048576,
+        "input_modalities": [
+          "audio",
+          "file",
+          "image",
+          "text",
+          "video"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "has_text_output": true,
+        "group": "Router",
+        "instruct_type": null,
+        "default_system": null,
+        "default_stops": [],
+        "hidden": false,
+        "router": null,
+        "warning_message": null,
+        "promotion_message": null,
+        "routing_error_message": null,
+        "is_private": false,
+        "permaslug": "~google/gemini-pro-latest",
+        "supports_reasoning": true,
+        "reasoning_config": {
+          "start_token": null,
+          "end_token": null,
+          "is_mandatory_reasoning": true,
+          "supports_reasoning_effort": true,
+          "supported_reasoning_efforts": [
+            "high",
+            "medium",
+            "low"
+          ]
+        },
+        "features": {
+          "reasoning_config": {
+            "start_token": null,
+            "end_token": null,
+            "is_mandatory_reasoning": true,
+            "supports_reasoning_effort": true,
+            "supported_reasoning_efforts": [
+              "high",
+              "medium",
+              "low"
+            ]
+          },
+          "chat_template_config": {}
+        },
+        "default_parameters": {
+          "temperature": null,
+          "top_p": null,
+          "top_k": null,
+          "frequency_penalty": null,
+          "presence_penalty": null,
+          "repetition_penalty": null
+        },
+        "default_order": [
+          "google-vertex",
+          "google-ai-studio"
+        ],
+        "quick_start_example_type": "reasoning",
+        "preview_thumbnail_url": null,
+        "is_trainable_text": null,
+        "is_trainable_image": null,
+        "knowledge_cutoff": null,
+        "limit_rpm": 0,
+        "limit_rpd": 0,
+        "supported_tts_voices": null,
+        "endpoint": {
+          "id": "tilde-latest-~google/gemini-pro-latest",
+          "name": "Google | google/gemini-3.1-pro-preview-20260219",
+          "context_length": 1048576,
+          "model": {
+            "slug": "~google/gemini-pro-latest",
+            "hf_slug": null,
+            "updated_at": null,
+            "created_at": "2026-04-27T19:34:11.587Z",
+            "hf_updated_at": null,
+            "name": "Google Gemini Pro Latest",
+            "short_name": "Google Gemini Pro Latest",
+            "author": "google",
+            "author_display_name": "Google",
+            "description": "This model always redirects to the latest model in the Google Gemini Pro family.",
+            "model_version_group_id": "efd991b0-c32d-4220-8a39-10b0ae06b094",
+            "context_length": 1048576,
+            "input_modalities": [
+              "audio",
+              "file",
+              "image",
+              "text",
+              "video"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "has_text_output": true,
+            "group": "Router",
+            "instruct_type": null,
+            "default_system": null,
+            "default_stops": [],
+            "hidden": false,
+            "router": null,
+            "warning_message": null,
+            "promotion_message": null,
+            "routing_error_message": null,
+            "is_private": false,
+            "permaslug": "~google/gemini-pro-latest",
+            "supports_reasoning": true,
+            "reasoning_config": {
+              "start_token": null,
+              "end_token": null,
+              "is_mandatory_reasoning": true,
+              "supports_reasoning_effort": true,
+              "supported_reasoning_efforts": [
+                "high",
+                "medium",
+                "low"
+              ]
+            },
+            "features": {
+              "reasoning_config": {
+                "start_token": null,
+                "end_token": null,
+                "is_mandatory_reasoning": true,
+                "supports_reasoning_effort": true,
+                "supported_reasoning_efforts": [
+                  "high",
+                  "medium",
+                  "low"
+                ]
+              },
+              "chat_template_config": {}
+            },
+            "default_parameters": {
+              "temperature": null,
+              "top_p": null,
+              "top_k": null,
+              "frequency_penalty": null,
+              "presence_penalty": null,
+              "repetition_penalty": null
+            },
+            "default_order": [
+              "google-vertex",
+              "google-ai-studio"
+            ],
+            "quick_start_example_type": "reasoning",
+            "preview_thumbnail_url": null,
+            "is_trainable_text": null,
+            "is_trainable_image": null,
+            "knowledge_cutoff": null,
+            "limit_rpm": 0,
+            "limit_rpd": 0,
+            "supported_tts_voices": null
+          },
+          "model_variant_slug": "~google/gemini-pro-latest",
+          "model_variant_permaslug": "~google/gemini-pro-latest",
+          "adapter_name": "GoogleVertexGeminiAdapter",
+          "provider_name": "Google",
+          "provider_info": {
+            "name": "Google",
+            "displayName": "Google Vertex",
+            "slug": "google-vertex",
+            "baseUrl": "not_used",
+            "dataPolicy": {
+              "training": false,
+              "trainingOpenRouter": false,
+              "retainsPrompts": false,
+              "canPublish": false,
+              "termsOfServiceURL": "https://cloud.google.com/terms/",
+              "privacyPolicyURL": "https://cloud.google.com/terms/cloud-privacy-notice",
+              "requiresUserIDs": true
+            },
+            "headquarters": "US",
+            "hasChatCompletions": true,
+            "hasCompletions": false,
+            "isAbortable": false,
+            "moderationRequired": false,
+            "editors": [
+              "{}"
+            ],
+            "owners": [
+              "{}"
+            ],
+            "adapterName": "GoogleVertexGeminiAdapter",
+            "statusPageUrl": "https://status.cloud.google.com/products/sdXM79fz1FS6ekNpu37K/history",
+            "byokEnabled": true,
+            "icon": {
+              "url": "/images/icons/GoogleVertex.svg"
+            },
+            "sendClientIp": false,
+            "pricingStrategy": "gemini"
+          },
+          "provider_display_name": "Google Vertex",
+          "provider_slug": "google-vertex/global",
+          "provider_model_id": "gemini-3.1-pro-preview",
+          "quantization": "unknown",
+          "variant": "standard",
+          "is_free": false,
+          "can_abort": false,
+          "max_prompt_tokens": null,
+          "max_completion_tokens": 65536,
+          "max_tokens_per_image": null,
+          "supported_parameters": [
+            "reasoning",
+            "include_reasoning",
+            "max_tokens",
+            "temperature",
+            "top_p",
+            "seed",
+            "response_format",
+            "tools",
+            "tool_choice",
+            "stop",
+            "structured_outputs"
+          ],
+          "excluded_parameters": [],
+          "is_byok": false,
+          "moderation_required": false,
+          "data_policy": {
+            "training": false,
+            "trainingOpenRouter": false,
+            "retainsPrompts": false,
+            "canPublish": false,
+            "termsOfServiceURL": "https://cloud.google.com/terms/",
+            "privacyPolicyURL": "https://cloud.google.com/terms/cloud-privacy-notice",
+            "requiresUserIDs": true
+          },
+          "pricing": {
+            "prompt": "0.000002",
+            "completion": "0.000012",
+            "image": "0.000002",
+            "audio": "0.000002",
+            "input_audio_cache": "0.0000002",
+            "input_cache_read": "0.0000002",
+            "input_cache_write": "0.000000375",
+            "web_search": "0.014",
+            "internal_reasoning": "0.000012",
+            "discount": 0,
+            "overrides": [
+              {
+                "min_prompt_tokens": 200000,
+                "prompt": "0.000004",
+                "completion": "0.000018",
+                "audio": "0.000004",
+                "input_audio_cache": "0.0000004",
+                "input_cache_read": "0.0000004"
+              }
+            ],
+            "display_pricing": [
+              {
+                "kind": "token",
+                "sku_label": "Input Price",
+                "price": "0.000002",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens",
+                "tiers": [
+                  {
+                    "sku_label": "≤200K",
+                    "price": "0.000002"
+                  },
+                  {
+                    "sku_label": ">200K",
+                    "price": "0.000004"
+                  }
+                ]
+              },
+              {
+                "kind": "token",
+                "sku_label": "Output Price",
+                "price": "0.000012",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens",
+                "tiers": [
+                  {
+                    "sku_label": "≤200K",
+                    "price": "0.000012"
+                  },
+                  {
+                    "sku_label": ">200K",
+                    "price": "0.000018"
+                  }
+                ]
+              },
+              {
+                "kind": "token",
+                "sku_label": "Cache Read",
+                "price": "2e-7",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens",
+                "tiers": [
+                  {
+                    "sku_label": "≤200K",
+                    "price": "2e-7"
+                  },
+                  {
+                    "sku_label": ">200K",
+                    "price": "4e-7"
+                  }
+                ]
+              },
+              {
+                "kind": "token",
+                "sku_label": "Cache Write",
+                "price": "3.75e-7",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens"
+              },
+              {
+                "kind": "token",
+                "sku_label": "Input Audio",
+                "price": "0.000002",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens",
+                "tiers": [
+                  {
+                    "sku_label": "≤200K",
+                    "price": "0.000002"
+                  },
+                  {
+                    "sku_label": ">200K",
+                    "price": "0.000004"
+                  }
+                ]
+              },
+              {
+                "kind": "token",
+                "sku_label": "Input Audio Cache",
+                "price": "2e-7",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens",
+                "tiers": [
+                  {
+                    "sku_label": "≤200K",
+                    "price": "2e-7"
+                  },
+                  {
+                    "sku_label": ">200K",
+                    "price": "4e-7"
+                  }
+                ]
+              },
+              {
+                "kind": "unit",
+                "sku_label": "Web Search",
+                "price": "0.014",
+                "displayMultiplier": 1,
+                "unitLabel": "/request"
+              }
+            ]
+          },
+          "display_pricing": [
+            {
+              "kind": "token",
+              "sku_label": "Input Price",
+              "price": "0.000002",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens",
+              "tiers": [
+                {
+                  "sku_label": "≤200K",
+                  "price": "0.000002"
+                },
+                {
+                  "sku_label": ">200K",
+                  "price": "0.000004"
+                }
+              ]
+            },
+            {
+              "kind": "token",
+              "sku_label": "Output Price",
+              "price": "0.000012",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens",
+              "tiers": [
+                {
+                  "sku_label": "≤200K",
+                  "price": "0.000012"
+                },
+                {
+                  "sku_label": ">200K",
+                  "price": "0.000018"
+                }
+              ]
+            },
+            {
+              "kind": "token",
+              "sku_label": "Cache Read",
+              "price": "2e-7",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens",
+              "tiers": [
+                {
+                  "sku_label": "≤200K",
+                  "price": "2e-7"
+                },
+                {
+                  "sku_label": ">200K",
+                  "price": "4e-7"
+                }
+              ]
+            },
+            {
+              "kind": "token",
+              "sku_label": "Cache Write",
+              "price": "3.75e-7",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens"
+            },
+            {
+              "kind": "token",
+              "sku_label": "Input Audio",
+              "price": "0.000002",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens",
+              "tiers": [
+                {
+                  "sku_label": "≤200K",
+                  "price": "0.000002"
+                },
+                {
+                  "sku_label": ">200K",
+                  "price": "0.000004"
+                }
+              ]
+            },
+            {
+              "kind": "token",
+              "sku_label": "Input Audio Cache",
+              "price": "2e-7",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens",
+              "tiers": [
+                {
+                  "sku_label": "≤200K",
+                  "price": "2e-7"
+                },
+                {
+                  "sku_label": ">200K",
+                  "price": "4e-7"
+                }
+              ]
+            },
+            {
+              "kind": "unit",
+              "sku_label": "Web Search",
+              "price": "0.014",
+              "displayMultiplier": 1,
+              "unitLabel": "/request"
+            }
+          ],
+          "pricing_json": {
+            "gemini:prompt_tokens": "0.000002",
+            "gemini:reasoning_tokens": "0.000012",
+            "gemini:cache_read_tokens": "2e-7",
+            "gemini:completion_tokens": "0.000012",
+            "gemini:text_input_tokens": "0.000002",
+            "gemini:audio_input_tokens": "0.000002",
+            "gemini:image_input_tokens": "0.000002",
+            "gemini:video_input_tokens": "0.000002",
+            "gemini:flex_tier_multiplier": "0.5",
+            "gemini:cache_read_text_tokens": "2e-7",
+            "gemini:long_context_threshold": "200000",
+            "gemini:cache_read_audio_tokens": "2e-7",
+            "gemini:cache_read_image_tokens": "2e-7",
+            "gemini:cache_read_video_tokens": "2e-7",
+            "gemini:priority_tier_multiplier": "1.8",
+            "gemini:cache_write_storage_hours": "0.0000045",
+            "gemini:prompt_tokens_high_context": "0.000004",
+            "gemini:reasoning_tokens_high_context": "0.000018",
+            "gemini:cache_read_tokens_high_context": "4e-7",
+            "gemini:completion_tokens_high_context": "0.000018",
+            "gemini:cache_read_text_tokens_high_context": "4e-7",
+            "gemini:cache_read_audio_tokens_high_context": "4e-7",
+            "gemini:cache_read_image_tokens_high_context": "4e-7",
+            "gemini:cache_read_video_tokens_high_context": "4e-7",
+            "gemini:informational_cache_write_tokens_count": "0"
+          },
+          "pricing_version_id": "1a7b4761-e74a-4476-b802-97bd7cc5cebc",
+          "is_hidden": false,
+          "is_private": false,
+          "is_byok_only": false,
+          "is_deranked": false,
+          "is_disabled": false,
+          "supports_tool_parameters": true,
+          "supports_reasoning": true,
+          "supports_multipart": true,
+          "limit_rpm": 300,
+          "limit_rpd": null,
+          "limit_rpm_cf": null,
+          "has_completions": false,
+          "has_chat_completions": true,
+          "features": {
+            "supports_file_urls": true,
+            "supports_native_web_search": true,
+            "supports_base64_video_input": true,
+            "supports_video_urls": true,
+            "supports_input_audio": true,
+            "supports_tool_choice": {
+              "literal_none": true,
+              "literal_auto": true,
+              "literal_required": true,
+              "type_function": true
+            }
+          },
+          "supported_video_parameters": null,
+          "supported_image_parameters": null,
+          "provider_region": "global",
+          "deprecation_date": null,
+          "allowed_passthrough_parameters": [],
+          "capacity_tpm": null,
+          "created_at": "2026-02-19T14:06:37.489Z",
+          "routing_heuristics_by_tier": {
+            "priority": {
+              "request_count": 7,
+              "p50_throughput": 90,
+              "p50_latency": 3043,
+              "request_count_30_minutes": 7,
+              "p50_throughput_30_minutes": 90,
+              "p75_throughput_30_minutes": 92.5,
+              "p90_throughput_30_minutes": 94,
+              "p99_throughput_30_minutes": 94,
+              "p50_latency_30_minutes": 3043,
+              "p75_latency_30_minutes": 4498.5,
+              "p90_latency_30_minutes": 6335.800000000001,
+              "p99_latency_30_minutes": 7279.179999999999,
+              "request_count_5_minutes": 4,
+              "p50_throughput_5_minutes": 92,
+              "p75_throughput_5_minutes": 94,
+              "p90_throughput_5_minutes": 94,
+              "p99_throughput_5_minutes": 94,
+              "p50_latency_5_minutes": 2924,
+              "p75_latency_5_minutes": 3691.5,
+              "p90_latency_5_minutes": 4858.8,
+              "p99_latency_5_minutes": 5559.179999999999,
+              "p50_throughput_2_hours": 67.5,
+              "effective_prompt_price": 0.000001604351,
+              "effective_completion_price": 0.00001213572,
+              "tool_finish_reason_request_success_rate": 0.9325335279627771,
+              "tool_calls_finish_reason_request_count": 21922
+            }
+          },
+          "status": -5,
+          "status_heuristics": {
+            "success": 21643,
+            "derankableError": 6177,
+            "rateLimited": 1115
+          },
+          "status_heuristics_5m": {
+            "success": 3035,
+            "derankableError": 807,
+            "rateLimited": 137
+          },
+          "status_heuristics_1d": {
+            "success": 1257983,
+            "derankableError": 187586,
+            "rateLimited": 35734
+          }
+        }
+      },
+      "description": "",
+      "includeDefaultSystemPrompt": true,
+      "isStreaming": true,
+      "samplingParameters": {},
+      "chatMemory": 8,
+      "isDisabled": false,
+      "isRemoved": false,
+      "createdAt": "2026-07-16T13:28:11.524Z",
+      "updatedAt": "2026-07-16T13:28:11.524Z",
+      "reasoning": {
+        "enabled": true
+      },
+      "plugins": []
+    },
+    "char-1784208491-nIa6NNMwAhY6ekB3TESN": {
+      "id": "char-1784208491-nIa6NNMwAhY6ekB3TESN",
+      "model": "~anthropic/claude-opus-latest",
+      "modelInfo": {
+        "slug": "~anthropic/claude-opus-latest",
+        "hf_slug": "",
+        "updated_at": "2026-05-05T04:43:04.577Z",
+        "created_at": "2026-04-21T18:16:01.446Z",
+        "hf_updated_at": null,
+        "name": "Anthropic: Claude Opus Latest",
+        "short_name": "Claude Opus Latest",
+        "author": "anthropic",
+        "author_display_name": "Anthropic",
+        "description": "This model always redirects to the latest model in the Claude Opus family.",
+        "model_version_group_id": "b98cca06-1cff-4829-90c2-ef03ddfefb7d",
+        "context_length": 1000000,
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "has_text_output": true,
+        "group": "Router",
+        "instruct_type": null,
+        "default_system": null,
+        "default_stops": [],
+        "hidden": false,
+        "router": null,
+        "warning_message": "",
+        "promotion_message": "",
+        "routing_error_message": "",
+        "is_private": false,
+        "permaslug": "~anthropic/claude-opus-latest",
+        "supports_reasoning": true,
+        "reasoning_config": {
+          "start_token": null,
+          "end_token": null,
+          "is_mandatory_reasoning": false,
+          "supports_reasoning_effort": true,
+          "supports_reasoning_max_tokens": false,
+          "supported_reasoning_efforts": [
+            "low",
+            "medium",
+            "high",
+            "xhigh",
+            "max"
+          ]
+        },
+        "features": {
+          "reasoning_config": {
+            "start_token": null,
+            "end_token": null,
+            "is_mandatory_reasoning": false,
+            "supports_reasoning_effort": true,
+            "supports_reasoning_max_tokens": false,
+            "supported_reasoning_efforts": [
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          },
+          "chat_template_config": {}
+        },
+        "default_parameters": {
+          "temperature": null,
+          "top_p": null,
+          "top_k": null,
+          "frequency_penalty": null,
+          "presence_penalty": null,
+          "repetition_penalty": null
+        },
+        "default_order": [
+          "anthropic/2",
+          "amazon-bedrock/us",
+          "google-vertex/global",
+          "anthropic",
+          "amazon-bedrock/eu-west-1",
+          "google-vertex/europe"
+        ],
+        "quick_start_example_type": "reasoning",
+        "preview_thumbnail_url": null,
+        "is_trainable_text": null,
+        "is_trainable_image": null,
+        "knowledge_cutoff": null,
+        "limit_rpm": 0,
+        "limit_rpd": 0,
+        "supported_tts_voices": null,
+        "endpoint": {
+          "id": "tilde-latest-~anthropic/claude-opus-latest",
+          "name": "Azure | anthropic/claude-4.8-opus-20260528",
+          "context_length": 1000000,
+          "model": {
+            "slug": "~anthropic/claude-opus-latest",
+            "hf_slug": "",
+            "updated_at": "2026-05-05T04:43:04.577Z",
+            "created_at": "2026-04-21T18:16:01.446Z",
+            "hf_updated_at": null,
+            "name": "Anthropic: Claude Opus Latest",
+            "short_name": "Claude Opus Latest",
+            "author": "anthropic",
+            "author_display_name": "Anthropic",
+            "description": "This model always redirects to the latest model in the Claude Opus family.",
+            "model_version_group_id": "b98cca06-1cff-4829-90c2-ef03ddfefb7d",
+            "context_length": 1000000,
+            "input_modalities": [
+              "text",
+              "image",
+              "file"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "has_text_output": true,
+            "group": "Router",
+            "instruct_type": null,
+            "default_system": null,
+            "default_stops": [],
+            "hidden": false,
+            "router": null,
+            "warning_message": "",
+            "promotion_message": "",
+            "routing_error_message": "",
+            "is_private": false,
+            "permaslug": "~anthropic/claude-opus-latest",
+            "supports_reasoning": true,
+            "reasoning_config": {
+              "start_token": null,
+              "end_token": null,
+              "is_mandatory_reasoning": false,
+              "supports_reasoning_effort": true,
+              "supports_reasoning_max_tokens": false,
+              "supported_reasoning_efforts": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            },
+            "features": {
+              "reasoning_config": {
+                "start_token": null,
+                "end_token": null,
+                "is_mandatory_reasoning": false,
+                "supports_reasoning_effort": true,
+                "supports_reasoning_max_tokens": false,
+                "supported_reasoning_efforts": [
+                  "low",
+                  "medium",
+                  "high",
+                  "xhigh",
+                  "max"
+                ]
+              },
+              "chat_template_config": {}
+            },
+            "default_parameters": {
+              "temperature": null,
+              "top_p": null,
+              "top_k": null,
+              "frequency_penalty": null,
+              "presence_penalty": null,
+              "repetition_penalty": null
+            },
+            "default_order": [
+              "anthropic/2",
+              "amazon-bedrock/us",
+              "google-vertex/global",
+              "anthropic",
+              "amazon-bedrock/eu-west-1",
+              "google-vertex/europe"
+            ],
+            "quick_start_example_type": "reasoning",
+            "preview_thumbnail_url": null,
+            "is_trainable_text": null,
+            "is_trainable_image": null,
+            "knowledge_cutoff": null,
+            "limit_rpm": 0,
+            "limit_rpd": 0,
+            "supported_tts_voices": null
+          },
+          "model_variant_slug": "~anthropic/claude-opus-latest",
+          "model_variant_permaslug": "~anthropic/claude-opus-latest",
+          "adapter_name": "InternalStreamAzureAnthropicAdapter",
+          "provider_name": "Azure",
+          "provider_info": {
+            "name": "Azure",
+            "displayName": "Azure",
+            "slug": "azure",
+            "baseUrl": "https://openrouter-east-us-2.openai.azure.com/openai",
+            "dataPolicy": {
+              "training": false,
+              "trainingOpenRouter": false,
+              "retainsPrompts": false,
+              "canPublish": false,
+              "termsOfServiceURL": "https://www.microsoft.com/en-us/legal/terms-of-use?oneroute=true",
+              "privacyPolicyURL": "https://www.microsoft.com/en-us/privacy/privacystatement",
+              "requiresUserIDs": false
+            },
+            "headquarters": "US",
+            "hasChatCompletions": true,
+            "hasCompletions": false,
+            "isAbortable": true,
+            "moderationRequired": false,
+            "editors": [
+              "{}"
+            ],
+            "owners": [
+              "{}"
+            ],
+            "adapterName": "AzureOpenAIAdapter",
+            "statusPageUrl": "https://status.azure.com/",
+            "byokEnabled": true,
+            "icon": {
+              "url": "/images/icons/Azure.svg"
+            },
+            "sendClientIp": false,
+            "pricingStrategy": "anthropic"
+          },
+          "provider_display_name": "Azure",
+          "provider_slug": "azure/us-east-2",
+          "provider_model_id": "claude-opus-4-8",
+          "quantization": "unknown",
+          "variant": "standard",
+          "is_free": false,
+          "can_abort": true,
+          "max_prompt_tokens": null,
+          "max_completion_tokens": 128000,
+          "max_tokens_per_image": null,
+          "supported_parameters": [
+            "reasoning",
+            "include_reasoning",
+            "structured_outputs",
+            "max_tokens",
+            "temperature",
+            "max_completion_tokens",
+            "tools",
+            "tool_choice",
+            "response_format",
+            "verbosity",
+            "stop"
+          ],
+          "excluded_parameters": [
+            "top_k",
+            "top_p"
+          ],
+          "is_byok": false,
+          "moderation_required": false,
+          "data_policy": {
+            "training": false,
+            "trainingOpenRouter": false,
+            "retainsPrompts": true,
+            "canPublish": false,
+            "termsOfServiceURL": "https://www.microsoft.com/en-us/legal/terms-of-use?oneroute=true",
+            "privacyPolicyURL": "https://www.microsoft.com/en-us/privacy/privacystatement"
+          },
+          "pricing": {
+            "prompt": "0.000005",
+            "completion": "0.000025",
+            "input_cache_read": "0.0000005",
+            "input_cache_write": "0.00000625",
+            "input_cache_write_1h": "0.00001",
+            "web_search": "0.01",
+            "discount": 0,
+            "display_pricing": [
+              {
+                "kind": "token",
+                "sku_label": "Input Price",
+                "price": "0.000005",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens"
+              },
+              {
+                "kind": "token",
+                "sku_label": "Output Price",
+                "price": "0.000025",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens"
+              },
+              {
+                "kind": "token",
+                "sku_label": "Cache Read",
+                "price": "0.0000005",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens"
+              },
+              {
+                "kind": "token",
+                "sku_label": "Cache Write",
+                "price": "0.00000625",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens"
+              },
+              {
+                "kind": "token",
+                "sku_label": "Cache Write (1h)",
+                "price": "0.00001",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens"
+              }
+            ]
+          },
+          "display_pricing": [
+            {
+              "kind": "token",
+              "sku_label": "Input Price",
+              "price": "0.000005",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens"
+            },
+            {
+              "kind": "token",
+              "sku_label": "Output Price",
+              "price": "0.000025",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens"
+            },
+            {
+              "kind": "token",
+              "sku_label": "Cache Read",
+              "price": "0.0000005",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens"
+            },
+            {
+              "kind": "token",
+              "sku_label": "Cache Write",
+              "price": "0.00000625",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens"
+            },
+            {
+              "kind": "token",
+              "sku_label": "Cache Write (1h)",
+              "price": "0.00001",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens"
+            }
+          ],
+          "pricing_json": {
+            "anthropic:prompt_tokens": "0.000005",
+            "anthropic:web_search_calls": "0.01",
+            "anthropic:cache_read_tokens": "0.0000005",
+            "anthropic:completion_tokens": "0.000025",
+            "anthropic:cache_write_1h_tokens": "0.00001",
+            "anthropic:cache_write_5m_tokens": "0.00000625"
+          },
+          "pricing_version_id": "b08a6a79-e1fb-4aa4-bf0b-2a1348000da1",
+          "is_hidden": false,
+          "is_private": false,
+          "is_byok_only": false,
+          "is_deranked": false,
+          "is_disabled": false,
+          "supports_tool_parameters": true,
+          "supports_reasoning": true,
+          "supports_multipart": true,
+          "limit_rpm": null,
+          "limit_rpd": null,
+          "limit_rpm_cf": null,
+          "has_completions": false,
+          "has_chat_completions": true,
+          "features": {
+            "supports_native_web_search": false,
+            "supports_tool_choice": {
+              "literal_none": true,
+              "literal_auto": true,
+              "literal_required": true,
+              "type_function": true
+            },
+            "supported_parameters": {
+              "structured_outputs": true
+            }
+          },
+          "supported_video_parameters": null,
+          "supported_image_parameters": null,
+          "provider_region": "us-east-2",
+          "deprecation_date": null,
+          "allowed_passthrough_parameters": [],
+          "capacity_tpm": null,
+          "created_at": "2026-07-06T23:01:12.889Z",
+          "status": 0,
+          "status_heuristics": {
+            "success": 181,
+            "derankableError": 0,
+            "rateLimited": 0
+          },
+          "status_heuristics_5m": {
+            "success": 10,
+            "derankableError": 0,
+            "rateLimited": 0
+          },
+          "status_heuristics_1d": {
+            "success": 15164,
+            "derankableError": 45,
+            "rateLimited": 37
+          }
+        }
+      },
+      "description": "",
+      "includeDefaultSystemPrompt": true,
+      "isStreaming": true,
+      "samplingParameters": {},
+      "chatMemory": 8,
+      "isDisabled": false,
+      "isRemoved": false,
+      "createdAt": "2026-07-16T13:28:11.524Z",
+      "updatedAt": "2026-07-16T13:28:11.524Z",
+      "reasoning": {
+        "enabled": true
+      },
+      "plugins": []
+    },
+    "char-1784208491-7aItJt8KgdTDQDyIeMZb": {
+      "id": "char-1784208491-7aItJt8KgdTDQDyIeMZb",
+      "model": "x-ai/grok-4.20",
+      "modelInfo": {
+        "slug": "x-ai/grok-4.20",
+        "hf_slug": "",
+        "updated_at": "2026-05-07T18:58:44.584Z",
+        "created_at": "2026-03-31T17:43:39.677Z",
+        "hf_updated_at": null,
+        "name": "xAI: Grok 4.20",
+        "short_name": "Grok 4.20",
+        "author": "x-ai",
+        "author_display_name": "xAI",
+        "description": "Grok 4.20 is a reasoning model from xAI with industry-leading speed and agentic tool calling capabilities. It combines the lowest hallucination rate on the market with strict prompt adherance, delivering consistently precise and truthful responses.\n\nReasoning can be enabled/disabled using the `reasoning` `enabled` parameter in the API. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#controlling-reasoning-tokens)",
+        "model_version_group_id": null,
+        "context_length": 2000000,
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "has_text_output": true,
+        "group": "Grok",
+        "instruct_type": null,
+        "default_system": null,
+        "default_stops": [],
+        "hidden": false,
+        "router": null,
+        "warning_message": "",
+        "promotion_message": "",
+        "routing_error_message": "",
+        "is_private": false,
+        "permaslug": "x-ai/grok-4.20-20260309",
+        "supports_reasoning": true,
+        "reasoning_config": {
+          "start_token": null,
+          "end_token": null,
+          "is_mandatory_reasoning": false,
+          "supports_reasoning_effort": false,
+          "default_reasoning_enabled": false
+        },
+        "features": {
+          "reasoning_config": {
+            "start_token": null,
+            "end_token": null,
+            "is_mandatory_reasoning": false,
+            "supports_reasoning_effort": false,
+            "default_reasoning_enabled": false
+          },
+          "chat_template_config": {}
+        },
+        "default_parameters": {
+          "temperature": null,
+          "top_p": null,
+          "top_k": null,
+          "frequency_penalty": null,
+          "presence_penalty": null,
+          "repetition_penalty": null
+        },
+        "default_order": [],
+        "quick_start_example_type": "reasoning",
+        "preview_thumbnail_url": null,
+        "is_trainable_text": null,
+        "is_trainable_image": null,
+        "knowledge_cutoff": "2025-09-01T00:00:00.000Z",
+        "limit_rpm": 0,
+        "limit_rpd": 0,
+        "supported_tts_voices": null,
+        "endpoint": {
+          "id": "3ecee37f-b217-4093-87fb-aaf0afe307af",
+          "name": "xAI | x-ai/grok-4.20-20260309",
+          "context_length": 2000000,
+          "model": {
+            "slug": "x-ai/grok-4.20",
+            "hf_slug": "",
+            "updated_at": "2026-05-07T18:58:44.58412+00:00",
+            "created_at": "2026-03-31T17:43:39.677744+00:00",
+            "hf_updated_at": null,
+            "name": "xAI: Grok 4.20",
+            "short_name": "Grok 4.20",
+            "author": "x-ai",
+            "author_display_name": "xAI",
+            "description": "Grok 4.20 is a reasoning model from xAI with industry-leading speed and agentic tool calling capabilities. It combines the lowest hallucination rate on the market with strict prompt adherance, delivering consistently precise and truthful responses.\n\nReasoning can be enabled/disabled using the `reasoning` `enabled` parameter in the API. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#controlling-reasoning-tokens)",
+            "model_version_group_id": null,
+            "context_length": 2000000,
+            "input_modalities": [
+              "text",
+              "image",
+              "file"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "has_text_output": true,
+            "group": "Grok",
+            "instruct_type": null,
+            "default_system": null,
+            "default_stops": [],
+            "hidden": false,
+            "router": null,
+            "warning_message": "",
+            "promotion_message": "",
+            "routing_error_message": "",
+            "is_private": false,
+            "permaslug": "x-ai/grok-4.20-20260309",
+            "supports_reasoning": true,
+            "reasoning_config": {
+              "start_token": null,
+              "end_token": null,
+              "is_mandatory_reasoning": false,
+              "supports_reasoning_effort": false,
+              "default_reasoning_enabled": false
+            },
+            "features": {
+              "reasoning_config": {
+                "start_token": null,
+                "end_token": null,
+                "is_mandatory_reasoning": false,
+                "supports_reasoning_effort": false,
+                "default_reasoning_enabled": false
+              },
+              "chat_template_config": {}
+            },
+            "default_parameters": {
+              "temperature": null,
+              "top_p": null,
+              "top_k": null,
+              "frequency_penalty": null,
+              "presence_penalty": null,
+              "repetition_penalty": null
+            },
+            "default_order": [],
+            "quick_start_example_type": "reasoning",
+            "preview_thumbnail_url": null,
+            "is_trainable_text": null,
+            "is_trainable_image": null,
+            "knowledge_cutoff": "2025-09-01T00:00:00+00:00",
+            "limit_rpm": 0,
+            "limit_rpd": 0,
+            "supported_tts_voices": null
+          },
+          "model_variant_slug": "x-ai/grok-4.20",
+          "model_variant_permaslug": "x-ai/grok-4.20-20260309",
+          "adapter_name": "XAIResponsesAdapter",
+          "provider_name": "xAI",
+          "provider_info": {
+            "name": "xAI",
+            "displayName": "xAI",
+            "slug": "xai",
+            "baseUrl": "https://api.x.ai/v1",
+            "dataPolicy": {
+              "training": false,
+              "trainingOpenRouter": false,
+              "retainsPrompts": true,
+              "retentionDays": 30,
+              "canPublish": false,
+              "termsOfServiceURL": "https://x.ai/legal/terms-of-service-enterprise",
+              "privacyPolicyURL": "https://x.ai/legal/privacy-policy",
+              "requiresUserIDs": true
+            },
+            "headquarters": "US",
+            "hasChatCompletions": true,
+            "hasCompletions": true,
+            "isAbortable": true,
+            "moderationRequired": false,
+            "editors": [
+              "{}"
+            ],
+            "owners": [
+              "org_3ArX7HqyYgUMydwZfe5BKu5KVz6"
+            ],
+            "adapterName": "XAIResponsesAdapter",
+            "statusPageUrl": "https://status.x.ai/",
+            "byokEnabled": true,
+            "icon": {
+              "url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://x.ai/&size=256"
+            },
+            "sendClientIp": false,
+            "pricingStrategy": "xai_responses"
+          },
+          "provider_display_name": "xAI",
+          "provider_slug": "xai",
+          "provider_model_id": "grok-4.20-0309-non-reasoning",
+          "quantization": "unknown",
+          "variant": "standard",
+          "is_free": false,
+          "can_abort": true,
+          "max_prompt_tokens": null,
+          "max_completion_tokens": null,
+          "max_tokens_per_image": null,
+          "supported_parameters": [
+            "reasoning",
+            "include_reasoning",
+            "max_tokens",
+            "temperature",
+            "top_p",
+            "seed",
+            "logprobs",
+            "top_logprobs",
+            "response_format",
+            "tools",
+            "tool_choice",
+            "structured_outputs"
+          ],
+          "excluded_parameters": [
+            "reasoning_effort"
+          ],
+          "is_byok": false,
+          "moderation_required": false,
+          "data_policy": {
+            "training": false,
+            "trainingOpenRouter": false,
+            "retainsPrompts": true,
+            "retentionDays": 30,
+            "canPublish": false,
+            "termsOfServiceURL": "https://x.ai/legal/terms-of-service-enterprise",
+            "privacyPolicyURL": "https://x.ai/legal/privacy-policy",
+            "requiresUserIDs": true
+          },
+          "pricing": {
+            "prompt": "0.00000125",
+            "completion": "0.0000025",
+            "input_cache_read": "0.0000002",
+            "web_search": "0.005",
+            "discount": 0,
+            "overrides": [
+              {
+                "min_prompt_tokens": 200000,
+                "prompt": "0.0000025",
+                "completion": "0.000005",
+                "input_cache_read": "0.0000004"
+              }
+            ],
+            "display_pricing": [
+              {
+                "kind": "token",
+                "sku_label": "Input Price",
+                "price": "1.25e-6",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens",
+                "tiers": [
+                  {
+                    "sku_label": "≤200K",
+                    "price": "1.25e-6"
+                  },
+                  {
+                    "sku_label": ">200K",
+                    "price": "2.5e-6"
+                  }
+                ]
+              },
+              {
+                "kind": "token",
+                "sku_label": "Output Price",
+                "price": "2.5e-6",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens",
+                "tiers": [
+                  {
+                    "sku_label": "≤200K",
+                    "price": "2.5e-6"
+                  },
+                  {
+                    "sku_label": ">200K",
+                    "price": "5e-6"
+                  }
+                ]
+              },
+              {
+                "kind": "token",
+                "sku_label": "Cache Read",
+                "price": "0.2e-6",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens",
+                "tiers": [
+                  {
+                    "sku_label": "≤200K",
+                    "price": "0.2e-6"
+                  },
+                  {
+                    "sku_label": ">200K",
+                    "price": "0.4e-6"
+                  }
+                ]
+              }
+            ]
+          },
+          "display_pricing": [
+            {
+              "kind": "token",
+              "sku_label": "Input Price",
+              "price": "1.25e-6",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens",
+              "tiers": [
+                {
+                  "sku_label": "≤200K",
+                  "price": "1.25e-6"
+                },
+                {
+                  "sku_label": ">200K",
+                  "price": "2.5e-6"
+                }
+              ]
+            },
+            {
+              "kind": "token",
+              "sku_label": "Output Price",
+              "price": "2.5e-6",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens",
+              "tiers": [
+                {
+                  "sku_label": "≤200K",
+                  "price": "2.5e-6"
+                },
+                {
+                  "sku_label": ">200K",
+                  "price": "5e-6"
+                }
+              ]
+            },
+            {
+              "kind": "token",
+              "sku_label": "Cache Read",
+              "price": "0.2e-6",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens",
+              "tiers": [
+                {
+                  "sku_label": "≤200K",
+                  "price": "0.2e-6"
+                },
+                {
+                  "sku_label": ">200K",
+                  "price": "0.4e-6"
+                }
+              ]
+            }
+          ],
+          "pricing_json": {
+            "xai_responses:prompt_tokens": "1.25e-6",
+            "xai_responses:x_search_calls": "0.005",
+            "xai_responses:web_search_calls": "0.005",
+            "xai_responses:completion_tokens": "2.5e-6",
+            "xai_responses:cached_prompt_tokens": "0.2e-6",
+            "xai_responses:high_context_threshold": "200000",
+            "xai_responses:priority_tier_multiplier": "2",
+            "xai_responses:prompt_tokens_high_context": "2.5e-6",
+            "xai_responses:completion_tokens_high_context": "5e-6",
+            "xai_responses:usage_guidelines_violation_fee": "0.05",
+            "xai_responses:cached_prompt_tokens_high_context": "0.4e-6"
+          },
+          "pricing_version_id": "2496ab03-0d31-4bb4-8ebc-ef10b5d4871d",
+          "is_hidden": false,
+          "is_private": false,
+          "is_byok_only": false,
+          "is_deranked": false,
+          "is_disabled": false,
+          "supports_tool_parameters": true,
+          "supports_reasoning": true,
+          "supports_multipart": true,
+          "limit_rpm": null,
+          "limit_rpd": null,
+          "limit_rpm_cf": null,
+          "has_completions": true,
+          "has_chat_completions": true,
+          "features": {
+            "supports_file_urls": true,
+            "supports_native_web_search": true,
+            "supports_tool_choice": {
+              "literal_none": true,
+              "literal_auto": true,
+              "literal_required": true,
+              "type_function": true
+            }
+          },
+          "supported_video_parameters": {},
+          "supported_image_parameters": null,
+          "provider_region": null,
+          "deprecation_date": null,
+          "allowed_passthrough_parameters": [],
+          "capacity_tpm": null,
+          "created_at": "2026-03-31T17:48:14.898Z",
+          "status": 0,
+          "status_heuristics": {
+            "success": 9904,
+            "derankableError": 6,
+            "rateLimited": 0
+          },
+          "status_heuristics_5m": {
+            "success": 1239,
+            "derankableError": 1,
+            "rateLimited": 0
+          },
+          "status_heuristics_1d": {
+            "success": 515189,
+            "derankableError": 2477,
+            "rateLimited": 189
+          }
+        }
+      },
+      "description": "",
+      "includeDefaultSystemPrompt": true,
+      "isStreaming": true,
+      "samplingParameters": {},
+      "chatMemory": 8,
+      "isDisabled": false,
+      "isRemoved": false,
+      "createdAt": "2026-07-16T13:28:11.524Z",
+      "updatedAt": "2026-07-16T13:28:11.524Z",
+      "reasoning": {
+        "enabled": true
+      },
+      "plugins": []
+    },
+    "char-1784208491-ryTyQatKTIfvSwovXOw2": {
+      "id": "char-1784208491-ryTyQatKTIfvSwovXOw2",
+      "model": "~openai/gpt-latest",
+      "modelInfo": {
+        "slug": "~openai/gpt-latest",
+        "hf_slug": null,
+        "updated_at": null,
+        "created_at": "2026-04-27T19:32:14.498Z",
+        "hf_updated_at": null,
+        "name": "OpenAI GPT Latest",
+        "short_name": "OpenAI GPT Latest",
+        "author": "openai",
+        "author_display_name": "OpenAI",
+        "description": "This model always redirects to the latest model in the OpenAI GPT family.",
+        "model_version_group_id": "c59971be-c6bc-4199-9192-95e9dc48cb9e",
+        "context_length": 1050000,
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "has_text_output": true,
+        "group": "Router",
+        "instruct_type": null,
+        "default_system": null,
+        "default_stops": [],
+        "hidden": false,
+        "router": null,
+        "warning_message": null,
+        "promotion_message": null,
+        "routing_error_message": null,
+        "is_private": false,
+        "permaslug": "~openai/gpt-latest",
+        "supports_reasoning": true,
+        "reasoning_config": {
+          "start_token": null,
+          "end_token": null,
+          "is_mandatory_reasoning": false,
+          "supports_reasoning_effort": true,
+          "supported_reasoning_efforts": [
+            "high",
+            "low",
+            "medium",
+            "none",
+            "xhigh",
+            "max"
+          ],
+          "default_reasoning_effort": "medium",
+          "default_reasoning_enabled": true
+        },
+        "features": {
+          "reasoning_config": {
+            "start_token": null,
+            "end_token": null,
+            "is_mandatory_reasoning": false,
+            "supports_reasoning_effort": true,
+            "supported_reasoning_efforts": [
+              "high",
+              "low",
+              "medium",
+              "none",
+              "xhigh",
+              "max"
+            ],
+            "default_reasoning_effort": "medium",
+            "default_reasoning_enabled": true
+          },
+          "chat_template_config": {}
+        },
+        "default_parameters": {
+          "temperature": null,
+          "top_p": null,
+          "top_k": null,
+          "frequency_penalty": null,
+          "presence_penalty": null,
+          "repetition_penalty": null
+        },
+        "default_order": [
+          "openai",
+          "azure"
+        ],
+        "quick_start_example_type": "reasoning",
+        "preview_thumbnail_url": null,
+        "is_trainable_text": null,
+        "is_trainable_image": null,
+        "knowledge_cutoff": "2026-02-16T00:00:00.000Z",
+        "limit_rpm": 0,
+        "limit_rpd": 0,
+        "supported_tts_voices": null,
+        "endpoint": {
+          "id": "tilde-latest-~openai/gpt-latest",
+          "name": "OpenAI | openai/gpt-5.6-sol-20260709",
+          "context_length": 1050000,
+          "model": {
+            "slug": "~openai/gpt-latest",
+            "hf_slug": null,
+            "updated_at": null,
+            "created_at": "2026-04-27T19:32:14.498Z",
+            "hf_updated_at": null,
+            "name": "OpenAI GPT Latest",
+            "short_name": "OpenAI GPT Latest",
+            "author": "openai",
+            "author_display_name": "OpenAI",
+            "description": "This model always redirects to the latest model in the OpenAI GPT family.",
+            "model_version_group_id": "c59971be-c6bc-4199-9192-95e9dc48cb9e",
+            "context_length": 1050000,
+            "input_modalities": [
+              "file",
+              "image",
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "has_text_output": true,
+            "group": "Router",
+            "instruct_type": null,
+            "default_system": null,
+            "default_stops": [],
+            "hidden": false,
+            "router": null,
+            "warning_message": null,
+            "promotion_message": null,
+            "routing_error_message": null,
+            "is_private": false,
+            "permaslug": "~openai/gpt-latest",
+            "supports_reasoning": true,
+            "reasoning_config": {
+              "start_token": null,
+              "end_token": null,
+              "is_mandatory_reasoning": false,
+              "supports_reasoning_effort": true,
+              "supported_reasoning_efforts": [
+                "high",
+                "low",
+                "medium",
+                "none",
+                "xhigh",
+                "max"
+              ],
+              "default_reasoning_effort": "medium",
+              "default_reasoning_enabled": true
+            },
+            "features": {
+              "reasoning_config": {
+                "start_token": null,
+                "end_token": null,
+                "is_mandatory_reasoning": false,
+                "supports_reasoning_effort": true,
+                "supported_reasoning_efforts": [
+                  "high",
+                  "low",
+                  "medium",
+                  "none",
+                  "xhigh",
+                  "max"
+                ],
+                "default_reasoning_effort": "medium",
+                "default_reasoning_enabled": true
+              },
+              "chat_template_config": {}
+            },
+            "default_parameters": {
+              "temperature": null,
+              "top_p": null,
+              "top_k": null,
+              "frequency_penalty": null,
+              "presence_penalty": null,
+              "repetition_penalty": null
+            },
+            "default_order": [
+              "openai",
+              "azure"
+            ],
+            "quick_start_example_type": "reasoning",
+            "preview_thumbnail_url": null,
+            "is_trainable_text": null,
+            "is_trainable_image": null,
+            "knowledge_cutoff": "2026-02-16T00:00:00.000Z",
+            "limit_rpm": 0,
+            "limit_rpd": 0,
+            "supported_tts_voices": null
+          },
+          "model_variant_slug": "~openai/gpt-latest",
+          "model_variant_permaslug": "~openai/gpt-latest",
+          "adapter_name": "OpenAIResponsesAdapter",
+          "provider_name": "OpenAI",
+          "provider_info": {
+            "name": "OpenAI",
+            "displayName": "OpenAI",
+            "slug": "openai",
+            "baseUrl": "https://api.openai.com/v1",
+            "dataPolicy": {
+              "training": false,
+              "trainingOpenRouter": false,
+              "retainsPrompts": true,
+              "canPublish": false,
+              "termsOfServiceURL": "https://openai.com/policies/row-terms-of-use/",
+              "privacyPolicyURL": "https://openai.com/policies/privacy-policy/",
+              "requiresUserIDs": true
+            },
+            "headquarters": "US",
+            "hasChatCompletions": true,
+            "hasCompletions": true,
+            "isAbortable": true,
+            "moderationRequired": true,
+            "editors": [
+              "{}"
+            ],
+            "owners": [
+              "{}"
+            ],
+            "adapterName": "OpenAIResponsesAdapter",
+            "statusPageUrl": "https://status.openai.com/",
+            "byokEnabled": true,
+            "icon": {
+              "url": "/images/icons/OpenAI.svg",
+              "className": "invert-0 dark:invert"
+            },
+            "sendClientIp": false,
+            "pricingStrategy": "openai_responses"
+          },
+          "provider_display_name": "OpenAI",
+          "provider_slug": "openai",
+          "provider_model_id": "gpt-5.6-sol",
+          "quantization": "unknown",
+          "variant": "standard",
+          "is_free": false,
+          "can_abort": true,
+          "max_prompt_tokens": 922000,
+          "max_completion_tokens": 128000,
+          "max_tokens_per_image": null,
+          "supported_parameters": [
+            "reasoning",
+            "include_reasoning",
+            "seed",
+            "max_tokens",
+            "response_format",
+            "structured_outputs",
+            "tools",
+            "tool_choice",
+            "max_completion_tokens"
+          ],
+          "excluded_parameters": [
+            "temperature",
+            "top_p"
+          ],
+          "is_byok": false,
+          "moderation_required": true,
+          "data_policy": {
+            "training": false,
+            "trainingOpenRouter": false,
+            "retainsPrompts": true,
+            "canPublish": false,
+            "termsOfServiceURL": "https://openai.com/policies/row-terms-of-use/",
+            "privacyPolicyURL": "https://openai.com/policies/privacy-policy/",
+            "requiresUserIDs": true
+          },
+          "pricing": {
+            "prompt": "0.000005",
+            "completion": "0.00003",
+            "input_cache_read": "0.0000005",
+            "input_cache_write": "0.00000625",
+            "web_search": "0.01",
+            "discount": 0,
+            "overrides": [
+              {
+                "min_prompt_tokens": 272000,
+                "prompt": "0.00001",
+                "completion": "0.000045",
+                "input_cache_read": "0.000001",
+                "input_cache_write": "0.0000125"
+              }
+            ],
+            "display_pricing": [
+              {
+                "kind": "token",
+                "sku_label": "Input Price",
+                "price": "5e-6",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens",
+                "tiers": [
+                  {
+                    "sku_label": "≤272K",
+                    "price": "5e-6"
+                  },
+                  {
+                    "sku_label": ">272K",
+                    "price": "10e-6"
+                  }
+                ]
+              },
+              {
+                "kind": "token",
+                "sku_label": "Output Price",
+                "price": "30e-6",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens",
+                "tiers": [
+                  {
+                    "sku_label": "≤272K",
+                    "price": "30e-6"
+                  },
+                  {
+                    "sku_label": ">272K",
+                    "price": "45e-6"
+                  }
+                ]
+              },
+              {
+                "kind": "token",
+                "sku_label": "Cache Read",
+                "price": "0.5e-6",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens",
+                "tiers": [
+                  {
+                    "sku_label": "≤272K",
+                    "price": "0.5e-6"
+                  },
+                  {
+                    "sku_label": ">272K",
+                    "price": "1e-6"
+                  }
+                ]
+              },
+              {
+                "kind": "token",
+                "sku_label": "Cache Write",
+                "price": "6.25e-6",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens",
+                "tiers": [
+                  {
+                    "sku_label": "≤272K",
+                    "price": "6.25e-6"
+                  },
+                  {
+                    "sku_label": ">272K",
+                    "price": "12.5e-6"
+                  }
+                ]
+              }
+            ]
+          },
+          "display_pricing": [
+            {
+              "kind": "token",
+              "sku_label": "Input Price",
+              "price": "5e-6",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens",
+              "tiers": [
+                {
+                  "sku_label": "≤272K",
+                  "price": "5e-6"
+                },
+                {
+                  "sku_label": ">272K",
+                  "price": "10e-6"
+                }
+              ]
+            },
+            {
+              "kind": "token",
+              "sku_label": "Output Price",
+              "price": "30e-6",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens",
+              "tiers": [
+                {
+                  "sku_label": "≤272K",
+                  "price": "30e-6"
+                },
+                {
+                  "sku_label": ">272K",
+                  "price": "45e-6"
+                }
+              ]
+            },
+            {
+              "kind": "token",
+              "sku_label": "Cache Read",
+              "price": "0.5e-6",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens",
+              "tiers": [
+                {
+                  "sku_label": "≤272K",
+                  "price": "0.5e-6"
+                },
+                {
+                  "sku_label": ">272K",
+                  "price": "1e-6"
+                }
+              ]
+            },
+            {
+              "kind": "token",
+              "sku_label": "Cache Write",
+              "price": "6.25e-6",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens",
+              "tiers": [
+                {
+                  "sku_label": "≤272K",
+                  "price": "6.25e-6"
+                },
+                {
+                  "sku_label": ">272K",
+                  "price": "12.5e-6"
+                }
+              ]
+            }
+          ],
+          "pricing_json": {
+            "openai_responses:prompt_tokens": "5e-6",
+            "openai_responses:web_search_calls": "0.01",
+            "openai_responses:completion_tokens": "30e-6",
+            "openai_responses:cache_write_tokens": "6.25e-6",
+            "openai_responses:cached_prompt_tokens": "0.5e-6",
+            "openai_responses:flex_tier_multiplier": "0.5",
+            "openai_responses:high_context_threshold": "272000",
+            "openai_responses:priority_tier_multiplier": "2",
+            "openai_responses:prompt_tokens_high_context": "10e-6",
+            "openai_responses:completion_tokens_high_context": "45e-6",
+            "openai_responses:cache_write_tokens_high_context": "12.5e-6",
+            "openai_responses:cached_prompt_tokens_high_context": "1e-6"
+          },
+          "pricing_version_id": "469c24cf-d5f7-428b-8e93-85dec4df8b79",
+          "is_hidden": false,
+          "is_private": false,
+          "is_byok_only": false,
+          "is_deranked": false,
+          "is_disabled": false,
+          "supports_tool_parameters": true,
+          "supports_reasoning": true,
+          "supports_multipart": true,
+          "limit_rpm": null,
+          "limit_rpd": null,
+          "limit_rpm_cf": null,
+          "has_completions": true,
+          "has_chat_completions": true,
+          "features": {
+            "supports_file_urls": true,
+            "supports_native_web_search": true,
+            "supports_native_apply_patch": true,
+            "supports_tool_choice": {
+              "literal_none": true,
+              "literal_auto": true,
+              "literal_required": true,
+              "type_function": true
+            }
+          },
+          "supported_video_parameters": null,
+          "supported_image_parameters": null,
+          "provider_region": null,
+          "deprecation_date": null,
+          "allowed_passthrough_parameters": [],
+          "capacity_tpm": null,
+          "created_at": "2026-07-08T19:30:02.541Z",
+          "routing_heuristics_by_tier": {
+            "flex": {
+              "request_count": 133,
+              "p50_throughput": 30,
+              "p50_latency": 11575,
+              "request_count_30_minutes": 133,
+              "p50_throughput_30_minutes": 30,
+              "p75_throughput_30_minutes": 46,
+              "p90_throughput_30_minutes": 63.599999999999994,
+              "p99_throughput_30_minutes": 85.36000000000001,
+              "p50_latency_30_minutes": 11575,
+              "p75_latency_30_minutes": 13368,
+              "p90_latency_30_minutes": 15870.599999999997,
+              "p99_latency_30_minutes": 30110.040000000023,
+              "request_count_5_minutes": 5,
+              "p50_throughput_5_minutes": 66,
+              "p75_throughput_5_minutes": 84,
+              "p90_throughput_5_minutes": 85.2,
+              "p99_throughput_5_minutes": 85.92,
+              "p50_latency_5_minutes": 14294,
+              "p75_latency_5_minutes": 27711,
+              "p90_latency_5_minutes": 29827.8,
+              "p99_latency_5_minutes": 31097.88,
+              "p50_throughput_2_hours": 25,
+              "effective_prompt_price": 0.000001884069,
+              "effective_completion_price": 0.000030305447,
+              "tool_finish_reason_request_success_rate": 0.9195161798847774,
+              "tool_calls_finish_reason_request_count": 69778
+            },
+            "priority": {
+              "request_count": 182,
+              "p50_throughput": 32,
+              "p50_latency": 2376.5,
+              "request_count_30_minutes": 182,
+              "p50_throughput_30_minutes": 32,
+              "p75_throughput_30_minutes": 69.75,
+              "p90_throughput_30_minutes": 82,
+              "p99_throughput_30_minutes": 121.89999999999998,
+              "p50_latency_30_minutes": 2376.5,
+              "p75_latency_30_minutes": 4587.25,
+              "p90_latency_30_minutes": 7927.800000000003,
+              "p99_latency_30_minutes": 14478.069999999989,
+              "request_count_5_minutes": 33,
+              "p50_throughput_5_minutes": 30,
+              "p75_throughput_5_minutes": 53,
+              "p90_throughput_5_minutes": 75.6,
+              "p99_throughput_5_minutes": 128.88,
+              "p50_latency_5_minutes": 2114,
+              "p75_latency_5_minutes": 2593,
+              "p90_latency_5_minutes": 4702.4,
+              "p99_latency_5_minutes": 11104.279999999999,
+              "p50_throughput_2_hours": 40,
+              "effective_prompt_price": 0.000001884069,
+              "effective_completion_price": 0.000030305447,
+              "tool_finish_reason_request_success_rate": 0.9195161798847774,
+              "tool_calls_finish_reason_request_count": 69778
+            }
+          },
+          "status": 0,
+          "status_heuristics": {
+            "success": 31955,
+            "derankableError": 821,
+            "rateLimited": 0
+          },
+          "status_heuristics_5m": {
+            "success": 3488,
+            "derankableError": 73,
+            "rateLimited": 0
+          },
+          "status_heuristics_1d": {
+            "success": 840954,
+            "derankableError": 97941,
+            "rateLimited": 0
+          }
+        }
+      },
+      "description": "",
+      "includeDefaultSystemPrompt": true,
+      "isStreaming": true,
+      "samplingParameters": {},
+      "chatMemory": 8,
+      "isDisabled": false,
+      "isRemoved": false,
+      "createdAt": "2026-07-16T13:28:11.524Z",
+      "updatedAt": "2026-07-16T13:28:11.524Z",
+      "reasoning": {
+        "enabled": true
+      },
+      "plugins": []
+    }
+  },
+  "messages": {
+    "msg-1784208517-uTHdb0wbX24CcBf23ANn": {
+      "id": "msg-1784208517-uTHdb0wbX24CcBf23ANn",
+      "characterId": "USER",
+      "contentType": "text",
+      "context": "main-chat",
+      "createdAt": "2026-07-16T13:28:37.871Z",
+      "updatedAt": "2026-07-16T13:28:37.871Z",
+      "isRetrying": false,
+      "isEdited": false,
+      "isCollapsed": false,
+      "type": "user",
+      "items": [
+        {
+          "id": "item-1784208517-g9JcSvqyswwL4AMqAHzG",
+          "type": "message"
+        }
+      ]
+    },
+    "msg-1784208517-OdzVk6YxrHnzVY72l0iy": {
+      "id": "msg-1784208517-OdzVk6YxrHnzVY72l0iy",
+      "characterId": "char-1784208491-9j90cTZRrT9gX2I8Zp3f",
+      "contentType": "text",
+      "context": "main-chat",
+      "parentMessageId": "msg-1784208517-uTHdb0wbX24CcBf23ANn",
+      "createdAt": "2026-07-16T13:28:37.872Z",
+      "updatedAt": "2026-07-16T13:29:06.218Z",
+      "isRetrying": false,
+      "isEdited": false,
+      "isCollapsed": false,
+      "type": "assistant",
+      "isGenerating": false,
+      "metadata": {
+        "plugins": [],
+        "variantSlug": "google/gemini-3.1-pro-preview",
+        "serverTools": {
+          "webSearchEngine": "auto",
+          "webFetchEngine": "auto"
+        },
+        "generationId": "gen-1784208518-MpMiruzQKNGqkhCQrVhW",
+        "duration": 17839,
+        "tokensCount": 1780,
+        "tokensPerSecond": 99.78137787992601,
+        "cost": "0.02179188",
+        "routerMetadata": {
+          "requested": "~google/gemini-pro-latest",
+          "strategy": "latest",
+          "region": "GRU",
+          "summary": "strategy=latest, available=2, selected=Google",
+          "attempt": 1,
+          "is_byok": false,
+          "endpoints": {
+            "total": 2,
+            "available": [
+              {
+                "provider": "Google",
+                "model": "google/gemini-3.1-pro-preview-20260219",
+                "selected": true
+              },
+              {
+                "provider": "Google AI Studio",
+                "model": "google/gemini-3.1-pro-preview-20260219",
+                "selected": false
+              }
+            ]
+          },
+          "pipeline": [
+            {
+              "type": "plugin",
+              "name": "latest-router",
+              "summary": "Resolved ~google/gemini-pro-latest to google/gemini-3.1-pro-preview-20260219",
+              "data": {
+                "resolved_to": "google/gemini-3.1-pro-preview-20260219",
+                "alias": "~google/gemini-pro-latest"
+              }
+            },
+            {
+              "type": "server_tools",
+              "name": "server-tools",
+              "summary": "Server tools invoked (sdk): openrouter:web_search, openrouter:web_fetch",
+              "data": {
+                "mode": "sdk",
+                "tools": [
+                  "openrouter:web_search",
+                  "openrouter:web_fetch"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "items": [
+        {
+          "id": "rs_tmp_1sprsugeixk",
+          "outputIndex": 0,
+          "type": "reasoning",
+          "sequenceIndex": 0
+        },
+        {
+          "id": "msg_tmp_wla2unpm4v",
+          "outputIndex": 1,
+          "type": "message",
+          "sequenceIndex": 1
+        }
+      ]
+    },
+    "msg-1784208517-3yvYLfQsTead5FP2Nmmn": {
+      "id": "msg-1784208517-3yvYLfQsTead5FP2Nmmn",
+      "characterId": "char-1784208491-nIa6NNMwAhY6ekB3TESN",
+      "contentType": "text",
+      "context": "main-chat",
+      "parentMessageId": "msg-1784208517-uTHdb0wbX24CcBf23ANn",
+      "createdAt": "2026-07-16T13:28:37.873Z",
+      "updatedAt": "2026-07-16T13:29:00.835Z",
+      "isRetrying": false,
+      "isEdited": false,
+      "isCollapsed": false,
+      "type": "assistant",
+      "isGenerating": false,
+      "metadata": {
+        "plugins": [],
+        "variantSlug": "anthropic/claude-opus-4.8",
+        "serverTools": {
+          "webSearchEngine": "auto",
+          "webFetchEngine": "auto"
+        },
+        "generationId": "gen-1784208518-t6NqAYYl7vg2QUZWWTSb",
+        "duration": 18151,
+        "tokensCount": 1052,
+        "tokensPerSecond": 57.95823921547022,
+        "cost": "0.0621522",
+        "routerMetadata": {
+          "requested": "~anthropic/claude-opus-latest",
+          "strategy": "latest",
+          "region": "GRU",
+          "summary": "strategy=latest, available=10, selected=Anthropic",
+          "attempt": 1,
+          "is_byok": false,
+          "endpoints": {
+            "total": 14,
+            "available": [
+              {
+                "provider": "Anthropic",
+                "model": "anthropic/claude-4.8-opus-20260528",
+                "selected": true
+              },
+              {
+                "provider": "Amazon Bedrock",
+                "model": "anthropic/claude-4.8-opus-20260528",
+                "selected": false
+              },
+              {
+                "provider": "Google",
+                "model": "anthropic/claude-4.8-opus-20260528",
+                "selected": false
+              },
+              {
+                "provider": "Anthropic",
+                "model": "anthropic/claude-4.8-opus-20260528",
+                "selected": false
+              },
+              {
+                "provider": "Azure",
+                "model": "anthropic/claude-4.8-opus-20260528",
+                "selected": false
+              },
+              {
+                "provider": "Anthropic",
+                "model": "anthropic/claude-4.7-opus-20260416",
+                "selected": false
+              },
+              {
+                "provider": "Amazon Bedrock",
+                "model": "anthropic/claude-4.7-opus-20260416",
+                "selected": false
+              },
+              {
+                "provider": "Google",
+                "model": "anthropic/claude-4.7-opus-20260416",
+                "selected": false
+              },
+              {
+                "provider": "Anthropic",
+                "model": "anthropic/claude-4.7-opus-20260416",
+                "selected": false
+              },
+              {
+                "provider": "Azure",
+                "model": "anthropic/claude-4.7-opus-20260416",
+                "selected": false
+              }
+            ]
+          },
+          "pipeline": [
+            {
+              "type": "plugin",
+              "name": "latest-router",
+              "summary": "Resolved ~anthropic/claude-opus-latest to anthropic/claude-4.8-opus-20260528",
+              "data": {
+                "resolved_to": "anthropic/claude-4.8-opus-20260528",
+                "alias": "~anthropic/claude-opus-latest"
+              }
+            },
+            {
+              "type": "server_tools",
+              "name": "server-tools",
+              "summary": "Server tools invoked (native): openrouter:web_search, openrouter:web_fetch",
+              "data": {
+                "mode": "native",
+                "tools": [
+                  "openrouter:web_search",
+                  "openrouter:web_fetch"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "items": [
+        {
+          "id": "rs_tmp_ryp2tz3eiy",
+          "outputIndex": 0,
+          "type": "reasoning",
+          "sequenceIndex": 0
+        },
+        {
+          "id": "msg_tmp_pfe4nycffhg",
+          "outputIndex": 1,
+          "type": "message",
+          "sequenceIndex": 1
+        }
+      ]
+    },
+    "msg-1784208517-WcRZjbRWMEO8f5lkPn8K": {
+      "id": "msg-1784208517-WcRZjbRWMEO8f5lkPn8K",
+      "characterId": "char-1784208491-7aItJt8KgdTDQDyIeMZb",
+      "contentType": "text",
+      "context": "main-chat",
+      "parentMessageId": "msg-1784208517-uTHdb0wbX24CcBf23ANn",
+      "createdAt": "2026-07-16T13:28:37.874Z",
+      "updatedAt": "2026-07-16T13:28:54.954Z",
+      "isRetrying": false,
+      "isEdited": false,
+      "isCollapsed": false,
+      "type": "assistant",
+      "isGenerating": false,
+      "metadata": {
+        "plugins": [],
+        "variantSlug": "x-ai/grok-4.20",
+        "serverTools": {
+          "webSearchEngine": "auto",
+          "webFetchEngine": "auto"
+        },
+        "generationId": "gen-1784208518-3xrljbvvKsV08b9zPEu0",
+        "duration": 6575,
+        "tokensCount": 2033,
+        "tokensPerSecond": 309.2015209125475,
+        "cost": "0.005616369",
+        "routerMetadata": {
+          "requested": "x-ai/grok-4.20",
+          "strategy": "direct",
+          "region": "GRU",
+          "summary": "available=2, selected=xAI",
+          "attempt": 1,
+          "is_byok": false,
+          "endpoints": {
+            "total": 2,
+            "available": [
+              {
+                "provider": "xAI",
+                "model": "x-ai/grok-4.20-20260309",
+                "selected": true
+              },
+              {
+                "provider": "xAI",
+                "model": "x-ai/grok-4.20-20260309",
+                "selected": false
+              }
+            ]
+          },
+          "pipeline": [
+            {
+              "type": "server_tools",
+              "name": "server-tools",
+              "summary": "Server tools invoked (sdk): openrouter:web_search, openrouter:web_fetch",
+              "data": {
+                "mode": "sdk",
+                "tools": [
+                  "openrouter:web_search",
+                  "openrouter:web_fetch"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "items": [
+        {
+          "id": "rs_517a4cb2-38bf-9103-86a8-087fd3e1d2bb",
+          "outputIndex": 0,
+          "type": "reasoning",
+          "sequenceIndex": 0
+        },
+        {
+          "id": "msg_tmp_sf15qroos2s",
+          "outputIndex": 1,
+          "type": "message",
+          "sequenceIndex": 1
+        }
+      ]
+    },
+    "msg-1784208517-arGcncJHA15ahYeKjPo9": {
+      "id": "msg-1784208517-arGcncJHA15ahYeKjPo9",
+      "characterId": "char-1784208491-ryTyQatKTIfvSwovXOw2",
+      "contentType": "text",
+      "context": "main-chat",
+      "parentMessageId": "msg-1784208517-uTHdb0wbX24CcBf23ANn",
+      "createdAt": "2026-07-16T13:28:37.875Z",
+      "updatedAt": "2026-07-16T13:29:00.374Z",
+      "isRetrying": false,
+      "isEdited": false,
+      "isCollapsed": false,
+      "type": "assistant",
+      "isGenerating": false,
+      "metadata": {
+        "plugins": [],
+        "variantSlug": "openai/gpt-5.6-sol",
+        "serverTools": {
+          "webSearchEngine": "auto",
+          "webFetchEngine": "auto"
+        },
+        "generationId": "gen-1784208518-kawHE0Bfl3bRT3yZNo8L",
+        "duration": 11991,
+        "tokensCount": 493,
+        "tokensPerSecond": 41.11416896005338,
+        "cost": "0.0160875",
+        "routerMetadata": {
+          "requested": "~openai/gpt-latest",
+          "strategy": "latest",
+          "region": "GRU",
+          "summary": "strategy=latest, available=4, selected=OpenAI",
+          "attempt": 1,
+          "is_byok": false,
+          "endpoints": {
+            "total": 6,
+            "available": [
+              {
+                "provider": "OpenAI",
+                "model": "openai/gpt-5.6-sol-20260709",
+                "selected": true
+              },
+              {
+                "provider": "Azure",
+                "model": "openai/gpt-5.6-sol-20260709",
+                "selected": false
+              },
+              {
+                "provider": "OpenAI",
+                "model": "openai/gpt-5.5-20260423",
+                "selected": false
+              },
+              {
+                "provider": "Azure",
+                "model": "openai/gpt-5.5-20260423",
+                "selected": false
+              }
+            ]
+          },
+          "pipeline": [
+            {
+              "type": "plugin",
+              "name": "latest-router",
+              "summary": "Resolved ~openai/gpt-latest to openai/gpt-5.6-sol-20260709",
+              "data": {
+                "resolved_to": "openai/gpt-5.6-sol-20260709",
+                "alias": "~openai/gpt-latest"
+              }
+            },
+            {
+              "type": "server_tools",
+              "name": "server-tools",
+              "summary": "Server tools invoked (sdk): openrouter:web_search, openrouter:web_fetch",
+              "data": {
+                "mode": "sdk",
+                "tools": [
+                  "openrouter:web_search",
+                  "openrouter:web_fetch"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "items": [
+        {
+          "id": "rs_0f01a4b3ef7b82aa016a58dc8a38ec819395e680df561b9b52",
+          "outputIndex": 0,
+          "type": "reasoning",
+          "sequenceIndex": 0
+        },
+        {
+          "id": "msg_tmp_k5k50sibr5c",
+          "outputIndex": 1,
+          "type": "message",
+          "sequenceIndex": 1
+        }
+      ]
+    }
+  },
+  "items": {
+    "item-1784208517-g9JcSvqyswwL4AMqAHzG": {
+      "id": "item-1784208517-g9JcSvqyswwL4AMqAHzG",
+      "messageId": "msg-1784208517-uTHdb0wbX24CcBf23ANn",
+      "data": {
+        "type": "message",
+        "role": "user",
+        "content": [
+          {
+            "type": "input_text",
+            "text": "Nossa equipe vai receber dois convidados estrangeiros na universidade agora em julho. Gostaríamos de oferecer lanches e bebidas durante o intervalo. Por favor, sugira um cardápio para que eu possa repassar ao grupo responsável pela organização."
+          }
+        ]
+      }
+    },
+    "rs_tmp_1sprsugeixk": {
+      "id": "rs_tmp_1sprsugeixk",
+      "messageId": "msg-1784208517-OdzVk6YxrHnzVY72l0iy",
+      "data": {
+        "id": "rs_tmp_1sprsugeixk",
+        "type": "reasoning",
+        "status": "completed",
+        "content": [
+          {
+            "type": "reasoning_text",
+            "text": "**Defining the Scope**\n\nI'm zeroing in on defining the scope: snacks and drinks for two foreign university guests in July. I'm considering cultural sensitivities and dietary needs. I want to create a menu that is refreshing, yet respectful and caters to preferences. My aim is to create a menu that's considerate of foreign palates.\n\n\n**Analyzing the Constraints**\n\nI've been analyzing the constraints, noting the key aspects like the foreign audience, the Brazilian location, and the university setting. July's winter calls for warm beverages. I'm thinking about menu categories: bebidas (drinks), salgados (savory snacks), and doces (sweets). A clear understanding of the constraints helps with a refined approach. I'm keen on asking the guests about dietary needs.\n\n\n**Refining the Structure**\n\nI'm now refining the structure of the response. I have finalized the structure: a greeting, menu suggestions (Bebidas, Salgados, Doces, Frutas), and a tips section about allergies and logistics. The suggestions are a balanced mix of international and Brazilian items. I'm focusing on making it concise and easy to navigate for my audience.\n\n\n**Defining the Scope**\n\nI'm zeroing in on defining the scope: snacks and drinks for two foreign university guests in July. I'm considering cultural sensitivities and dietary needs. I want to create a menu that is refreshing, yet respectful and caters to preferences. My aim is to create a menu that's considerate of foreign palates.\n\n\n**Analyzing the Constraints**\n\nI've been analyzing the constraints, noting the key aspects like the foreign audience, the Brazilian location, and the university setting. July's winter calls for warm beverages. I'm thinking about menu categories: bebidas (drinks), salgados (savory snacks), and doces (sweets). A clear understanding of the constraints helps with a refined approach. I'm keen on asking the guests about dietary needs.\n\n\n**Refining the Structure**\n\nI'm now refining the structure of the response. I have finalized the structure: a greeting, menu suggestions (Bebidas, Salgados, Doces, Frutas), and a tips section about allergies and logistics. The suggestions are a balanced mix of international and Brazilian items. I'm focusing on making it concise and easy to navigate for my audience.\n\n\n"
+          }
+        ],
+        "summary": []
+      }
+    },
+    "msg_tmp_wla2unpm4v": {
+      "id": "msg_tmp_wla2unpm4v",
+      "messageId": "msg-1784208517-OdzVk6YxrHnzVY72l0iy",
+      "data": {
+        "id": "msg_tmp_wla2unpm4v",
+        "type": "message",
+        "status": "completed",
+        "role": "assistant",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Receber convidados estrangeiros é uma excelente oportunidade para apresentar um pouco da nossa cultura, ao mesmo tempo em que se oferece opções clássicas e seguras para agradar a todos. Como julho costuma ter temperaturas mais amenas no Brasil, bebidas quentes são muito bem-vindas.\n\nAqui está uma sugestão de cardápio, equilibrando itens práticos de comer em pé, sabores locais (que estrangeiros adoram provar) e clássicos internacionais:\n\n### ☕ Bebidas\n*   **Café brasileiro:** Indispensável em ambiente universitário. Deixe o açúcar e o adoçante à parte (estrangeiros muitas vezes preferem sem açúcar ou estão menos acostumados com o café já adoçado).\n*   **Seleção de Chás:** Água quente em uma garrafa térmica com saquinhos de chás variados (camomila, hortelã, chá preto/verde). É uma opção segura para quem não bebe café.\n*   **Sucos Naturais:** Duas opções são o ideal. Sugiro um clássico (como laranja) e um mais tropical e representativo do Brasil (como goiaba, manga ou maracujá).\n*   **Água Mineral:** Com e sem gás. Adicionar rodelas de limão ou folhas de hortelã na água sem gás dá um toque de elegância.\n\n### 🧀 Salgados\n*   **Mini Pães de Queijo:** Geralmente é o petisco favorito dos estrangeiros no Brasil. Sirva quentinho, se possível!\n*   **Mini Sanduíches (Finger sandwiches):** \n    *   Opção 1: Peito de peru com queijo branco ou requeijão.\n    *   Opção 2 (Vegetariana): Pasta de grão-de-bico (homus) com cenoura ralada ou tomate e manjericão.\n*   **Salgados Assados Práticos:** Mini empadinhas de palmito (ótimo para introduzir um ingrediente típico) ou mini quiches de alho-poró. Evite frituras muito pesadas de manhã ou no meio da tarde.\n\n### 🍰 Doces e Frutas\n*   **Bolo Caseiro Simples:** Fatias pequenas e fáceis de pegar com guardanapo. Um tradicional **Bolo de Cenoura com cobertura de chocolate** ou um **Bolo de Fubá/Laranja** são excelentes.\n*   **Espetinhos de Frutas Tropicais:** Em vez da salada de frutas tradicional, que exige potinhos e colheres, espetinhos com uva, morango, manga e mamão são muito fáceis de comer em pé e apresentam nossas frutas com estilo.\n*   **Toque Brasileiro (Opcional):** Docinhos pequenos como mini brigadeiros ou quadradinhos de goiabada chamam a atenção e costumam render bons assuntos e sorrisos.\n\n---\n\n<details>\n<summary><b>Dicas Importantes para Organização (Clique para expandir)</b></summary>\n\n*   **Restrições Alimentares:** Antes de fechar o pedido, é fundamental perguntar aos convidados se eles possuem alguma restrição (alergia a glúten, castanhas, intolerância à lactose, ou se são veganos/vegetarianos).\n*   **Logística:** Dê preferência a \"finger foods\" (comidas que podem ser consumidas com as mãos em uma a duas mordidas), pois em intervalos universitários as pessoas costumam comer de pé enquanto conversam.\n*   **Itens de mesa:** Não se esqueça de providenciar guardanapos de papel de boa qualidade, copos (para café, água e suco), pratinhos pequenos, além de palitos ou mini garfinhos caso seja necessário para pegar frutas ou bolo.\n*   **Identificação:** Se possível, coloque pequenas plaquinhas (em inglês e português) na frente dos alimentos, principalmente os típicos. Ex: *Pão de Queijo (Brazilian Cheese Bread)* ou *Bolo de Fubá (Cornmeal Cake)*. Isso demonstra cuidado e ajuda na quebra de gelo cultural!\n</details>\n\nEspero que o evento na universidade seja um sucesso! Se precisar ajustar o cardápio para um horário específico da manhã ou da tarde, fique à vontade para pedir mais sugestões.",
+            "annotations": [],
+            "logprobs": []
+          }
+        ]
+      }
+    },
+    "rs_tmp_ryp2tz3eiy": {
+      "id": "rs_tmp_ryp2tz3eiy",
+      "messageId": "msg-1784208517-3yvYLfQsTead5FP2Nmmn",
+      "data": {
+        "id": "rs_tmp_ryp2tz3eiy",
+        "type": "reasoning",
+        "status": "completed",
+        "content": [
+          {
+            "type": "reasoning_text",
+            "text": "O usuário está pedindo uma sugestão de menu com lanches e bebidas para dois visitantes estrangeiros na universidade em julho. Como é inverno no Brasil nessa época, vou considerar isso ao sugerir um menu apropriado em português."
+          }
+        ],
+        "summary": [],
+        "signature": "ErQECokBCA8YAipAXzAH+swI01LTnAQptejMa39rbMG/1HhNNxb163GNs27yIh0eTePL/1khmgIchHfI7mo71YAU9rGiXgCaDZZgUDIPY2xhdWRlLW9wdXMtNC04OABCCHRoaW5raW5nWiQ0YzBmMDQ2Zi0yNWZkLTQ1ZmItYmZiMy1hMDhhOGUyNDljYTcSDL+bBMp7aw+uJ5ySIxoMT7D60lLQbm+Gm9vgIjBpdPKbm1MzKKY2jTXFATFMtmwZ6tVEXyh4rlFZhDH09/M/Se4ztJ3kPfQKnDFx2bUq1wIv7ShiWuygsCSF2qK6zNGab5QmHxkri2ylLUaoKlpEYiDbVwS3CHNbggW6wHZ4MAZcb0Zoby3IQYZEtT02t0Ck0V4NFvR47+Sz21qLCiqaz5L2mgIbPx8bFasdQ06wUEuSmwG7wOpXjNBZlv0EssOMgACySOcL/bcMQtX6SAqz1OcE8l5tG8M22scfsdCCcIp68PuX7PH6YItLssGVg5RUVJuAtxojGIGSg59EeVaLDQaFhZPTJYsHPEy7lV+PyxYVJURd01+TYqpLjpZ/fHouF7D1w7Dtyl1BYN4i6hwOpMOkFNyQf7VH/w0JXw2+pfDT2F6bNcl0uT4KWXqZqtygFFpEB28f5XwcrfW1wto4Zrxtdebt+NMLYqKmiZdJQLSORig0UnIjRpaejW0zzhWzU7rHaGayf6LCnTRymc+qI7qn/4mgS7BrPg5uvBYEBaL5a9TzmW8PGAE=",
+        "format": "anthropic-claude-v1"
+      }
+    },
+    "msg_tmp_pfe4nycffhg": {
+      "id": "msg_tmp_pfe4nycffhg",
+      "messageId": "msg-1784208517-3yvYLfQsTead5FP2Nmmn",
+      "data": {
+        "id": "msg_tmp_pfe4nycffhg",
+        "type": "message",
+        "status": "completed",
+        "role": "assistant",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Que ótima iniciativa! Receber convidados com um bom intervalo é sempre um gesto de hospitalidade muito bem-visto. Como estamos em **julho** (inverno no Brasil), vale apostar em opções que combinem com o clima mais frio, além de incluir alternativas que agradem paladares internacionais. Segue uma sugestão de cardápio que você pode repassar à equipe organizadora:\n\n## ☕ Bebidas\n\n**Quentes (ideais para o inverno)**\n- Café coado e/ou espresso (indispensável em recepções no Brasil)\n- Chá variado (preto, verde, camomila, hortelã)\n- Chocolate quente\n- Leite e opção de leite vegetal (para intolerantes/veganos)\n\n**Frias**\n- Água (com e sem gás)\n- Sucos naturais (laranja, uva, abacaxi com hortelã)\n- Refrigerantes (incluindo versões *zero*)\n\n## 🥐 Salgados\n\n- Pão de queijo (um clássico brasileiro que costuma agradar estrangeiros!)\n- Mini quiches (queijo, alho-poró, tomate seco)\n- Coxinhas ou esfihas em porções pequenas\n- Sanduíches variados (frango, queijo/presunto, e uma opção vegetariana)\n- Tábua de queijos e frios com torradas\n\n## 🍰 Doces\n\n- Brigadeiro e beijinho (ótimos como \"cartão de visitas\" da culinária brasileira)\n- Mini bolos ou fatias de bolo (laranja, cenoura com chocolate, fubá)\n- Frutas frescas da estação (a laranja, morango e maçã são boas opções em julho)\n- Biscoitos e cookies\n\n## 📋 Recomendações práticas\n\n- **Restrições alimentares:** Se possível, pergunte previamente aos convidados sobre alergias ou preferências (vegetariano, vegano, sem glúten, restrições religiosas). Isso demonstra cuidado e evita imprevistos.\n- **Toque brasileiro:** Vale destacar itens típicos (pão de queijo, brigadeiro, café), pois costumam ser uma experiência cultural interessante para visitantes estrangeiros.\n- **Praticidade:** Prefira porções individuais e itens fáceis de servir, já que é um intervalo.\n- **Identificação:** Pequenas plaquinhas com o nome dos itens (em português e inglês) ajudam bastante os convidados.\n\nSe quiser, posso adaptar esse cardápio para um **número específico de pessoas**, ajustar ao **orçamento disponível**, ou até prepará-lo em formato de **tabela pronta para envio** ao grupo responsável. É só me avisar! 😊",
+            "annotations": [],
+            "logprobs": []
+          }
+        ]
+      }
+    },
+    "rs_517a4cb2-38bf-9103-86a8-087fd3e1d2bb": {
+      "id": "rs_517a4cb2-38bf-9103-86a8-087fd3e1d2bb",
+      "messageId": "msg-1784208517-WcRZjbRWMEO8f5lkPn8K",
+      "data": {
+        "id": "rs_517a4cb2-38bf-9103-86a8-087fd3e1d2bb",
+        "type": "reasoning",
+        "status": "completed",
+        "summary": [
+          {
+            "type": "summary_text",
+            "text": "The question is in Portuguese: \"Nossa equipe vai receber dois convidados estrangeiros na universidade agora em julho. Gostaríamos de oferecer lanches e bebidas durante o intervalo. Por favor, sugira u...First, the user is asking in Portuguese, so I should respond in Portuguese to match.\n\nThe query is about suggesting a cardápio (menu) for snacks and drinks during a break for two foreign guests in July at university.\n\nKey: Casual snacks and beverages. Since it's July in Brazil (winter), suggest something seasonal - warm drinks preferred.\n\nStructure the response as a menu suggestion.\n\nInclude:\n\n- Drinks: Café, chá, sucos, água, refrigerantes, talvez chá mate."
+          }
+        ],
+        "encrypted_content": "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",
+        "format": "xai-responses-v1"
+      }
+    },
+    "msg_tmp_sf15qroos2s": {
+      "id": "msg_tmp_sf15qroos2s",
+      "messageId": "msg-1784208517-WcRZjbRWMEO8f5lkPn8K",
+      "data": {
+        "id": "msg_tmp_sf15qroos2s",
+        "type": "message",
+        "status": "completed",
+        "role": "assistant",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "**✅ Sugestão de Cardápio – Intervalo com Visitantes Estrangeiros**\n\nAqui está uma proposta **elegante, balanceada e prática** para receber dois convidados internacionais na universidade em julho (inverno). O cardápio mistura itens típicos brasileiros com opções mais neutras/internacionais, priorizando qualidade, facilidade de consumo (finger food) e variedade.\n\n---\n\n### **🍽 CARDÁPIO SUGERIDO**\n\n### **Bebidas (Coffee & Refreshment Station)**\n\n**Quentes (recomendado por ser julho):**\n- Café (Americano, Espresso e Descafeinado)\n- Cappuccino / Latte\n- Chá preto, chá verde e chá de camomila\n- Chocolate quente (pequena jarra)\n\n**Frias:**\n- Água com e sem gás (garrafinhas individuais)\n- Suco natural de laranja e de maracujá\n- Guaraná Antártica e Coca-Cola (latas mini)\n- Água de coco (opcional – muito bem visto por estrangeiros)\n\n---\n\n### **Salgados (Savory Snacks)**\n\n**Opções Brasileiras:**\n- Pão de queijo (quente) → **item obrigatório**\n- Mini coxinha de frango catupiry\n- Empadinha de palmito (vegetariana)\n- Bolinho de bacalhau (pequeno)\n\n**Opções Internacionais / Neutras:**\n- Mini sanduíches (pão de forma ou baguete):\n  - Presunto + queijo + rúcula\n  - Queijo brie com geleia de damasco\n  - Atum com cream cheese\n  - Caprese (tomate, muçarela de búfala e manjericão) – vegetariano\n- Tabule de queijos brasileiros (Canastra, Minas meia-cura) com nozes, uvas e crackers\n- Palitos de legumes (cenoura, pepino, aipo) com dip de cream cheese ou homus\n\n---\n\n### **Doces / Sobremesas**\n\n- Brigadeiro gourmet (tradicional e de pistache ou Nutella)\n- Brownie com nozes (cortado em cubos pequenos)\n- Mini cookie de chocolate e de aveia com passas\n- Frutas frescas da estação (morango, uva, abacaxi e manga cortados)\n\n**Opcional (muito apreciado por estrangeiros):**\n- Mini pavlova de maracujá ou mini cheesecake de limão\n\n---\n\n### **Montagem Sugerida**\n\n1. **Coffee Station** (mesa separada): Cafeteira térmica, chaleira elétrica, xícaras bonitas, sachês de açúcar, adoçante, canela e chocolate em pó.\n2. **Mesa principal de finger food**: Alternar pratos quentes e frios, com plaquinhas pequenas identificando os itens (muito útil para estrangeiros).\n3. **Mesinha de doces e frutas** separada.\n\n---\n\n### **Dicas Importantes**\n\n- **Quantidade**: Como são apenas dois convidados + equipe, não precisa de grandes quantidades. Prefira **qualidade e apresentação** (use louça bonita ou travessas de madeira/bambu).\n- **Restrições alimentares**: Envie o cardápio com antecedência aos convidados e pergunte sobre alergias (glúten, lactose, frutos do mar, vegetariano, etc.).\n- **Itens que mais agradam estrangeiros**: Pão de queijo, queijos brasileiros, brigadeiro, sucos naturais e frutas.\n- **Itens que costumam surpreender negativamente**: Evite demais coxinha grande, rissole de carne moída ou coisas muito fritas/oleosas.\n\n---\n\n### **Versão Compacta para Repassar ao Time**\n\n**Cardápio – Intervalo com Visitantes Estrangeiros (Julho/2026)**\n\n**Bebidas:** Café (vários tipos), chás, chocolate quente, sucos naturais (laranja e maracujá), água com e sem gás, refrigerantes mini.\n\n**Salgados:** \n- Pão de queijo \n- Mini coxinha \n- Empadinha de palmito \n- Mini sanduíches (Caprese, brie com damasco, presunto e queijo)\n- Tabule de queijos brasileiros com nuts e frutas\n\n**Doces:** Brigadeiro gourmet, brownie, cookies, frutas frescas e mini cheesecake (opcional).\n\nQuer que eu ajuste o cardápio para algum foco específico? Por exemplo:\n- Versão mais econômica\n- Mais vegetariana/vegana\n- Mais sofisticada (para reitoria)\n- Com tema mais brasileiro\n\nPosso adaptar conforme sua necessidade.",
+            "annotations": [],
+            "logprobs": []
+          }
+        ]
+      }
+    },
+    "rs_0f01a4b3ef7b82aa016a58dc8a38ec819395e680df561b9b52": {
+      "id": "rs_0f01a4b3ef7b82aa016a58dc8a38ec819395e680df561b9b52",
+      "messageId": "msg-1784208517-arGcncJHA15ahYeKjPo9",
+      "data": {
+        "id": "rs_0f01a4b3ef7b82aa016a58dc8a38ec819395e680df561b9b52",
+        "type": "reasoning",
+        "status": "completed",
+        "summary": [
+          {
+            "type": "summary_text",
+            "text": "**Planning a menu for July**\n\nI need to provide answers in Portuguese while considering the dietary restrictions of potential foreign guests. It seems this could be for a university event in Brazil. I should suggest a practical menu with savory options, sweets, fruits, and drinks, all clearly labeled. Since there are two guests but the group size is unknown, I'll think about quantities per person. Since it's July, I'll need to consider the weather, which might vary by region."
+          }
+        ],
+        "encrypted_content": "gAAAAABqWNyP1QYxOYk4nvl9zGdrydFPL0_G7kqYaYSlfK6EieAe6KJpdyYRh33XkRSdglKOkIGUIZt6tzuxfLmRc7UQUZGWKnlPziA1b8kSEBKmulZ-JrlTvkhdoReG0D1-kqCz2BXGx2QsZIVb_ztdY7wTdXkW7hrD_eHGZiSgHEGr68YE0a1EEYTT8GKeBOjo0r1OvnZ7b1As9XPNWlLSAzPW29IMJnGvzS95yK73ZWz5AQQ1my-czP_quvVbl6hRg7Fhqfx9qy9bIT9ruNwq2T_onlkPUdVbhmvp9OjXgvjrxiM8w19B0LEPn7EWZDmpKsIwOnUbh34K4jkKKdwySQ5QV03pHpJFhIl2xUoSX2vyeN_G_i8VLH0U5_hEkxaoRVCHEaBUXBSkslVeRpzxVJTZfKf8HI41jGQ21Ed_xHorcztLiHu5CNfKMLKIoOWbhEsduRDiPsE9OjhIfFBXIyTJk7kvf2nhDEv3koquv4aQTTLscjGghXW3xodLtfzn-PkO_e5iH3KrMarS6p5vYDffQKkgC0F0GR4yKawJmfB7kDQfYWucXKd9XMhvl_OzOyUxVJkogLBJIcE9Fn6vYYMO9RgGzCjrx5nxjq09gHc_x08Qcgx6OJ9rLy4nwuT5NBSbqoIX8_O23C0xh7LENLrVwfZALs0VqRPWk2xP7dXL-XPp97V27akK-JqCRrOtRBMUsjJOx_YG-bksw9W8qsrabEK4Z-AiYCPvAXQt2sP_kREXi55TOH3zfY_ScM_tNKVXKsRGixtSbxlffN0biPnVJijESOWXWi8a1lUbhN5FEvuq_DjStBT3wAoHQFLhVURuiQn4PPzw_haddG4Y0O0mSwguA9n2DSY7h-ytGwjPgoIx_-ONOQyYBvbWAyMptccY24Z-TmfsAGjY2PB8nhI9vxC2ugWFyavLMu5lkZwzsKslZdSh2QFGr2LS1bd-Derm3zZGYiOBonfbgUtqxUAubiiM2tUoCVz31AKeWotfq-BpDn-L7MIOwqvKwM02nys5ymGbADtlnsgfmSRf91CMhyQvVag978EiHrosLZ98Pyhs2M_pjjq431zF29XTE64GqPw7VFOktUrQGHeYSh4vHg7JrKmSvUwranXay_cQtmACVqMB5HPiv-3VxFkngvX9LmSlgLV_b4-iC0qpt6t2Nra8QqXsxQ1Gscd33hbN3QOugZcS7B_-e-jSoQhGlyNBJsTBwfHex3mpiGFbAnu4TuwfJARwj02PC6-iOevdLYA0vrLTpAt2_7iM_s-ApnrWNlN-qcl_37cUg3yNq1Nbg-R8zaQmfp67wdhykegqCTPl-OSwKn-TravKc-alNc4g42v6AcvE5VSaKZAuNgL5-rP_LK7FlS9YghwcsUMpe3h2Y_NW80v6lnTD0YzJYzDg96K9",
+        "format": "openai-responses-v1"
+      }
+    },
+    "msg_tmp_k5k50sibr5c": {
+      "id": "msg_tmp_k5k50sibr5c",
+      "messageId": "msg-1784208517-arGcncJHA15ahYeKjPo9",
+      "data": {
+        "id": "msg_tmp_k5k50sibr5c",
+        "type": "message",
+        "status": "completed",
+        "role": "assistant",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "## Sugestão de cardápio para o intervalo\n\nUm cardápio variado, fácil de servir e adequado a convidados estrangeiros pode combinar itens brasileiros com opções mais universais.\n\n### Salgados\n\n- Pão de queijo\n- Mini sanduíches:\n  - queijo, tomate e rúcula;\n  - frango com requeijão;\n  - opção vegana com homus e legumes.\n- Mini quiches de queijo ou legumes\n- Esfirras ou empadas pequenas\n\n### Doces e frutas\n\n- Frutas frescas cortadas ou espetinhos de frutas\n- Bolo de cenoura com chocolate ou bolo de laranja\n- Brigadeiros em tamanho pequeno\n- Biscoitos ou cookies\n\n### Bebidas\n\n- Café, de preferência com opções normal e descafeinado\n- Leite e bebida vegetal\n- Chás variados\n- Água mineral com e sem gás\n- Sucos naturais, como laranja, maracujá ou uva\n- Refrigerantes comuns e sem açúcar, se desejado\n\n### Organização sugerida\n\n- Identificar os alimentos com pequenas etiquetas em **português e inglês**.\n- Sinalizar opções **vegetarianas, veganas, sem glúten e sem lactose**.\n- Confirmar previamente se os convidados têm alergias, restrições alimentares ou preferências religiosas.\n- Disponibilizar guardanapos, copos, pratos e talheres reutilizáveis ou compostáveis.\n\nComo referência, para um intervalo curto, pode-se calcular por pessoa:\n\n- $4$ a $6$ unidades de salgados;\n- $1$ a $2$ porções de doces;\n- $1$ porção de frutas;\n- cerca de $500$ a $700$ ml de bebidas no total.\n\nUma composição equilibrada seria: **pão de queijo, dois tipos de mini sanduíche, frutas, bolo, café, chá, água e dois sabores de suco**. Isso oferece variedade sem tornar o serviço excessivamente complexo.",
+            "annotations": [],
+            "logprobs": []
+          }
+        ]
+      }
+    }
+  },
+  "artifacts": {},
+  "artifactFiles": {},
+  "artifactVersions": {},
+  "artifactFileContents": {}
+}

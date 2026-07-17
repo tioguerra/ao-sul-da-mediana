@@ -1,69 +1,79 @@
 # Plano do artigo — "Ao sul da mediana: IA generativa e a hipótese da mediocridade cognitiva"
 
 **Gênero:** position paper acadêmico (Simpósio 31 — IA e gêneros textuais: interfaces pedagógicas ao sul do Equador)
-**Tese central:** ao penalizar o improvável, os LLMs exercem uma dupla pressão conformadora — cultural (rumo à norma anglófona/norte-atlântica) e cognitiva (rumo à média estatística) — que, usada de forma massiva e ubíqua, erode a autoria singular e conduz a uma mediocridade cognitiva coletiva.
+
+**Versão:** consolidada em 14 de julho de 2026, a partir de duas linhas de trabalho paralelas — uma pesquisa profunda multiagente (Claude) e a auditoria própria com bibliografia dirigida deste repositório (ChatGPT + APIs reais). Este arquivo substitui a versão anterior, que era uma cópia do plano inicial de 8 seções e havia ficado desatualizada em relação à estrutura já revisada em [`artigo/banco-de-evidencias.md`](../artigo/banco-de-evidencias.md#7-estrutura-revisada-do-artigo).
+
+**Tese central (reformulada):** quando uma mesma infraestrutura generativa medeia, em escala, atos de escrita, síntese e decisão, ela pode elevar o desempenho médio individual ao mesmo tempo que comprime a variância do repertório coletivo. Como o centro estatístico dessa infraestrutura é culturalmente situado, a compressão é assimétrica: sujeitos periféricos são atraídos não para uma média universal, mas para uma média produzida por corpora, instituições e critérios de alinhamento dominantes. Nome técnico proposto: **hipótese da compressão culturalmente assimétrica da variância** — "mediocridade cognitiva" permanece no título como formulação provocativa, desde que definida como perda de caudas, desvio e pluralidade, não como queda da nota média.
 
 ---
 
-## Estrutura proposta
+## Nota sobre a correção do mecanismo (importante para a redação)
 
-### 1. Introdução — a pergunta
-- Abrir com a pergunta do resumo: o que acontece quando a escrita passa a ser mediada por uma distribuição estatística?
-- Situar o lugar de fala: América Latina, Sul Global, Pampa — escrever "ao sul da mediana" em dois sentidos (geográfico e estatístico).
-- Enunciar a tese e o caráter de position paper (posição argumentada + evidência empírica emprestada de estudos existentes).
+A frase do resumo original — "função de custo que premia a aderência à mediana" — é tecnicamente imprecisa e deve ser evitada na forma literal no corpo do artigo. A entropia cruzada não computa nem busca uma "resposta mediana"; a concentração em modos de alta probabilidade emerge da combinação entre distribuição dos dados de treinamento, objetivo autorregressivo, ajuste por instruções/preferências, filtros de segurança e estratégia de decodificação. Ver a formulação de substituição pronta em [`artigo/banco-de-evidencias.md`, seção 2](../artigo/banco-de-evidencias.md#2-correção-técnica-indispensável).
 
-### 2. Por que a média: o mecanismo
-- Next-token prediction e função de custo: o que significa, tecnicamente, "premiar a aderência à mediana" (McCoy et al. — Embers of Autoregression: sensibilidade à probabilidade do output).
-- RLHF e alinhamento: como o ajuste fino reduz ainda mais a diversidade de saída (evidências de queda de entropia/diversidade pós-RLHF).
-- Ponto-chave do argumento: a penalização do improvável não é um bug, é o objetivo de otimização.
+## Resolução da citação "Kirk et al., 2024" do resumo original
 
-### 3. Frente 1 — A voz ausente: viés cultural e colonialismo digital
-- **3.1 O corpus não é neutro:** composição linguística dos dados de treinamento (inglês ~90% no GPT-3; português <2%; números do Common Crawl e de modelos abertos como Llama). → *gráfico de barras: línguas nos corpora vs. falantes no mundo*
-- **3.2 Alinhamento cultural medido:** estudos com World Values Survey / Hofstede (Tao et al. 2024; Cao et al. 2023; Durmus et al. — GlobalOpinionQA): a que "país" o modelo se parece, e quais países ficam mais distantes. → *gráfico: distância cultural por país*
-- **3.3 A escrita deslocada:** evidência experimental de que autocomplete/sugestões ocidentalizam o estilo de escritores não ocidentais (estudo de Cornell com escritores indianos).
-- **3.4 Variedades penalizadas:** prejuízo dialetal (Hofmann et al. 2024, Nature — African American English) como prova de conceito do mecanismo que também atinge o português gaúcho/fronteiriço, o espanhol platino etc.
-- **3.5 A infraestrutura concentrada:** Stanford AI Index — modelos notáveis e investimento por país; a quase ausência da América Latina. → *gráfico ou tabela*
-- **3.6 Enquadramento teórico:** colonialismo digital (Kwet), colonialismo de dados (Couldry & Mejias), epistemologias do Sul aplicadas a dados (Ricaurte; Milan & Treré).
-- **3.7 Respostas do Sul:** LatamGPT (CENIA-Chile), Sabiá/Maritaca (Brasil) — mencionar como reação, e discutir limites (treinar localmente resolve o corpus, não a lógica da mediana).
+O resumo cita "(KIRK *et al.*, 2024; TAO *et al.*, 2024)" para sustentar que, mesmo após ajuste fino e RLHF, os modelos seguem incorporando nuances culturais, éticas e estilísticas. Existem **dois papers reais e distintos de 2024 com primeiro autor Kirk**, e cada um sustenta uma metade diferente dessa frase — não é necessário escolher apenas um:
 
-### 4. Frente 2 — A tendência à média: criatividade e homogeneização
-- **4.1 O paradoxo individual/coletivo:** Doshi & Hauser 2024 — IA melhora a história do escritor mediano, mas as histórias ficam mais parecidas entre si. Este é o resultado-âncora da tese. → *gráfico: ganho individual vs. perda de diversidade coletiva*
-- **4.2 Diversidade de conteúdo:** Padmakumar & He (ICLR 2024); Anderson et al. 2024 — homogeneização na ideação criativa.
-- **4.3 Homogeneização detectável em escala:** vocabulário em excesso pós-ChatGPT em abstracts científicos (Kobak et al. — "delve"); fração de textos modificados por LLM (Liang et al.). → *gráfico: curva temporal da frequência de palavras-assinatura*
-- **4.4 Compressão de variância no trabalho:** Dell'Acqua et al. (BCG, "jagged frontier"); Brynjolfsson et al. ("Generative AI at Work") — quem mais ganha é quem está abaixo da média: a IA nivela.
-- **4.5 Persuasão latente:** Jakesch et al. 2023 — co-escrever com um modelo opinativo muda a opinião de quem escreve.
-- **4.6 Dívida cognitiva:** Kosmyna et al. 2025 (EEG, MIT); Lee et al. 2025 (pensamento crítico em knowledge workers) — a terceirização da escrita tem custo mensurável.
-- **4.7 O sistema fechando sobre si:** model collapse (Shumailov et al. 2024, Nature) — quando a média realimenta a média, as caudas da distribuição desaparecem. Funciona como metáfora e como mecanismo literal.
+- **Kirk, Hannah Rose et al. (2024).** *The PRISM Alignment Project.* NeurIPS 2024. 1.500 participantes de 75 países, 8.011 conversas, 21 modelos — mostra que "alinhamento por feedback humano" depende de **quais humanos** avaliam, logo o resultado do alinhamento carrega os valores culturais e éticos de um grupo específico de avaliadores. Sustenta a metade "nuances **culturais, éticas**" da frase. Usar na Frente 1 (seção "quem alinha o modelo também importa").
+- **Kirk, Robert et al. (2024).** *Understanding the Effects of RLHF on LLM Generalisation and Diversity.* ICLR 2024, arXiv:2310.06452. Mostra que o RLHF reduz a diversidade de saída mais que o SFT sozinho, tanto para um mesmo input quanto entre inputs diferentes, fenômeno que os autores chamam de "mode collapse". Sustenta a metade "nuances **estilísticas**" e é evidência direta para o mecanismo técnico da Seção 2 (RLHF reduz diversidade). Citação verificada manualmente, com números, em `banco-de-evidencias.md` desta sessão de pesquisa (Claude), seção "Seção 2 (mecanismo)".
 
-### 5. Síntese — onde as frentes se encontram
-- As duas frentes são o mesmo fenômeno visto de ângulos diferentes: a mediana do corpus é *culturalmente situada* (Frente 1) e a otimização para ela é *estatisticamente conformadora* (Frente 2).
-- Para o Sul Global o efeito é composto: a média para a qual somos puxados nem sequer é a nossa média.
-- O argumento histórico (Darwin, Einstein): paradigmas nascem nas caudas da distribuição — o que se perde quando as caudas são penalizadas em escala.
-
-### 6. Contrapontos e limitações (essencial num position paper)
-- Estudos que não encontram homogeneização, ou que mostram ganhos reais de acesso/equidade (a IA como niveladora *para cima* de quem escreve em língua estrangeira).
-- Limites da evidência: maioria dos estudos é de curto prazo, com modelos específicos, em inglês.
-- Acomodações históricas de tecnologias da palavra (escrita, imprensa, calculadora) e por que este caso pode ser diferente (escala, ubiquidade, opacidade, propriedade privada).
-
-### 7. Implicações pedagógicas (gancho com o simpósio)
-- O que significa ensinar escrita e leitura "ao sul da mediana": uso crítico vs. proibição; a IA como objeto de estudo, não só ferramenta.
-- Defesa da fricção cognitiva como valor pedagógico.
-- Soberania de infraestrutura e letramento em IA como pauta de política linguística/educacional.
-
-### 8. Conclusão
-- Retomar a pergunta inicial; a escrita sem desvio é uma escrita sem voz.
+**Redação sugerida:** citar os dois separadamente e por extenso na primeira ocorrência (Kirk, H. R. et al., 2024; Kirk, R. et al., 2024), já que ambos são 2024 e a confusão é real.
 
 ---
 
-## Gráficos planejados
-1. **Barras:** composição linguística dos corpora de treinamento vs. população falante (Frente 1).
-2. **Dispersão/mapa:** distância cultural dos LLMs por país — WVS (Frente 1).
-3. **Curva temporal:** frequência de palavras-assinatura de LLM em abstracts científicos, antes/depois de 2023 (Frente 2).
-4. **Barras pareadas:** Doshi & Hauser — criatividade individual ↑ vs. similaridade coletiva ↑ (Frente 2).
-5. **Diagrama conceitual:** model collapse — distribuição estreitando a cada geração (Frente 2 / Síntese).
+## Estrutura revisada (9 seções, com proporção sugerida)
+
+| # | Seção | Função | Evidências principais | Proporção |
+| --- | --- | --- | --- | ---: |
+| 1 | Ao sul da mediana | Problema, lugar de enunciação e tese | Vinheta de autocomplete + formulação da compressão assimétrica | 8% |
+| 2 | Da probabilidade ao "centro" | Explicar mecanismo sem antropomorfismo | McCoy et al. 2024; Kirk, R. et al. 2024 (RLHF/diversidade); objetivo autorregressivo, alinhamento, decodificação | 11% |
+| 3 | A mediana tem geografia | Concentração linguística e institucional | Llama 2 (Touvron et al. 2023); AI Index (Stanford HAI); Kwet 2019; Couldry & Mejias 2019; Ricaurte 2019; Mohamed, Png & Isaac 2020 | 14% |
+| 4 | Quando o centro escreve conosco | Deslocamento cultural em interação real | Tao et al. 2024; Agarwal, Naaman & Vashistha 2025; Hofmann et al. 2024; Kirk, H.R. et al. 2024 (PRISM); **auditoria própria de 5 LLMs em 4 condições (Sabiá-4, Claude, GPT-5.6 Terra, Gemini 3.5 Flash, Grok 4.5) — achado do RS** | 18% |
+| 5 | O paradoxo da elevação homogênea | Núcleo criatividade/variância — **achado-âncora** | Doshi & Hauser 2024; Padmakumar & He 2024; Moon, Green & Kushlev 2025; Brynjolfsson, Li & Raymond 2025 | 20% |
+| 6 | Da frase ao ecossistema | Escala, aprendizagem e realimentação | Kobak et al. 2025; Liang et al. 2025; Bastani et al. 2025; Shumailov et al. 2024 | 12% |
+| 7 | A tendência não é destino | Contrapontos, soluções e limites | Wan & Kalman 2025 (preprint); Tucano/Sabiá-2; prompting cultural (limites) | 8% |
+| 8 | Escrever desde o Pampa | Implicações pedagógicas e agenda empírica local | Protocolo de auditoria do Pampa (ver banco de evidências, seção 8); gancho com o simpósio | 6% |
+| 9 | Conclusão | Retomar voz, desvio e soberania | Síntese | 3% |
+
+### Ordem de redação recomendada
+
+1. **Seção 5** — contém o achado-âncora (Doshi & Hauser) e define o que "mediocridade" significa no artigo.
+2. **Seção 4** — elo prático entre modelo e escritor; inclui o achado empírico próprio (auditoria do RS).
+3. **Seções 2 e 3** — mecanismo e geografia do centro estatístico.
+4. **Seção 6** — escala e ciclo de realimentação.
+5. **Seções 7 e 8** — contraprovas, desenho pedagógico, gancho com o simpósio.
+6. **Introdução e conclusão por último.**
+
+---
+
+## O que muda em relação ao plano de 8 seções original
+
+- A antiga seção 3 (Frente 1 completa) virou duas seções (3 e 4), separando **geografia/infraestrutura** de **deslocamento em interação** — a auditoria própria dá substância própria a essa segunda parte.
+- A antiga seção 4 (Frente 2) virou as seções 5 e 6, separando o **achado-âncora** (parágrafo curto, alto impacto) do **argumento de escala** (Kobak, Liang, Bastani, Shumailov).
+- A síntese (antiga seção 5) foi absorvida pela introdução/conclusão e pelo parágrafo-síntese já redigido no banco de evidências (seção 10).
+- Contrapontos (antiga seção 6) ganharam evidência real: Wan & Kalman (2025) mostra que personas de IA diversas eliminam a perda de diversidade observada por Doshi & Hauser — a homogeneização é "tendência sociotécnica, não destino matemático".
+- Implicações pedagógicas (antiga seção 7) ganharam apoio empírico direto: Bastani et al. (2025, PNAS) mostra causalmente que uma interface sem salvaguardas piora o aprendizado subsequente, enquanto uma interface com salvaguardas pedagógicas não.
+
+## Gráficos (já produzidos, em `artigo/figuras/` e `artigo/mapa-cultural/`)
+
+1. ✅ `figura-1-idiomas-llama2.png` — composição linguística do Llama 2 (Seção 3)
+2. ✅ `figura-2-alinhamento-cultural.png` — distância cultural antes/depois de prompting, 5 versões de GPT (Seção 4)
+3. ✅ `figura-3-criatividade-diversidade.png` — paradoxo Doshi & Hauser (Seção 5, âncora)
+4. ✅ `figura-4-aprendizagem-guardrails.png` — desempenho assistido vs. aprendizagem, Bastani et al. (Seção 6)
+5. ✅ `mapa-cultural/figura-mapa-cultural-quatro-condicoes-trajetorias.png` — trajetórias dos 5 LLMs em 4 condições linguístico-culturais (Seção 4, achado próprio)
+6. ✅ `mapa-cultural/figura-mapa-cultural-pampa-ia.png` — mapa cultural com RS e versões históricas de GPT (Seção 4)
+
+Todos com fonte, legenda sugerida e texto alternativo já redigidos nos respectivos arquivos de nota metodológica.
 
 ## Pendências
-- [ ] Banco de evidências (pesquisa profunda em andamento → `banco-de-evidencias.md`)
-- [ ] Verificar as 5 referências já citadas no resumo (McCoy, Kirk, Tao, Doshi & Hauser, Shumailov)
-- [ ] Definir norma de citação (ABNT, pelo estilo do resumo) e limite de páginas do simpósio
-- [ ] Redigir seções na ordem 3 → 4 → 2 → 5 → 6 → 7 → 1 → 8
+
+- [x] Banco de evidências → [`artigo/banco-de-evidencias.md`](../artigo/banco-de-evidencias.md) (análise dirigida, matriz de força inferencial, 4 proposições testáveis) + apêndice de citações complementares desta sessão
+- [x] Verificar as referências do resumo original (McCoy ✓, Kirk — resolvido acima como dois papers ✓, Tao ✓, Doshi & Hauser ✓, Shumailov ✓)
+- [x] Achado empírico próprio ancorado no Pampa (auditoria de 5 LLMs, identidade gaúcha)
+- [x] Redigir seções na ordem 5 → 4 → 2/3 → 6 → 7/8 → 1 → 9 → [`manuscrito/rascunho.md`](rascunho.md) — rascunho completo (~4.660 palavras), gerado por workflow multiagente (redação → verificação factual por seção → harmonização de terminologia/transições → introdução/conclusão → checagem adversarial final). 5 correções reais aplicadas (2 lacunas de BibTeX, 1 contradição interna, 2 formulações mais fortes do que a evidência sustentava); 7 alarmes falsos do checador final verificados manualmente nas fontes primárias. Ver nota de proveniência ao final do rascunho.
+- [x] Versão LaTeX com figuras vetoriais → [`manuscrito/latex/`](latex/) e PDF em [`manuscrito/ao-sul-da-mediana-rascunho.pdf`](ao-sul-da-mediana-rascunho.pdf); linguagem revisada conforme `ESTILO.md` (82 travessões eliminados, zero deriva factual verificada mecanicamente)
+- [ ] Definir norma de citação (ABNT, pelo estilo do resumo) e limite de páginas/palavras do simpósio — o LaTeX usa biblatex authoryear; trocar para ABNT exige só ajustar o preâmbulo
+- [ ] Segunda busca focal: América Latina, português brasileiro, espanhol rioplatense, línguas indígenas, benchmarks culturais regionais (item 5 dos "próximos passos concretos" do banco de evidências)
+- [ ] Revisão humana integral do rascunho antes de qualquer submissão — nenhuma IA generativa é autora deste texto (ver `AUTHORS.md`)

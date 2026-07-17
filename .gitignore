@@ -37,3 +37,8 @@ tmp/
 review_render/
 *.log
 
+
+# Texto do artigo em revisão: mantido fora do repositório público
+manuscrito/latex/
+manuscrito/rascunho.md
+manuscrito/ao-sul-da-mediana-rascunho.pdf

@@ -1,23 +1,26 @@
 # Ao sul da mediana
 
-**Inteligência artificial generativa, alinhamento cultural e a hipótese da mediocridade cognitiva**
+**Inteligência artificial generativa e a hipótese da mediocridade cognitiva**
 
 [![Reprodução](https://github.com/tioguerra/ao-sul-da-mediana/actions/workflows/reproduce.yml/badge.svg)](https://github.com/tioguerra/ao-sul-da-mediana/actions/workflows/reproduce.yml)
 [![Código: MIT](https://img.shields.io/badge/c%C3%B3digo-MIT-2ea44f.svg)](LICENSE)
 [![Conteúdo: CC BY-NC 4.0](https://img.shields.io/badge/conte%C3%BAdo-CC%20BY--NC%204.0-lightgrey.svg)](LICENSE-CONTENT.md)
 
-Este repositório reúne o material empírico, bibliográfico e computacional de um *position paper* sobre dois efeitos relacionados da IA generativa:
+Material empírico, bibliográfico e computacional do *position paper* e da apresentação **"Ao sul da mediana: inteligência artificial generativa e a hipótese da mediocridade cognitiva"**, de Rodrigo da Silva Guerra (FURG), preparados para o **Simpósio 31 — IA e gêneros textuais: interfaces pedagógicas ao sul do Equador**, do **XVI Encontro do CELSUL** (Porto Alegre, julho de 2026).
 
-1. o desalinhamento cultural de modelos treinados e alinhados em uma infraestrutura concentrada no Norte Global;
-2. a elevação do desempenho médio individual acompanhada por possível compressão da diversidade coletiva.
+A hipótese em discussão: quando a escrita passa, em escala, por uma mesma infraestrutura generativa, cada texto pode até melhorar, mas o conjunto perde variância, e as caudas da distribuição, onde vivem o raro e a voz de cada um, se despovoam. Essa compressão não ocorre em direção a um centro neutro: os valores expressos pelos modelos, projetados no mapa cultural de Inglehart–Welzel, caem perto dos países de língua inglesa e da Europa protestante (Tao et al., 2024).
 
-A hipótese central é que a mediação massiva por uma mesma infraestrutura generativa pode comprimir a variância de textos, ideias e enquadramentos. Essa compressão não ocorre em direção a uma média culturalmente neutra. Ela é atraída por distribuições de treinamento, critérios de alinhamento e convenções linguísticas historicamente situadas.
+> **Estado do trabalho:** pesquisa em desenvolvimento. As sondagens próprias são descritivas, não passaram por revisão por pares e não medem uma “cultura interna” dos modelos.
 
-> **Estado do trabalho:** pesquisa em desenvolvimento. A auditoria própria é descritiva, não passou por revisão por pares e não mede uma “cultura interna” dos modelos.
+O repositório documenta **dois experimentos próprios**, com dados brutos, scripts e notas metodológicas:
+
+## Experimento 1 — o mesmo pedido, três cardápios
+
+Em 16 de julho de 2026, quatro modelos de fronteira receberam o mesmo pedido, um cardápio de intervalo para receber dois visitantes estrangeiros na universidade em julho, em formulações diferentes: português coloquial com marcas gaúchas, português formal sem lugar e inglês sem localização. Em português, julho é inverno e o cardápio traz chimarrão (4/4) e cuca (4/4) na condição gaúcha; em inglês sem lugar, o mesmo julho vira verão, entre wraps, hummus e frutas de verão. As exportações brutas das conversas e as contagens estão em [`artigo/coffee-break/`](artigo/coffee-break/).
+
+## Experimento 2 — gaúchos no mapa de Inglehart–Welzel
 
 ![Cinco LLMs em quatro condições linguístico-culturais](artigo/mapa-cultural/figura-mapa-cultural-quatro-condicoes-trajetorias.png)
-
-## Resultado empírico próprio
 
 Cinco modelos foram submetidos às dez perguntas do Integrated Values Surveys usadas por Tao et al. (2024), com dez formulações do descritor e quatro condições:
 
@@ -49,7 +52,8 @@ A leitura completa está em [Resultados e discussão](artigo/mapa-cultural/anali
 │   ├── referencias-chave.bib        # referências em BibTeX
 │   ├── dados-figuras.csv             # números das figuras bibliográficas
 │   ├── figuras/                      # quatro figuras de evidências publicadas
-│   └── mapa-cultural/                # auditorias, coordenadas, scripts e figuras
+│   ├── coffee-break/                 # Experimento 1: conversas brutas e contagens
+│   └── mapa-cultural/                # Experimento 2: auditorias, coordenadas, scripts e figuras
 ├── manuscrito/
 │   ├── plano-artigo.md               # estrutura proposta do position paper
 │   └── original/resumo-expandido.docx

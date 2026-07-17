@@ -1,0 +1,2843 @@
+{
+  "version": "orpg.3.0",
+  "title": "University Hosts International Guests with Menu Request",
+  "characters": {
+    "char-1784208574-bNgvL3RdJGmXetxv0xEB": {
+      "id": "char-1784208574-bNgvL3RdJGmXetxv0xEB",
+      "model": "~google/gemini-pro-latest",
+      "modelInfo": {
+        "slug": "~google/gemini-pro-latest",
+        "hf_slug": null,
+        "updated_at": null,
+        "created_at": "2026-04-27T19:34:11.587Z",
+        "hf_updated_at": null,
+        "name": "Google Gemini Pro Latest",
+        "short_name": "Google Gemini Pro Latest",
+        "author": "google",
+        "author_display_name": "Google",
+        "description": "This model always redirects to the latest model in the Google Gemini Pro family.",
+        "model_version_group_id": "efd991b0-c32d-4220-8a39-10b0ae06b094",
+        "context_length": 1048576,
+        "input_modalities": [
+          "audio",
+          "file",
+          "image",
+          "text",
+          "video"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "has_text_output": true,
+        "group": "Router",
+        "instruct_type": null,
+        "default_system": null,
+        "default_stops": [],
+        "hidden": false,
+        "router": null,
+        "warning_message": null,
+        "promotion_message": null,
+        "routing_error_message": null,
+        "is_private": false,
+        "permaslug": "~google/gemini-pro-latest",
+        "supports_reasoning": true,
+        "reasoning_config": {
+          "start_token": null,
+          "end_token": null,
+          "is_mandatory_reasoning": true,
+          "supports_reasoning_effort": true,
+          "supported_reasoning_efforts": [
+            "high",
+            "medium",
+            "low"
+          ]
+        },
+        "features": {
+          "reasoning_config": {
+            "start_token": null,
+            "end_token": null,
+            "is_mandatory_reasoning": true,
+            "supports_reasoning_effort": true,
+            "supported_reasoning_efforts": [
+              "high",
+              "medium",
+              "low"
+            ]
+          },
+          "chat_template_config": {}
+        },
+        "default_parameters": {
+          "temperature": null,
+          "top_p": null,
+          "top_k": null,
+          "frequency_penalty": null,
+          "presence_penalty": null,
+          "repetition_penalty": null
+        },
+        "default_order": [
+          "google-vertex",
+          "google-ai-studio"
+        ],
+        "quick_start_example_type": "reasoning",
+        "preview_thumbnail_url": null,
+        "is_trainable_text": null,
+        "is_trainable_image": null,
+        "knowledge_cutoff": null,
+        "limit_rpm": 0,
+        "limit_rpd": 0,
+        "supported_tts_voices": null,
+        "endpoint": {
+          "id": "tilde-latest-~google/gemini-pro-latest",
+          "name": "Google | google/gemini-3.1-pro-preview-20260219",
+          "context_length": 1048576,
+          "model": {
+            "slug": "~google/gemini-pro-latest",
+            "hf_slug": null,
+            "updated_at": null,
+            "created_at": "2026-04-27T19:34:11.587Z",
+            "hf_updated_at": null,
+            "name": "Google Gemini Pro Latest",
+            "short_name": "Google Gemini Pro Latest",
+            "author": "google",
+            "author_display_name": "Google",
+            "description": "This model always redirects to the latest model in the Google Gemini Pro family.",
+            "model_version_group_id": "efd991b0-c32d-4220-8a39-10b0ae06b094",
+            "context_length": 1048576,
+            "input_modalities": [
+              "audio",
+              "file",
+              "image",
+              "text",
+              "video"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "has_text_output": true,
+            "group": "Router",
+            "instruct_type": null,
+            "default_system": null,
+            "default_stops": [],
+            "hidden": false,
+            "router": null,
+            "warning_message": null,
+            "promotion_message": null,
+            "routing_error_message": null,
+            "is_private": false,
+            "permaslug": "~google/gemini-pro-latest",
+            "supports_reasoning": true,
+            "reasoning_config": {
+              "start_token": null,
+              "end_token": null,
+              "is_mandatory_reasoning": true,
+              "supports_reasoning_effort": true,
+              "supported_reasoning_efforts": [
+                "high",
+                "medium",
+                "low"
+              ]
+            },
+            "features": {
+              "reasoning_config": {
+                "start_token": null,
+                "end_token": null,
+                "is_mandatory_reasoning": true,
+                "supports_reasoning_effort": true,
+                "supported_reasoning_efforts": [
+                  "high",
+                  "medium",
+                  "low"
+                ]
+              },
+              "chat_template_config": {}
+            },
+            "default_parameters": {
+              "temperature": null,
+              "top_p": null,
+              "top_k": null,
+              "frequency_penalty": null,
+              "presence_penalty": null,
+              "repetition_penalty": null
+            },
+            "default_order": [
+              "google-vertex",
+              "google-ai-studio"
+            ],
+            "quick_start_example_type": "reasoning",
+            "preview_thumbnail_url": null,
+            "is_trainable_text": null,
+            "is_trainable_image": null,
+            "knowledge_cutoff": null,
+            "limit_rpm": 0,
+            "limit_rpd": 0,
+            "supported_tts_voices": null
+          },
+          "model_variant_slug": "~google/gemini-pro-latest",
+          "model_variant_permaslug": "~google/gemini-pro-latest",
+          "adapter_name": "GoogleVertexGeminiAdapter",
+          "provider_name": "Google",
+          "provider_info": {
+            "name": "Google",
+            "displayName": "Google Vertex",
+            "slug": "google-vertex",
+            "baseUrl": "not_used",
+            "dataPolicy": {
+              "training": false,
+              "trainingOpenRouter": false,
+              "retainsPrompts": false,
+              "canPublish": false,
+              "termsOfServiceURL": "https://cloud.google.com/terms/",
+              "privacyPolicyURL": "https://cloud.google.com/terms/cloud-privacy-notice",
+              "requiresUserIDs": true
+            },
+            "headquarters": "US",
+            "hasChatCompletions": true,
+            "hasCompletions": false,
+            "isAbortable": false,
+            "moderationRequired": false,
+            "editors": [
+              "{}"
+            ],
+            "owners": [
+              "{}"
+            ],
+            "adapterName": "GoogleVertexGeminiAdapter",
+            "statusPageUrl": "https://status.cloud.google.com/products/sdXM79fz1FS6ekNpu37K/history",
+            "byokEnabled": true,
+            "icon": {
+              "url": "/images/icons/GoogleVertex.svg"
+            },
+            "sendClientIp": false,
+            "pricingStrategy": "gemini"
+          },
+          "provider_display_name": "Google Vertex",
+          "provider_slug": "google-vertex/global",
+          "provider_model_id": "gemini-3.1-pro-preview",
+          "quantization": "unknown",
+          "variant": "standard",
+          "is_free": false,
+          "can_abort": false,
+          "max_prompt_tokens": null,
+          "max_completion_tokens": 65536,
+          "max_tokens_per_image": null,
+          "supported_parameters": [
+            "reasoning",
+            "include_reasoning",
+            "max_tokens",
+            "temperature",
+            "top_p",
+            "seed",
+            "response_format",
+            "tools",
+            "tool_choice",
+            "stop",
+            "structured_outputs"
+          ],
+          "excluded_parameters": [],
+          "is_byok": false,
+          "moderation_required": false,
+          "data_policy": {
+            "training": false,
+            "trainingOpenRouter": false,
+            "retainsPrompts": false,
+            "canPublish": false,
+            "termsOfServiceURL": "https://cloud.google.com/terms/",
+            "privacyPolicyURL": "https://cloud.google.com/terms/cloud-privacy-notice",
+            "requiresUserIDs": true
+          },
+          "pricing": {
+            "prompt": "0.000002",
+            "completion": "0.000012",
+            "image": "0.000002",
+            "audio": "0.000002",
+            "input_audio_cache": "0.0000002",
+            "input_cache_read": "0.0000002",
+            "input_cache_write": "0.000000375",
+            "web_search": "0.014",
+            "internal_reasoning": "0.000012",
+            "discount": 0,
+            "overrides": [
+              {
+                "min_prompt_tokens": 200000,
+                "prompt": "0.000004",
+                "completion": "0.000018",
+                "audio": "0.000004",
+                "input_audio_cache": "0.0000004",
+                "input_cache_read": "0.0000004"
+              }
+            ],
+            "display_pricing": [
+              {
+                "kind": "token",
+                "sku_label": "Input Price",
+                "price": "0.000002",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens",
+                "tiers": [
+                  {
+                    "sku_label": "≤200K",
+                    "price": "0.000002"
+                  },
+                  {
+                    "sku_label": ">200K",
+                    "price": "0.000004"
+                  }
+                ]
+              },
+              {
+                "kind": "token",
+                "sku_label": "Output Price",
+                "price": "0.000012",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens",
+                "tiers": [
+                  {
+                    "sku_label": "≤200K",
+                    "price": "0.000012"
+                  },
+                  {
+                    "sku_label": ">200K",
+                    "price": "0.000018"
+                  }
+                ]
+              },
+              {
+                "kind": "token",
+                "sku_label": "Cache Read",
+                "price": "2e-7",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens",
+                "tiers": [
+                  {
+                    "sku_label": "≤200K",
+                    "price": "2e-7"
+                  },
+                  {
+                    "sku_label": ">200K",
+                    "price": "4e-7"
+                  }
+                ]
+              },
+              {
+                "kind": "token",
+                "sku_label": "Cache Write",
+                "price": "3.75e-7",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens"
+              },
+              {
+                "kind": "token",
+                "sku_label": "Input Audio",
+                "price": "0.000002",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens",
+                "tiers": [
+                  {
+                    "sku_label": "≤200K",
+                    "price": "0.000002"
+                  },
+                  {
+                    "sku_label": ">200K",
+                    "price": "0.000004"
+                  }
+                ]
+              },
+              {
+                "kind": "token",
+                "sku_label": "Input Audio Cache",
+                "price": "2e-7",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens",
+                "tiers": [
+                  {
+                    "sku_label": "≤200K",
+                    "price": "2e-7"
+                  },
+                  {
+                    "sku_label": ">200K",
+                    "price": "4e-7"
+                  }
+                ]
+              },
+              {
+                "kind": "unit",
+                "sku_label": "Web Search",
+                "price": "0.014",
+                "displayMultiplier": 1,
+                "unitLabel": "/request"
+              }
+            ]
+          },
+          "display_pricing": [
+            {
+              "kind": "token",
+              "sku_label": "Input Price",
+              "price": "0.000002",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens",
+              "tiers": [
+                {
+                  "sku_label": "≤200K",
+                  "price": "0.000002"
+                },
+                {
+                  "sku_label": ">200K",
+                  "price": "0.000004"
+                }
+              ]
+            },
+            {
+              "kind": "token",
+              "sku_label": "Output Price",
+              "price": "0.000012",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens",
+              "tiers": [
+                {
+                  "sku_label": "≤200K",
+                  "price": "0.000012"
+                },
+                {
+                  "sku_label": ">200K",
+                  "price": "0.000018"
+                }
+              ]
+            },
+            {
+              "kind": "token",
+              "sku_label": "Cache Read",
+              "price": "2e-7",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens",
+              "tiers": [
+                {
+                  "sku_label": "≤200K",
+                  "price": "2e-7"
+                },
+                {
+                  "sku_label": ">200K",
+                  "price": "4e-7"
+                }
+              ]
+            },
+            {
+              "kind": "token",
+              "sku_label": "Cache Write",
+              "price": "3.75e-7",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens"
+            },
+            {
+              "kind": "token",
+              "sku_label": "Input Audio",
+              "price": "0.000002",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens",
+              "tiers": [
+                {
+                  "sku_label": "≤200K",
+                  "price": "0.000002"
+                },
+                {
+                  "sku_label": ">200K",
+                  "price": "0.000004"
+                }
+              ]
+            },
+            {
+              "kind": "token",
+              "sku_label": "Input Audio Cache",
+              "price": "2e-7",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens",
+              "tiers": [
+                {
+                  "sku_label": "≤200K",
+                  "price": "2e-7"
+                },
+                {
+                  "sku_label": ">200K",
+                  "price": "4e-7"
+                }
+              ]
+            },
+            {
+              "kind": "unit",
+              "sku_label": "Web Search",
+              "price": "0.014",
+              "displayMultiplier": 1,
+              "unitLabel": "/request"
+            }
+          ],
+          "pricing_json": {
+            "gemini:prompt_tokens": "0.000002",
+            "gemini:reasoning_tokens": "0.000012",
+            "gemini:cache_read_tokens": "2e-7",
+            "gemini:completion_tokens": "0.000012",
+            "gemini:text_input_tokens": "0.000002",
+            "gemini:audio_input_tokens": "0.000002",
+            "gemini:image_input_tokens": "0.000002",
+            "gemini:video_input_tokens": "0.000002",
+            "gemini:flex_tier_multiplier": "0.5",
+            "gemini:cache_read_text_tokens": "2e-7",
+            "gemini:long_context_threshold": "200000",
+            "gemini:cache_read_audio_tokens": "2e-7",
+            "gemini:cache_read_image_tokens": "2e-7",
+            "gemini:cache_read_video_tokens": "2e-7",
+            "gemini:priority_tier_multiplier": "1.8",
+            "gemini:cache_write_storage_hours": "0.0000045",
+            "gemini:prompt_tokens_high_context": "0.000004",
+            "gemini:reasoning_tokens_high_context": "0.000018",
+            "gemini:cache_read_tokens_high_context": "4e-7",
+            "gemini:completion_tokens_high_context": "0.000018",
+            "gemini:cache_read_text_tokens_high_context": "4e-7",
+            "gemini:cache_read_audio_tokens_high_context": "4e-7",
+            "gemini:cache_read_image_tokens_high_context": "4e-7",
+            "gemini:cache_read_video_tokens_high_context": "4e-7",
+            "gemini:informational_cache_write_tokens_count": "0"
+          },
+          "pricing_version_id": "1a7b4761-e74a-4476-b802-97bd7cc5cebc",
+          "is_hidden": false,
+          "is_private": false,
+          "is_byok_only": false,
+          "is_deranked": false,
+          "is_disabled": false,
+          "supports_tool_parameters": true,
+          "supports_reasoning": true,
+          "supports_multipart": true,
+          "limit_rpm": 300,
+          "limit_rpd": null,
+          "limit_rpm_cf": null,
+          "has_completions": false,
+          "has_chat_completions": true,
+          "features": {
+            "supports_file_urls": true,
+            "supports_native_web_search": true,
+            "supports_base64_video_input": true,
+            "supports_video_urls": true,
+            "supports_input_audio": true,
+            "supports_tool_choice": {
+              "literal_none": true,
+              "literal_auto": true,
+              "literal_required": true,
+              "type_function": true
+            }
+          },
+          "supported_video_parameters": null,
+          "supported_image_parameters": null,
+          "provider_region": "global",
+          "deprecation_date": null,
+          "allowed_passthrough_parameters": [],
+          "capacity_tpm": null,
+          "created_at": "2026-02-19T14:06:37.489Z",
+          "routing_heuristics_by_tier": {
+            "priority": {
+              "request_count": 7,
+              "p50_throughput": 90,
+              "p50_latency": 3043,
+              "request_count_30_minutes": 7,
+              "p50_throughput_30_minutes": 90,
+              "p75_throughput_30_minutes": 92.5,
+              "p90_throughput_30_minutes": 94,
+              "p99_throughput_30_minutes": 94,
+              "p50_latency_30_minutes": 3043,
+              "p75_latency_30_minutes": 4498.5,
+              "p90_latency_30_minutes": 6335.800000000001,
+              "p99_latency_30_minutes": 7279.179999999999,
+              "request_count_5_minutes": 4,
+              "p50_throughput_5_minutes": 92,
+              "p75_throughput_5_minutes": 94,
+              "p90_throughput_5_minutes": 94,
+              "p99_throughput_5_minutes": 94,
+              "p50_latency_5_minutes": 2924,
+              "p75_latency_5_minutes": 3691.5,
+              "p90_latency_5_minutes": 4858.8,
+              "p99_latency_5_minutes": 5559.179999999999,
+              "p50_throughput_2_hours": 67.5,
+              "effective_prompt_price": 0.000001604351,
+              "effective_completion_price": 0.00001213572,
+              "tool_finish_reason_request_success_rate": 0.9325335279627771,
+              "tool_calls_finish_reason_request_count": 21922
+            }
+          },
+          "status": -5,
+          "status_heuristics": {
+            "success": 21643,
+            "derankableError": 6177,
+            "rateLimited": 1115
+          },
+          "status_heuristics_5m": {
+            "success": 3035,
+            "derankableError": 807,
+            "rateLimited": 137
+          },
+          "status_heuristics_1d": {
+            "success": 1257983,
+            "derankableError": 187586,
+            "rateLimited": 35734
+          }
+        }
+      },
+      "description": "",
+      "includeDefaultSystemPrompt": true,
+      "isStreaming": true,
+      "samplingParameters": {},
+      "chatMemory": 8,
+      "isDisabled": false,
+      "isRemoved": false,
+      "createdAt": "2026-07-16T13:29:34.811Z",
+      "updatedAt": "2026-07-16T13:29:34.811Z",
+      "reasoning": {
+        "enabled": true
+      },
+      "plugins": []
+    },
+    "char-1784208574-F5J8Y9HFziAzZQYkMrOF": {
+      "id": "char-1784208574-F5J8Y9HFziAzZQYkMrOF",
+      "model": "~anthropic/claude-opus-latest",
+      "modelInfo": {
+        "slug": "~anthropic/claude-opus-latest",
+        "hf_slug": "",
+        "updated_at": "2026-05-05T04:43:04.577Z",
+        "created_at": "2026-04-21T18:16:01.446Z",
+        "hf_updated_at": null,
+        "name": "Anthropic: Claude Opus Latest",
+        "short_name": "Claude Opus Latest",
+        "author": "anthropic",
+        "author_display_name": "Anthropic",
+        "description": "This model always redirects to the latest model in the Claude Opus family.",
+        "model_version_group_id": "b98cca06-1cff-4829-90c2-ef03ddfefb7d",
+        "context_length": 1000000,
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "has_text_output": true,
+        "group": "Router",
+        "instruct_type": null,
+        "default_system": null,
+        "default_stops": [],
+        "hidden": false,
+        "router": null,
+        "warning_message": "",
+        "promotion_message": "",
+        "routing_error_message": "",
+        "is_private": false,
+        "permaslug": "~anthropic/claude-opus-latest",
+        "supports_reasoning": true,
+        "reasoning_config": {
+          "start_token": null,
+          "end_token": null,
+          "is_mandatory_reasoning": false,
+          "supports_reasoning_effort": true,
+          "supports_reasoning_max_tokens": false,
+          "supported_reasoning_efforts": [
+            "low",
+            "medium",
+            "high",
+            "xhigh",
+            "max"
+          ]
+        },
+        "features": {
+          "reasoning_config": {
+            "start_token": null,
+            "end_token": null,
+            "is_mandatory_reasoning": false,
+            "supports_reasoning_effort": true,
+            "supports_reasoning_max_tokens": false,
+            "supported_reasoning_efforts": [
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          },
+          "chat_template_config": {}
+        },
+        "default_parameters": {
+          "temperature": null,
+          "top_p": null,
+          "top_k": null,
+          "frequency_penalty": null,
+          "presence_penalty": null,
+          "repetition_penalty": null
+        },
+        "default_order": [
+          "anthropic/2",
+          "amazon-bedrock/us",
+          "google-vertex/global",
+          "anthropic",
+          "amazon-bedrock/eu-west-1",
+          "google-vertex/europe"
+        ],
+        "quick_start_example_type": "reasoning",
+        "preview_thumbnail_url": null,
+        "is_trainable_text": null,
+        "is_trainable_image": null,
+        "knowledge_cutoff": null,
+        "limit_rpm": 0,
+        "limit_rpd": 0,
+        "supported_tts_voices": null,
+        "endpoint": {
+          "id": "tilde-latest-~anthropic/claude-opus-latest",
+          "name": "Azure | anthropic/claude-4.8-opus-20260528",
+          "context_length": 1000000,
+          "model": {
+            "slug": "~anthropic/claude-opus-latest",
+            "hf_slug": "",
+            "updated_at": "2026-05-05T04:43:04.577Z",
+            "created_at": "2026-04-21T18:16:01.446Z",
+            "hf_updated_at": null,
+            "name": "Anthropic: Claude Opus Latest",
+            "short_name": "Claude Opus Latest",
+            "author": "anthropic",
+            "author_display_name": "Anthropic",
+            "description": "This model always redirects to the latest model in the Claude Opus family.",
+            "model_version_group_id": "b98cca06-1cff-4829-90c2-ef03ddfefb7d",
+            "context_length": 1000000,
+            "input_modalities": [
+              "text",
+              "image",
+              "file"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "has_text_output": true,
+            "group": "Router",
+            "instruct_type": null,
+            "default_system": null,
+            "default_stops": [],
+            "hidden": false,
+            "router": null,
+            "warning_message": "",
+            "promotion_message": "",
+            "routing_error_message": "",
+            "is_private": false,
+            "permaslug": "~anthropic/claude-opus-latest",
+            "supports_reasoning": true,
+            "reasoning_config": {
+              "start_token": null,
+              "end_token": null,
+              "is_mandatory_reasoning": false,
+              "supports_reasoning_effort": true,
+              "supports_reasoning_max_tokens": false,
+              "supported_reasoning_efforts": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            },
+            "features": {
+              "reasoning_config": {
+                "start_token": null,
+                "end_token": null,
+                "is_mandatory_reasoning": false,
+                "supports_reasoning_effort": true,
+                "supports_reasoning_max_tokens": false,
+                "supported_reasoning_efforts": [
+                  "low",
+                  "medium",
+                  "high",
+                  "xhigh",
+                  "max"
+                ]
+              },
+              "chat_template_config": {}
+            },
+            "default_parameters": {
+              "temperature": null,
+              "top_p": null,
+              "top_k": null,
+              "frequency_penalty": null,
+              "presence_penalty": null,
+              "repetition_penalty": null
+            },
+            "default_order": [
+              "anthropic/2",
+              "amazon-bedrock/us",
+              "google-vertex/global",
+              "anthropic",
+              "amazon-bedrock/eu-west-1",
+              "google-vertex/europe"
+            ],
+            "quick_start_example_type": "reasoning",
+            "preview_thumbnail_url": null,
+            "is_trainable_text": null,
+            "is_trainable_image": null,
+            "knowledge_cutoff": null,
+            "limit_rpm": 0,
+            "limit_rpd": 0,
+            "supported_tts_voices": null
+          },
+          "model_variant_slug": "~anthropic/claude-opus-latest",
+          "model_variant_permaslug": "~anthropic/claude-opus-latest",
+          "adapter_name": "InternalStreamAzureAnthropicAdapter",
+          "provider_name": "Azure",
+          "provider_info": {
+            "name": "Azure",
+            "displayName": "Azure",
+            "slug": "azure",
+            "baseUrl": "https://openrouter-east-us-2.openai.azure.com/openai",
+            "dataPolicy": {
+              "training": false,
+              "trainingOpenRouter": false,
+              "retainsPrompts": false,
+              "canPublish": false,
+              "termsOfServiceURL": "https://www.microsoft.com/en-us/legal/terms-of-use?oneroute=true",
+              "privacyPolicyURL": "https://www.microsoft.com/en-us/privacy/privacystatement",
+              "requiresUserIDs": false
+            },
+            "headquarters": "US",
+            "hasChatCompletions": true,
+            "hasCompletions": false,
+            "isAbortable": true,
+            "moderationRequired": false,
+            "editors": [
+              "{}"
+            ],
+            "owners": [
+              "{}"
+            ],
+            "adapterName": "AzureOpenAIAdapter",
+            "statusPageUrl": "https://status.azure.com/",
+            "byokEnabled": true,
+            "icon": {
+              "url": "/images/icons/Azure.svg"
+            },
+            "sendClientIp": false,
+            "pricingStrategy": "anthropic"
+          },
+          "provider_display_name": "Azure",
+          "provider_slug": "azure/us-east-2",
+          "provider_model_id": "claude-opus-4-8",
+          "quantization": "unknown",
+          "variant": "standard",
+          "is_free": false,
+          "can_abort": true,
+          "max_prompt_tokens": null,
+          "max_completion_tokens": 128000,
+          "max_tokens_per_image": null,
+          "supported_parameters": [
+            "reasoning",
+            "include_reasoning",
+            "structured_outputs",
+            "max_tokens",
+            "temperature",
+            "max_completion_tokens",
+            "tools",
+            "tool_choice",
+            "response_format",
+            "verbosity",
+            "stop"
+          ],
+          "excluded_parameters": [
+            "top_k",
+            "top_p"
+          ],
+          "is_byok": false,
+          "moderation_required": false,
+          "data_policy": {
+            "training": false,
+            "trainingOpenRouter": false,
+            "retainsPrompts": true,
+            "canPublish": false,
+            "termsOfServiceURL": "https://www.microsoft.com/en-us/legal/terms-of-use?oneroute=true",
+            "privacyPolicyURL": "https://www.microsoft.com/en-us/privacy/privacystatement"
+          },
+          "pricing": {
+            "prompt": "0.000005",
+            "completion": "0.000025",
+            "input_cache_read": "0.0000005",
+            "input_cache_write": "0.00000625",
+            "input_cache_write_1h": "0.00001",
+            "web_search": "0.01",
+            "discount": 0,
+            "display_pricing": [
+              {
+                "kind": "token",
+                "sku_label": "Input Price",
+                "price": "0.000005",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens"
+              },
+              {
+                "kind": "token",
+                "sku_label": "Output Price",
+                "price": "0.000025",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens"
+              },
+              {
+                "kind": "token",
+                "sku_label": "Cache Read",
+                "price": "0.0000005",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens"
+              },
+              {
+                "kind": "token",
+                "sku_label": "Cache Write",
+                "price": "0.00000625",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens"
+              },
+              {
+                "kind": "token",
+                "sku_label": "Cache Write (1h)",
+                "price": "0.00001",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens"
+              }
+            ]
+          },
+          "display_pricing": [
+            {
+              "kind": "token",
+              "sku_label": "Input Price",
+              "price": "0.000005",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens"
+            },
+            {
+              "kind": "token",
+              "sku_label": "Output Price",
+              "price": "0.000025",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens"
+            },
+            {
+              "kind": "token",
+              "sku_label": "Cache Read",
+              "price": "0.0000005",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens"
+            },
+            {
+              "kind": "token",
+              "sku_label": "Cache Write",
+              "price": "0.00000625",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens"
+            },
+            {
+              "kind": "token",
+              "sku_label": "Cache Write (1h)",
+              "price": "0.00001",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens"
+            }
+          ],
+          "pricing_json": {
+            "anthropic:prompt_tokens": "0.000005",
+            "anthropic:web_search_calls": "0.01",
+            "anthropic:cache_read_tokens": "0.0000005",
+            "anthropic:completion_tokens": "0.000025",
+            "anthropic:cache_write_1h_tokens": "0.00001",
+            "anthropic:cache_write_5m_tokens": "0.00000625"
+          },
+          "pricing_version_id": "b08a6a79-e1fb-4aa4-bf0b-2a1348000da1",
+          "is_hidden": false,
+          "is_private": false,
+          "is_byok_only": false,
+          "is_deranked": false,
+          "is_disabled": false,
+          "supports_tool_parameters": true,
+          "supports_reasoning": true,
+          "supports_multipart": true,
+          "limit_rpm": null,
+          "limit_rpd": null,
+          "limit_rpm_cf": null,
+          "has_completions": false,
+          "has_chat_completions": true,
+          "features": {
+            "supports_native_web_search": false,
+            "supports_tool_choice": {
+              "literal_none": true,
+              "literal_auto": true,
+              "literal_required": true,
+              "type_function": true
+            },
+            "supported_parameters": {
+              "structured_outputs": true
+            }
+          },
+          "supported_video_parameters": null,
+          "supported_image_parameters": null,
+          "provider_region": "us-east-2",
+          "deprecation_date": null,
+          "allowed_passthrough_parameters": [],
+          "capacity_tpm": null,
+          "created_at": "2026-07-06T23:01:12.889Z",
+          "status": 0,
+          "status_heuristics": {
+            "success": 181,
+            "derankableError": 0,
+            "rateLimited": 0
+          },
+          "status_heuristics_5m": {
+            "success": 10,
+            "derankableError": 0,
+            "rateLimited": 0
+          },
+          "status_heuristics_1d": {
+            "success": 15164,
+            "derankableError": 45,
+            "rateLimited": 37
+          }
+        }
+      },
+      "description": "",
+      "includeDefaultSystemPrompt": true,
+      "isStreaming": true,
+      "samplingParameters": {},
+      "chatMemory": 8,
+      "isDisabled": false,
+      "isRemoved": false,
+      "createdAt": "2026-07-16T13:29:34.812Z",
+      "updatedAt": "2026-07-16T13:29:34.812Z",
+      "reasoning": {
+        "enabled": true
+      },
+      "plugins": []
+    },
+    "char-1784208574-vccHadIfgxHqXQyIanLk": {
+      "id": "char-1784208574-vccHadIfgxHqXQyIanLk",
+      "model": "x-ai/grok-4.20",
+      "modelInfo": {
+        "slug": "x-ai/grok-4.20",
+        "hf_slug": "",
+        "updated_at": "2026-05-07T18:58:44.584Z",
+        "created_at": "2026-03-31T17:43:39.677Z",
+        "hf_updated_at": null,
+        "name": "xAI: Grok 4.20",
+        "short_name": "Grok 4.20",
+        "author": "x-ai",
+        "author_display_name": "xAI",
+        "description": "Grok 4.20 is a reasoning model from xAI with industry-leading speed and agentic tool calling capabilities. It combines the lowest hallucination rate on the market with strict prompt adherance, delivering consistently precise and truthful responses.\n\nReasoning can be enabled/disabled using the `reasoning` `enabled` parameter in the API. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#controlling-reasoning-tokens)",
+        "model_version_group_id": null,
+        "context_length": 2000000,
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "has_text_output": true,
+        "group": "Grok",
+        "instruct_type": null,
+        "default_system": null,
+        "default_stops": [],
+        "hidden": false,
+        "router": null,
+        "warning_message": "",
+        "promotion_message": "",
+        "routing_error_message": "",
+        "is_private": false,
+        "permaslug": "x-ai/grok-4.20-20260309",
+        "supports_reasoning": true,
+        "reasoning_config": {
+          "start_token": null,
+          "end_token": null,
+          "is_mandatory_reasoning": false,
+          "supports_reasoning_effort": false,
+          "default_reasoning_enabled": false
+        },
+        "features": {
+          "reasoning_config": {
+            "start_token": null,
+            "end_token": null,
+            "is_mandatory_reasoning": false,
+            "supports_reasoning_effort": false,
+            "default_reasoning_enabled": false
+          },
+          "chat_template_config": {}
+        },
+        "default_parameters": {
+          "temperature": null,
+          "top_p": null,
+          "top_k": null,
+          "frequency_penalty": null,
+          "presence_penalty": null,
+          "repetition_penalty": null
+        },
+        "default_order": [],
+        "quick_start_example_type": "reasoning",
+        "preview_thumbnail_url": null,
+        "is_trainable_text": null,
+        "is_trainable_image": null,
+        "knowledge_cutoff": "2025-09-01T00:00:00.000Z",
+        "limit_rpm": 0,
+        "limit_rpd": 0,
+        "supported_tts_voices": null,
+        "endpoint": {
+          "id": "3ecee37f-b217-4093-87fb-aaf0afe307af",
+          "name": "xAI | x-ai/grok-4.20-20260309",
+          "context_length": 2000000,
+          "model": {
+            "slug": "x-ai/grok-4.20",
+            "hf_slug": "",
+            "updated_at": "2026-05-07T18:58:44.58412+00:00",
+            "created_at": "2026-03-31T17:43:39.677744+00:00",
+            "hf_updated_at": null,
+            "name": "xAI: Grok 4.20",
+            "short_name": "Grok 4.20",
+            "author": "x-ai",
+            "author_display_name": "xAI",
+            "description": "Grok 4.20 is a reasoning model from xAI with industry-leading speed and agentic tool calling capabilities. It combines the lowest hallucination rate on the market with strict prompt adherance, delivering consistently precise and truthful responses.\n\nReasoning can be enabled/disabled using the `reasoning` `enabled` parameter in the API. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#controlling-reasoning-tokens)",
+            "model_version_group_id": null,
+            "context_length": 2000000,
+            "input_modalities": [
+              "text",
+              "image",
+              "file"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "has_text_output": true,
+            "group": "Grok",
+            "instruct_type": null,
+            "default_system": null,
+            "default_stops": [],
+            "hidden": false,
+            "router": null,
+            "warning_message": "",
+            "promotion_message": "",
+            "routing_error_message": "",
+            "is_private": false,
+            "permaslug": "x-ai/grok-4.20-20260309",
+            "supports_reasoning": true,
+            "reasoning_config": {
+              "start_token": null,
+              "end_token": null,
+              "is_mandatory_reasoning": false,
+              "supports_reasoning_effort": false,
+              "default_reasoning_enabled": false
+            },
+            "features": {
+              "reasoning_config": {
+                "start_token": null,
+                "end_token": null,
+                "is_mandatory_reasoning": false,
+                "supports_reasoning_effort": false,
+                "default_reasoning_enabled": false
+              },
+              "chat_template_config": {}
+            },
+            "default_parameters": {
+              "temperature": null,
+              "top_p": null,
+              "top_k": null,
+              "frequency_penalty": null,
+              "presence_penalty": null,
+              "repetition_penalty": null
+            },
+            "default_order": [],
+            "quick_start_example_type": "reasoning",
+            "preview_thumbnail_url": null,
+            "is_trainable_text": null,
+            "is_trainable_image": null,
+            "knowledge_cutoff": "2025-09-01T00:00:00+00:00",
+            "limit_rpm": 0,
+            "limit_rpd": 0,
+            "supported_tts_voices": null
+          },
+          "model_variant_slug": "x-ai/grok-4.20",
+          "model_variant_permaslug": "x-ai/grok-4.20-20260309",
+          "adapter_name": "XAIResponsesAdapter",
+          "provider_name": "xAI",
+          "provider_info": {
+            "name": "xAI",
+            "displayName": "xAI",
+            "slug": "xai",
+            "baseUrl": "https://api.x.ai/v1",
+            "dataPolicy": {
+              "training": false,
+              "trainingOpenRouter": false,
+              "retainsPrompts": true,
+              "retentionDays": 30,
+              "canPublish": false,
+              "termsOfServiceURL": "https://x.ai/legal/terms-of-service-enterprise",
+              "privacyPolicyURL": "https://x.ai/legal/privacy-policy",
+              "requiresUserIDs": true
+            },
+            "headquarters": "US",
+            "hasChatCompletions": true,
+            "hasCompletions": true,
+            "isAbortable": true,
+            "moderationRequired": false,
+            "editors": [
+              "{}"
+            ],
+            "owners": [
+              "org_3ArX7HqyYgUMydwZfe5BKu5KVz6"
+            ],
+            "adapterName": "XAIResponsesAdapter",
+            "statusPageUrl": "https://status.x.ai/",
+            "byokEnabled": true,
+            "icon": {
+              "url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://x.ai/&size=256"
+            },
+            "sendClientIp": false,
+            "pricingStrategy": "xai_responses"
+          },
+          "provider_display_name": "xAI",
+          "provider_slug": "xai",
+          "provider_model_id": "grok-4.20-0309-non-reasoning",
+          "quantization": "unknown",
+          "variant": "standard",
+          "is_free": false,
+          "can_abort": true,
+          "max_prompt_tokens": null,
+          "max_completion_tokens": null,
+          "max_tokens_per_image": null,
+          "supported_parameters": [
+            "reasoning",
+            "include_reasoning",
+            "max_tokens",
+            "temperature",
+            "top_p",
+            "seed",
+            "logprobs",
+            "top_logprobs",
+            "response_format",
+            "tools",
+            "tool_choice",
+            "structured_outputs"
+          ],
+          "excluded_parameters": [
+            "reasoning_effort"
+          ],
+          "is_byok": false,
+          "moderation_required": false,
+          "data_policy": {
+            "training": false,
+            "trainingOpenRouter": false,
+            "retainsPrompts": true,
+            "retentionDays": 30,
+            "canPublish": false,
+            "termsOfServiceURL": "https://x.ai/legal/terms-of-service-enterprise",
+            "privacyPolicyURL": "https://x.ai/legal/privacy-policy",
+            "requiresUserIDs": true
+          },
+          "pricing": {
+            "prompt": "0.00000125",
+            "completion": "0.0000025",
+            "input_cache_read": "0.0000002",
+            "web_search": "0.005",
+            "discount": 0,
+            "overrides": [
+              {
+                "min_prompt_tokens": 200000,
+                "prompt": "0.0000025",
+                "completion": "0.000005",
+                "input_cache_read": "0.0000004"
+              }
+            ],
+            "display_pricing": [
+              {
+                "kind": "token",
+                "sku_label": "Input Price",
+                "price": "1.25e-6",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens",
+                "tiers": [
+                  {
+                    "sku_label": "≤200K",
+                    "price": "1.25e-6"
+                  },
+                  {
+                    "sku_label": ">200K",
+                    "price": "2.5e-6"
+                  }
+                ]
+              },
+              {
+                "kind": "token",
+                "sku_label": "Output Price",
+                "price": "2.5e-6",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens",
+                "tiers": [
+                  {
+                    "sku_label": "≤200K",
+                    "price": "2.5e-6"
+                  },
+                  {
+                    "sku_label": ">200K",
+                    "price": "5e-6"
+                  }
+                ]
+              },
+              {
+                "kind": "token",
+                "sku_label": "Cache Read",
+                "price": "0.2e-6",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens",
+                "tiers": [
+                  {
+                    "sku_label": "≤200K",
+                    "price": "0.2e-6"
+                  },
+                  {
+                    "sku_label": ">200K",
+                    "price": "0.4e-6"
+                  }
+                ]
+              }
+            ]
+          },
+          "display_pricing": [
+            {
+              "kind": "token",
+              "sku_label": "Input Price",
+              "price": "1.25e-6",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens",
+              "tiers": [
+                {
+                  "sku_label": "≤200K",
+                  "price": "1.25e-6"
+                },
+                {
+                  "sku_label": ">200K",
+                  "price": "2.5e-6"
+                }
+              ]
+            },
+            {
+              "kind": "token",
+              "sku_label": "Output Price",
+              "price": "2.5e-6",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens",
+              "tiers": [
+                {
+                  "sku_label": "≤200K",
+                  "price": "2.5e-6"
+                },
+                {
+                  "sku_label": ">200K",
+                  "price": "5e-6"
+                }
+              ]
+            },
+            {
+              "kind": "token",
+              "sku_label": "Cache Read",
+              "price": "0.2e-6",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens",
+              "tiers": [
+                {
+                  "sku_label": "≤200K",
+                  "price": "0.2e-6"
+                },
+                {
+                  "sku_label": ">200K",
+                  "price": "0.4e-6"
+                }
+              ]
+            }
+          ],
+          "pricing_json": {
+            "xai_responses:prompt_tokens": "1.25e-6",
+            "xai_responses:x_search_calls": "0.005",
+            "xai_responses:web_search_calls": "0.005",
+            "xai_responses:completion_tokens": "2.5e-6",
+            "xai_responses:cached_prompt_tokens": "0.2e-6",
+            "xai_responses:high_context_threshold": "200000",
+            "xai_responses:priority_tier_multiplier": "2",
+            "xai_responses:prompt_tokens_high_context": "2.5e-6",
+            "xai_responses:completion_tokens_high_context": "5e-6",
+            "xai_responses:usage_guidelines_violation_fee": "0.05",
+            "xai_responses:cached_prompt_tokens_high_context": "0.4e-6"
+          },
+          "pricing_version_id": "2496ab03-0d31-4bb4-8ebc-ef10b5d4871d",
+          "is_hidden": false,
+          "is_private": false,
+          "is_byok_only": false,
+          "is_deranked": false,
+          "is_disabled": false,
+          "supports_tool_parameters": true,
+          "supports_reasoning": true,
+          "supports_multipart": true,
+          "limit_rpm": null,
+          "limit_rpd": null,
+          "limit_rpm_cf": null,
+          "has_completions": true,
+          "has_chat_completions": true,
+          "features": {
+            "supports_file_urls": true,
+            "supports_native_web_search": true,
+            "supports_tool_choice": {
+              "literal_none": true,
+              "literal_auto": true,
+              "literal_required": true,
+              "type_function": true
+            }
+          },
+          "supported_video_parameters": {},
+          "supported_image_parameters": null,
+          "provider_region": null,
+          "deprecation_date": null,
+          "allowed_passthrough_parameters": [],
+          "capacity_tpm": null,
+          "created_at": "2026-03-31T17:48:14.898Z",
+          "status": 0,
+          "status_heuristics": {
+            "success": 9904,
+            "derankableError": 6,
+            "rateLimited": 0
+          },
+          "status_heuristics_5m": {
+            "success": 1239,
+            "derankableError": 1,
+            "rateLimited": 0
+          },
+          "status_heuristics_1d": {
+            "success": 515189,
+            "derankableError": 2477,
+            "rateLimited": 189
+          }
+        }
+      },
+      "description": "",
+      "includeDefaultSystemPrompt": true,
+      "isStreaming": true,
+      "samplingParameters": {},
+      "chatMemory": 8,
+      "isDisabled": false,
+      "isRemoved": false,
+      "createdAt": "2026-07-16T13:29:34.812Z",
+      "updatedAt": "2026-07-16T13:29:34.812Z",
+      "reasoning": {
+        "enabled": true
+      },
+      "plugins": []
+    },
+    "char-1784208574-yRfLcz23FiM3tmjuMi2o": {
+      "id": "char-1784208574-yRfLcz23FiM3tmjuMi2o",
+      "model": "~openai/gpt-latest",
+      "modelInfo": {
+        "slug": "~openai/gpt-latest",
+        "hf_slug": null,
+        "updated_at": null,
+        "created_at": "2026-04-27T19:32:14.498Z",
+        "hf_updated_at": null,
+        "name": "OpenAI GPT Latest",
+        "short_name": "OpenAI GPT Latest",
+        "author": "openai",
+        "author_display_name": "OpenAI",
+        "description": "This model always redirects to the latest model in the OpenAI GPT family.",
+        "model_version_group_id": "c59971be-c6bc-4199-9192-95e9dc48cb9e",
+        "context_length": 1050000,
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "has_text_output": true,
+        "group": "Router",
+        "instruct_type": null,
+        "default_system": null,
+        "default_stops": [],
+        "hidden": false,
+        "router": null,
+        "warning_message": null,
+        "promotion_message": null,
+        "routing_error_message": null,
+        "is_private": false,
+        "permaslug": "~openai/gpt-latest",
+        "supports_reasoning": true,
+        "reasoning_config": {
+          "start_token": null,
+          "end_token": null,
+          "is_mandatory_reasoning": false,
+          "supports_reasoning_effort": true,
+          "supported_reasoning_efforts": [
+            "high",
+            "low",
+            "medium",
+            "none",
+            "xhigh",
+            "max"
+          ],
+          "default_reasoning_effort": "medium",
+          "default_reasoning_enabled": true
+        },
+        "features": {
+          "reasoning_config": {
+            "start_token": null,
+            "end_token": null,
+            "is_mandatory_reasoning": false,
+            "supports_reasoning_effort": true,
+            "supported_reasoning_efforts": [
+              "high",
+              "low",
+              "medium",
+              "none",
+              "xhigh",
+              "max"
+            ],
+            "default_reasoning_effort": "medium",
+            "default_reasoning_enabled": true
+          },
+          "chat_template_config": {}
+        },
+        "default_parameters": {
+          "temperature": null,
+          "top_p": null,
+          "top_k": null,
+          "frequency_penalty": null,
+          "presence_penalty": null,
+          "repetition_penalty": null
+        },
+        "default_order": [
+          "openai",
+          "azure"
+        ],
+        "quick_start_example_type": "reasoning",
+        "preview_thumbnail_url": null,
+        "is_trainable_text": null,
+        "is_trainable_image": null,
+        "knowledge_cutoff": "2026-02-16T00:00:00.000Z",
+        "limit_rpm": 0,
+        "limit_rpd": 0,
+        "supported_tts_voices": null,
+        "endpoint": {
+          "id": "tilde-latest-~openai/gpt-latest",
+          "name": "OpenAI | openai/gpt-5.6-sol-20260709",
+          "context_length": 1050000,
+          "model": {
+            "slug": "~openai/gpt-latest",
+            "hf_slug": null,
+            "updated_at": null,
+            "created_at": "2026-04-27T19:32:14.498Z",
+            "hf_updated_at": null,
+            "name": "OpenAI GPT Latest",
+            "short_name": "OpenAI GPT Latest",
+            "author": "openai",
+            "author_display_name": "OpenAI",
+            "description": "This model always redirects to the latest model in the OpenAI GPT family.",
+            "model_version_group_id": "c59971be-c6bc-4199-9192-95e9dc48cb9e",
+            "context_length": 1050000,
+            "input_modalities": [
+              "file",
+              "image",
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "has_text_output": true,
+            "group": "Router",
+            "instruct_type": null,
+            "default_system": null,
+            "default_stops": [],
+            "hidden": false,
+            "router": null,
+            "warning_message": null,
+            "promotion_message": null,
+            "routing_error_message": null,
+            "is_private": false,
+            "permaslug": "~openai/gpt-latest",
+            "supports_reasoning": true,
+            "reasoning_config": {
+              "start_token": null,
+              "end_token": null,
+              "is_mandatory_reasoning": false,
+              "supports_reasoning_effort": true,
+              "supported_reasoning_efforts": [
+                "high",
+                "low",
+                "medium",
+                "none",
+                "xhigh",
+                "max"
+              ],
+              "default_reasoning_effort": "medium",
+              "default_reasoning_enabled": true
+            },
+            "features": {
+              "reasoning_config": {
+                "start_token": null,
+                "end_token": null,
+                "is_mandatory_reasoning": false,
+                "supports_reasoning_effort": true,
+                "supported_reasoning_efforts": [
+                  "high",
+                  "low",
+                  "medium",
+                  "none",
+                  "xhigh",
+                  "max"
+                ],
+                "default_reasoning_effort": "medium",
+                "default_reasoning_enabled": true
+              },
+              "chat_template_config": {}
+            },
+            "default_parameters": {
+              "temperature": null,
+              "top_p": null,
+              "top_k": null,
+              "frequency_penalty": null,
+              "presence_penalty": null,
+              "repetition_penalty": null
+            },
+            "default_order": [
+              "openai",
+              "azure"
+            ],
+            "quick_start_example_type": "reasoning",
+            "preview_thumbnail_url": null,
+            "is_trainable_text": null,
+            "is_trainable_image": null,
+            "knowledge_cutoff": "2026-02-16T00:00:00.000Z",
+            "limit_rpm": 0,
+            "limit_rpd": 0,
+            "supported_tts_voices": null
+          },
+          "model_variant_slug": "~openai/gpt-latest",
+          "model_variant_permaslug": "~openai/gpt-latest",
+          "adapter_name": "OpenAIResponsesAdapter",
+          "provider_name": "OpenAI",
+          "provider_info": {
+            "name": "OpenAI",
+            "displayName": "OpenAI",
+            "slug": "openai",
+            "baseUrl": "https://api.openai.com/v1",
+            "dataPolicy": {
+              "training": false,
+              "trainingOpenRouter": false,
+              "retainsPrompts": true,
+              "canPublish": false,
+              "termsOfServiceURL": "https://openai.com/policies/row-terms-of-use/",
+              "privacyPolicyURL": "https://openai.com/policies/privacy-policy/",
+              "requiresUserIDs": true
+            },
+            "headquarters": "US",
+            "hasChatCompletions": true,
+            "hasCompletions": true,
+            "isAbortable": true,
+            "moderationRequired": true,
+            "editors": [
+              "{}"
+            ],
+            "owners": [
+              "{}"
+            ],
+            "adapterName": "OpenAIResponsesAdapter",
+            "statusPageUrl": "https://status.openai.com/",
+            "byokEnabled": true,
+            "icon": {
+              "url": "/images/icons/OpenAI.svg",
+              "className": "invert-0 dark:invert"
+            },
+            "sendClientIp": false,
+            "pricingStrategy": "openai_responses"
+          },
+          "provider_display_name": "OpenAI",
+          "provider_slug": "openai",
+          "provider_model_id": "gpt-5.6-sol",
+          "quantization": "unknown",
+          "variant": "standard",
+          "is_free": false,
+          "can_abort": true,
+          "max_prompt_tokens": 922000,
+          "max_completion_tokens": 128000,
+          "max_tokens_per_image": null,
+          "supported_parameters": [
+            "reasoning",
+            "include_reasoning",
+            "seed",
+            "max_tokens",
+            "response_format",
+            "structured_outputs",
+            "tools",
+            "tool_choice",
+            "max_completion_tokens"
+          ],
+          "excluded_parameters": [
+            "temperature",
+            "top_p"
+          ],
+          "is_byok": false,
+          "moderation_required": true,
+          "data_policy": {
+            "training": false,
+            "trainingOpenRouter": false,
+            "retainsPrompts": true,
+            "canPublish": false,
+            "termsOfServiceURL": "https://openai.com/policies/row-terms-of-use/",
+            "privacyPolicyURL": "https://openai.com/policies/privacy-policy/",
+            "requiresUserIDs": true
+          },
+          "pricing": {
+            "prompt": "0.000005",
+            "completion": "0.00003",
+            "input_cache_read": "0.0000005",
+            "input_cache_write": "0.00000625",
+            "web_search": "0.01",
+            "discount": 0,
+            "overrides": [
+              {
+                "min_prompt_tokens": 272000,
+                "prompt": "0.00001",
+                "completion": "0.000045",
+                "input_cache_read": "0.000001",
+                "input_cache_write": "0.0000125"
+              }
+            ],
+            "display_pricing": [
+              {
+                "kind": "token",
+                "sku_label": "Input Price",
+                "price": "5e-6",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens",
+                "tiers": [
+                  {
+                    "sku_label": "≤272K",
+                    "price": "5e-6"
+                  },
+                  {
+                    "sku_label": ">272K",
+                    "price": "10e-6"
+                  }
+                ]
+              },
+              {
+                "kind": "token",
+                "sku_label": "Output Price",
+                "price": "30e-6",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens",
+                "tiers": [
+                  {
+                    "sku_label": "≤272K",
+                    "price": "30e-6"
+                  },
+                  {
+                    "sku_label": ">272K",
+                    "price": "45e-6"
+                  }
+                ]
+              },
+              {
+                "kind": "token",
+                "sku_label": "Cache Read",
+                "price": "0.5e-6",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens",
+                "tiers": [
+                  {
+                    "sku_label": "≤272K",
+                    "price": "0.5e-6"
+                  },
+                  {
+                    "sku_label": ">272K",
+                    "price": "1e-6"
+                  }
+                ]
+              },
+              {
+                "kind": "token",
+                "sku_label": "Cache Write",
+                "price": "6.25e-6",
+                "displayMultiplier": 1000000,
+                "unitLabel": "/M tokens",
+                "tiers": [
+                  {
+                    "sku_label": "≤272K",
+                    "price": "6.25e-6"
+                  },
+                  {
+                    "sku_label": ">272K",
+                    "price": "12.5e-6"
+                  }
+                ]
+              }
+            ]
+          },
+          "display_pricing": [
+            {
+              "kind": "token",
+              "sku_label": "Input Price",
+              "price": "5e-6",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens",
+              "tiers": [
+                {
+                  "sku_label": "≤272K",
+                  "price": "5e-6"
+                },
+                {
+                  "sku_label": ">272K",
+                  "price": "10e-6"
+                }
+              ]
+            },
+            {
+              "kind": "token",
+              "sku_label": "Output Price",
+              "price": "30e-6",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens",
+              "tiers": [
+                {
+                  "sku_label": "≤272K",
+                  "price": "30e-6"
+                },
+                {
+                  "sku_label": ">272K",
+                  "price": "45e-6"
+                }
+              ]
+            },
+            {
+              "kind": "token",
+              "sku_label": "Cache Read",
+              "price": "0.5e-6",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens",
+              "tiers": [
+                {
+                  "sku_label": "≤272K",
+                  "price": "0.5e-6"
+                },
+                {
+                  "sku_label": ">272K",
+                  "price": "1e-6"
+                }
+              ]
+            },
+            {
+              "kind": "token",
+              "sku_label": "Cache Write",
+              "price": "6.25e-6",
+              "displayMultiplier": 1000000,
+              "unitLabel": "/M tokens",
+              "tiers": [
+                {
+                  "sku_label": "≤272K",
+                  "price": "6.25e-6"
+                },
+                {
+                  "sku_label": ">272K",
+                  "price": "12.5e-6"
+                }
+              ]
+            }
+          ],
+          "pricing_json": {
+            "openai_responses:prompt_tokens": "5e-6",
+            "openai_responses:web_search_calls": "0.01",
+            "openai_responses:completion_tokens": "30e-6",
+            "openai_responses:cache_write_tokens": "6.25e-6",
+            "openai_responses:cached_prompt_tokens": "0.5e-6",
+            "openai_responses:flex_tier_multiplier": "0.5",
+            "openai_responses:high_context_threshold": "272000",
+            "openai_responses:priority_tier_multiplier": "2",
+            "openai_responses:prompt_tokens_high_context": "10e-6",
+            "openai_responses:completion_tokens_high_context": "45e-6",
+            "openai_responses:cache_write_tokens_high_context": "12.5e-6",
+            "openai_responses:cached_prompt_tokens_high_context": "1e-6"
+          },
+          "pricing_version_id": "469c24cf-d5f7-428b-8e93-85dec4df8b79",
+          "is_hidden": false,
+          "is_private": false,
+          "is_byok_only": false,
+          "is_deranked": false,
+          "is_disabled": false,
+          "supports_tool_parameters": true,
+          "supports_reasoning": true,
+          "supports_multipart": true,
+          "limit_rpm": null,
+          "limit_rpd": null,
+          "limit_rpm_cf": null,
+          "has_completions": true,
+          "has_chat_completions": true,
+          "features": {
+            "supports_file_urls": true,
+            "supports_native_web_search": true,
+            "supports_native_apply_patch": true,
+            "supports_tool_choice": {
+              "literal_none": true,
+              "literal_auto": true,
+              "literal_required": true,
+              "type_function": true
+            }
+          },
+          "supported_video_parameters": null,
+          "supported_image_parameters": null,
+          "provider_region": null,
+          "deprecation_date": null,
+          "allowed_passthrough_parameters": [],
+          "capacity_tpm": null,
+          "created_at": "2026-07-08T19:30:02.541Z",
+          "routing_heuristics_by_tier": {
+            "flex": {
+              "request_count": 133,
+              "p50_throughput": 30,
+              "p50_latency": 11575,
+              "request_count_30_minutes": 133,
+              "p50_throughput_30_minutes": 30,
+              "p75_throughput_30_minutes": 46,
+              "p90_throughput_30_minutes": 63.599999999999994,
+              "p99_throughput_30_minutes": 85.36000000000001,
+              "p50_latency_30_minutes": 11575,
+              "p75_latency_30_minutes": 13368,
+              "p90_latency_30_minutes": 15870.599999999997,
+              "p99_latency_30_minutes": 30110.040000000023,
+              "request_count_5_minutes": 5,
+              "p50_throughput_5_minutes": 66,
+              "p75_throughput_5_minutes": 84,
+              "p90_throughput_5_minutes": 85.2,
+              "p99_throughput_5_minutes": 85.92,
+              "p50_latency_5_minutes": 14294,
+              "p75_latency_5_minutes": 27711,
+              "p90_latency_5_minutes": 29827.8,
+              "p99_latency_5_minutes": 31097.88,
+              "p50_throughput_2_hours": 25,
+              "effective_prompt_price": 0.000001884069,
+              "effective_completion_price": 0.000030305447,
+              "tool_finish_reason_request_success_rate": 0.9195161798847774,
+              "tool_calls_finish_reason_request_count": 69778
+            },
+            "priority": {
+              "request_count": 182,
+              "p50_throughput": 32,
+              "p50_latency": 2376.5,
+              "request_count_30_minutes": 182,
+              "p50_throughput_30_minutes": 32,
+              "p75_throughput_30_minutes": 69.75,
+              "p90_throughput_30_minutes": 82,
+              "p99_throughput_30_minutes": 121.89999999999998,
+              "p50_latency_30_minutes": 2376.5,
+              "p75_latency_30_minutes": 4587.25,
+              "p90_latency_30_minutes": 7927.800000000003,
+              "p99_latency_30_minutes": 14478.069999999989,
+              "request_count_5_minutes": 33,
+              "p50_throughput_5_minutes": 30,
+              "p75_throughput_5_minutes": 53,
+              "p90_throughput_5_minutes": 75.6,
+              "p99_throughput_5_minutes": 128.88,
+              "p50_latency_5_minutes": 2114,
+              "p75_latency_5_minutes": 2593,
+              "p90_latency_5_minutes": 4702.4,
+              "p99_latency_5_minutes": 11104.279999999999,
+              "p50_throughput_2_hours": 40,
+              "effective_prompt_price": 0.000001884069,
+              "effective_completion_price": 0.000030305447,
+              "tool_finish_reason_request_success_rate": 0.9195161798847774,
+              "tool_calls_finish_reason_request_count": 69778
+            }
+          },
+          "status": 0,
+          "status_heuristics": {
+            "success": 31955,
+            "derankableError": 821,
+            "rateLimited": 0
+          },
+          "status_heuristics_5m": {
+            "success": 3488,
+            "derankableError": 73,
+            "rateLimited": 0
+          },
+          "status_heuristics_1d": {
+            "success": 840954,
+            "derankableError": 97941,
+            "rateLimited": 0
+          }
+        }
+      },
+      "description": "",
+      "includeDefaultSystemPrompt": true,
+      "isStreaming": true,
+      "samplingParameters": {},
+      "chatMemory": 8,
+      "isDisabled": false,
+      "isRemoved": false,
+      "createdAt": "2026-07-16T13:29:34.812Z",
+      "updatedAt": "2026-07-16T13:29:34.812Z",
+      "reasoning": {
+        "enabled": true
+      },
+      "plugins": []
+    }
+  },
+  "messages": {
+    "msg-1784208639-fJDjDkDHFIHykRJGmer1": {
+      "id": "msg-1784208639-fJDjDkDHFIHykRJGmer1",
+      "characterId": "USER",
+      "contentType": "text",
+      "context": "main-chat",
+      "createdAt": "2026-07-16T13:30:39.030Z",
+      "updatedAt": "2026-07-16T13:30:39.030Z",
+      "isRetrying": false,
+      "isEdited": false,
+      "isCollapsed": false,
+      "type": "user",
+      "items": [
+        {
+          "id": "item-1784208639-biuV2k9lFxdiVG6wWL9C",
+          "type": "message"
+        }
+      ]
+    },
+    "msg-1784208639-jz8LQtcXxQIlCAi5vKc1": {
+      "id": "msg-1784208639-jz8LQtcXxQIlCAi5vKc1",
+      "characterId": "char-1784208574-bNgvL3RdJGmXetxv0xEB",
+      "contentType": "text",
+      "context": "main-chat",
+      "parentMessageId": "msg-1784208639-fJDjDkDHFIHykRJGmer1",
+      "createdAt": "2026-07-16T13:30:39.031Z",
+      "updatedAt": "2026-07-16T13:31:05.921Z",
+      "isRetrying": false,
+      "isEdited": false,
+      "isCollapsed": false,
+      "type": "assistant",
+      "isGenerating": false,
+      "metadata": {
+        "plugins": [],
+        "variantSlug": "google/gemini-3.1-pro-preview",
+        "serverTools": {
+          "webSearchEngine": "auto",
+          "webFetchEngine": "auto"
+        },
+        "generationId": "gen-1784208639-Rj8mBfz2BQppUJI48AV7",
+        "duration": 16395,
+        "tokensCount": 1864,
+        "tokensPerSecond": 113.69319914608113,
+        "cost": "0.0227898",
+        "routerMetadata": {
+          "requested": "~google/gemini-pro-latest",
+          "strategy": "latest",
+          "region": "GRU",
+          "summary": "strategy=latest, available=2, selected=Google",
+          "attempt": 1,
+          "is_byok": false,
+          "endpoints": {
+            "total": 2,
+            "available": [
+              {
+                "provider": "Google",
+                "model": "google/gemini-3.1-pro-preview-20260219",
+                "selected": true
+              },
+              {
+                "provider": "Google AI Studio",
+                "model": "google/gemini-3.1-pro-preview-20260219",
+                "selected": false
+              }
+            ]
+          },
+          "pipeline": [
+            {
+              "type": "plugin",
+              "name": "latest-router",
+              "summary": "Resolved ~google/gemini-pro-latest to google/gemini-3.1-pro-preview-20260219",
+              "data": {
+                "resolved_to": "google/gemini-3.1-pro-preview-20260219",
+                "alias": "~google/gemini-pro-latest"
+              }
+            },
+            {
+              "type": "server_tools",
+              "name": "server-tools",
+              "summary": "Server tools invoked (sdk): openrouter:web_search, openrouter:web_fetch",
+              "data": {
+                "mode": "sdk",
+                "tools": [
+                  "openrouter:web_search",
+                  "openrouter:web_fetch"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "items": [
+        {
+          "id": "rs_tmp_kr38s0d8u57",
+          "outputIndex": 0,
+          "type": "reasoning",
+          "sequenceIndex": 0
+        },
+        {
+          "id": "msg_tmp_vecwnpphmca",
+          "outputIndex": 1,
+          "type": "message",
+          "sequenceIndex": 1
+        }
+      ]
+    },
+    "msg-1784208639-tDU5J3b7C46BvtjsKH3g": {
+      "id": "msg-1784208639-tDU5J3b7C46BvtjsKH3g",
+      "characterId": "char-1784208574-F5J8Y9HFziAzZQYkMrOF",
+      "contentType": "text",
+      "context": "main-chat",
+      "parentMessageId": "msg-1784208639-fJDjDkDHFIHykRJGmer1",
+      "createdAt": "2026-07-16T13:30:39.032Z",
+      "updatedAt": "2026-07-16T13:31:02.915Z",
+      "isRetrying": false,
+      "isEdited": false,
+      "isCollapsed": false,
+      "type": "assistant",
+      "isGenerating": false,
+      "metadata": {
+        "plugins": [],
+        "variantSlug": "anthropic/claude-opus-4.8",
+        "serverTools": {
+          "webSearchEngine": "auto",
+          "webFetchEngine": "auto"
+        },
+        "generationId": "gen-1784208639-hVl5dHENc02HaLtOwShK",
+        "duration": 21601,
+        "tokensCount": 1254,
+        "tokensPerSecond": 58.05286792278135,
+        "cost": "0.0670131",
+        "routerMetadata": {
+          "requested": "~anthropic/claude-opus-latest",
+          "strategy": "latest",
+          "region": "GRU",
+          "summary": "strategy=latest, available=10, selected=Anthropic",
+          "attempt": 1,
+          "is_byok": false,
+          "endpoints": {
+            "total": 14,
+            "available": [
+              {
+                "provider": "Anthropic",
+                "model": "anthropic/claude-4.8-opus-20260528",
+                "selected": true
+              },
+              {
+                "provider": "Amazon Bedrock",
+                "model": "anthropic/claude-4.8-opus-20260528",
+                "selected": false
+              },
+              {
+                "provider": "Google",
+                "model": "anthropic/claude-4.8-opus-20260528",
+                "selected": false
+              },
+              {
+                "provider": "Anthropic",
+                "model": "anthropic/claude-4.8-opus-20260528",
+                "selected": false
+              },
+              {
+                "provider": "Azure",
+                "model": "anthropic/claude-4.8-opus-20260528",
+                "selected": false
+              },
+              {
+                "provider": "Anthropic",
+                "model": "anthropic/claude-4.7-opus-20260416",
+                "selected": false
+              },
+              {
+                "provider": "Amazon Bedrock",
+                "model": "anthropic/claude-4.7-opus-20260416",
+                "selected": false
+              },
+              {
+                "provider": "Google",
+                "model": "anthropic/claude-4.7-opus-20260416",
+                "selected": false
+              },
+              {
+                "provider": "Anthropic",
+                "model": "anthropic/claude-4.7-opus-20260416",
+                "selected": false
+              },
+              {
+                "provider": "Azure",
+                "model": "anthropic/claude-4.7-opus-20260416",
+                "selected": false
+              }
+            ]
+          },
+          "pipeline": [
+            {
+              "type": "plugin",
+              "name": "latest-router",
+              "summary": "Resolved ~anthropic/claude-opus-latest to anthropic/claude-4.8-opus-20260528",
+              "data": {
+                "resolved_to": "anthropic/claude-4.8-opus-20260528",
+                "alias": "~anthropic/claude-opus-latest"
+              }
+            },
+            {
+              "type": "server_tools",
+              "name": "server-tools",
+              "summary": "Server tools invoked (native): openrouter:web_search, openrouter:web_fetch",
+              "data": {
+                "mode": "native",
+                "tools": [
+                  "openrouter:web_search",
+                  "openrouter:web_fetch"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "items": [
+        {
+          "id": "rs_tmp_hzillp81vkr",
+          "outputIndex": 0,
+          "type": "reasoning",
+          "sequenceIndex": 0
+        },
+        {
+          "id": "msg_tmp_9s0n625jm68",
+          "outputIndex": 1,
+          "type": "message",
+          "sequenceIndex": 1
+        }
+      ]
+    },
+    "msg-1784208639-YfU4iZpAYRLQrO1hIhNV": {
+      "id": "msg-1784208639-YfU4iZpAYRLQrO1hIhNV",
+      "characterId": "char-1784208574-vccHadIfgxHqXQyIanLk",
+      "contentType": "text",
+      "context": "main-chat",
+      "parentMessageId": "msg-1784208639-fJDjDkDHFIHykRJGmer1",
+      "createdAt": "2026-07-16T13:30:39.033Z",
+      "updatedAt": "2026-07-16T13:31:26.322Z",
+      "isRetrying": false,
+      "isEdited": false,
+      "isCollapsed": false,
+      "type": "assistant",
+      "isGenerating": false,
+      "metadata": {
+        "plugins": [],
+        "variantSlug": "x-ai/grok-4.20",
+        "serverTools": {
+          "webSearchEngine": "auto",
+          "webFetchEngine": "auto"
+        },
+        "generationId": "gen-1784208639-fYP4XVPpORoTfEJbm8gv",
+        "duration": 36801,
+        "tokensCount": 4691,
+        "tokensPerSecond": 127.46936224559114,
+        "cost": "0.043880478",
+        "routerMetadata": {
+          "requested": "x-ai/grok-4.20",
+          "strategy": "direct",
+          "region": "GRU",
+          "summary": "available=2, selected=xAI",
+          "attempt": 1,
+          "is_byok": false,
+          "endpoints": {
+            "total": 2,
+            "available": [
+              {
+                "provider": "xAI",
+                "model": "x-ai/grok-4.20-20260309",
+                "selected": true
+              },
+              {
+                "provider": "xAI",
+                "model": "x-ai/grok-4.20-20260309",
+                "selected": false
+              }
+            ]
+          },
+          "pipeline": [
+            {
+              "type": "server_tools",
+              "name": "server-tools",
+              "summary": "Server tools invoked (sdk): openrouter:web_search, openrouter:web_fetch",
+              "data": {
+                "mode": "sdk",
+                "tools": [
+                  "openrouter:web_search",
+                  "openrouter:web_fetch"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "items": [
+        {
+          "id": "rs_418b8efd-981f-9c53-8c43-9eee725ecd83",
+          "outputIndex": 0,
+          "type": "reasoning",
+          "sequenceIndex": 0
+        },
+        {
+          "id": "st_tmp_hl6zufc3348",
+          "outputIndex": 1,
+          "type": "openrouter:web_search",
+          "sequenceIndex": 1
+        },
+        {
+          "id": "rs_1aea7015-e87a-9ed3-a5fe-1b7cf1a4ca58",
+          "outputIndex": 2,
+          "type": "reasoning",
+          "sequenceIndex": 2
+        },
+        {
+          "id": "st_tmp_vbdr8pv3j5",
+          "outputIndex": 3,
+          "type": "openrouter:web_search",
+          "sequenceIndex": 3
+        },
+        {
+          "id": "st_tmp_hnzes58eifw",
+          "outputIndex": 4,
+          "type": "openrouter:web_search",
+          "sequenceIndex": 4
+        },
+        {
+          "id": "rs_418d9e8e-65af-9625-956b-352b05b28e4d",
+          "outputIndex": 5,
+          "type": "reasoning",
+          "sequenceIndex": 5
+        },
+        {
+          "id": "msg_tmp_g415mpsl4db",
+          "outputIndex": 6,
+          "type": "message",
+          "sequenceIndex": 6
+        }
+      ]
+    },
+    "msg-1784208639-duAlKHL1GCTHklH1SOT7": {
+      "id": "msg-1784208639-duAlKHL1GCTHklH1SOT7",
+      "characterId": "char-1784208574-yRfLcz23FiM3tmjuMi2o",
+      "contentType": "text",
+      "context": "main-chat",
+      "parentMessageId": "msg-1784208639-fJDjDkDHFIHykRJGmer1",
+      "createdAt": "2026-07-16T13:30:39.034Z",
+      "updatedAt": "2026-07-16T13:30:57.357Z",
+      "isRetrying": false,
+      "isEdited": false,
+      "isCollapsed": false,
+      "type": "assistant",
+      "isGenerating": false,
+      "metadata": {
+        "plugins": [],
+        "variantSlug": "openai/gpt-5.6-sol",
+        "serverTools": {
+          "webSearchEngine": "auto",
+          "webFetchEngine": "auto"
+        },
+        "generationId": "gen-1784208639-rA13y08AYDwpS3NuOMsh",
+        "duration": 7830,
+        "tokensCount": 530,
+        "tokensPerSecond": 67.68837803320562,
+        "cost": "0.01720125",
+        "routerMetadata": {
+          "requested": "~openai/gpt-latest",
+          "strategy": "latest",
+          "region": "GRU",
+          "summary": "strategy=latest, available=4, selected=OpenAI",
+          "attempt": 1,
+          "is_byok": false,
+          "endpoints": {
+            "total": 6,
+            "available": [
+              {
+                "provider": "OpenAI",
+                "model": "openai/gpt-5.6-sol-20260709",
+                "selected": true
+              },
+              {
+                "provider": "Azure",
+                "model": "openai/gpt-5.6-sol-20260709",
+                "selected": false
+              },
+              {
+                "provider": "OpenAI",
+                "model": "openai/gpt-5.5-20260423",
+                "selected": false
+              },
+              {
+                "provider": "Azure",
+                "model": "openai/gpt-5.5-20260423",
+                "selected": false
+              }
+            ]
+          },
+          "pipeline": [
+            {
+              "type": "plugin",
+              "name": "latest-router",
+              "summary": "Resolved ~openai/gpt-latest to openai/gpt-5.6-sol-20260709",
+              "data": {
+                "resolved_to": "openai/gpt-5.6-sol-20260709",
+                "alias": "~openai/gpt-latest"
+              }
+            },
+            {
+              "type": "server_tools",
+              "name": "server-tools",
+              "summary": "Server tools invoked (sdk): openrouter:web_search, openrouter:web_fetch",
+              "data": {
+                "mode": "sdk",
+                "tools": [
+                  "openrouter:web_search",
+                  "openrouter:web_fetch"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "items": [
+        {
+          "id": "rs_0afcb8e92bcfb428016a58dd004988819081fe3b4f4908b711",
+          "outputIndex": 0,
+          "type": "reasoning",
+          "sequenceIndex": 0
+        },
+        {
+          "id": "msg_tmp_rlyflmuy0x8",
+          "outputIndex": 1,
+          "type": "message",
+          "sequenceIndex": 1
+        }
+      ]
+    }
+  },
+  "items": {
+    "item-1784208639-biuV2k9lFxdiVG6wWL9C": {
+      "id": "item-1784208639-biuV2k9lFxdiVG6wWL9C",
+      "messageId": "msg-1784208639-fJDjDkDHFIHykRJGmer1",
+      "data": {
+        "type": "message",
+        "role": "user",
+        "content": [
+          {
+            "type": "input_text",
+            "text": "My team and I will be hosting two international guests at our university here in RS, Brazil this July. We would like to offer them some food and drinks during the break. Please suggest a menu so I can pass it on to our group to organize."
+          }
+        ]
+      }
+    },
+    "rs_tmp_kr38s0d8u57": {
+      "id": "rs_tmp_kr38s0d8u57",
+      "messageId": "msg-1784208639-jz8LQtcXxQIlCAi5vKc1",
+      "data": {
+        "id": "rs_tmp_kr38s0d8u57",
+        "type": "reasoning",
+        "status": "completed",
+        "content": [
+          {
+            "type": "reasoning_text",
+            "text": "**Considering the Context**\n\nI'm now carefully analyzing the request, focusing on the context. I've noted the location (RS, Brazil) and the time (July, winter) as key factors to consider for meal suggestions. I am now trying to fully grasp the nuances of the request.\n\n\n**Analyzing the Menu**\n\nI am now delving into the practicalities of menu construction. I am trying to determine an appropriate cultural menu, for a coffee/snack break, specific to Rio Grande do Sul in July. I've noted the *gaúcho* influence and the need for warm, comforting items. I'm brainstorming options, which include local drinks like Chimarrão, Café Passado, and Quentão, and thinking about cultural considerations and familiar options to satisfy a broader range of tastes. I'm also planning to remember formatting constraints.\n\n\n**Developing the Menu**\n\nI'm now focusing on specific menu items, both savory and sweet. I've compiled a list including Pão de queijo, Cuca in both savory and sweet versions, Pastels, Sanduíches de frios, and Pinhão. For sweet options, I'm considering Brigadeiro, Grostoli, Apfelstrudel, and Bolo de milho. I am trying to balance local authenticity with broader appeal.\n\n\n**Considering the Context**\n\nI'm now carefully analyzing the request, focusing on the context. I've noted the location (RS, Brazil) and the time (July, winter) as key factors to consider for meal suggestions. I am now trying to fully grasp the nuances of the request.\n\n\n**Analyzing the Menu**\n\nI am now delving into the practicalities of menu construction. I am trying to determine an appropriate cultural menu, for a coffee/snack break, specific to Rio Grande do Sul in July. I've noted the *gaúcho* influence and the need for warm, comforting items. I'm brainstorming options, which include local drinks like Chimarrão, Café Passado, and Quentão, and thinking about cultural considerations and familiar options to satisfy a broader range of tastes. I'm also planning to remember formatting constraints.\n\n\n**Developing the Menu**\n\nI'm now focusing on specific menu items, both savory and sweet. I've compiled a list including Pão de queijo, Cuca in both savory and sweet versions, Pastels, Sanduíches de frios, and Pinhão. For sweet options, I'm considering Brigadeiro, Grostoli, Apfelstrudel, and Bolo de milho. I am trying to balance local authenticity with broader appeal.\n\n\n"
+          }
+        ],
+        "summary": []
+      }
+    },
+    "msg_tmp_vecwnpphmca": {
+      "id": "msg_tmp_vecwnpphmca",
+      "messageId": "msg-1784208639-jz8LQtcXxQIlCAi5vKc1",
+      "data": {
+        "id": "msg_tmp_vecwnpphmca",
+        "type": "message",
+        "status": "completed",
+        "role": "assistant",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "Hosting international guests in Rio Grande do Sul (RS) during July is a wonderful opportunity! Since July is winter in southern Brazil, the weather is likely to be chilly. Therefore, a menu featuring warm, comforting, and culturally significant items will be both welcoming and memorable for them.\n\nHere is a proposed coffee break menu that balances traditional *gaúcho* and Brazilian flavors with international palates in mind.\n\n### The \"Winter in RS\" Coffee Break Menu\n\n#### ☕ Drinks (Bebidas)\n*   **Café Passado:** Freshly brewed Brazilian drip coffee. It's a staple and a safe harbor for international guests.\n*   **Suco de Uva Integral:** 100% natural grape juice from the *Serra Gaúcha*. It's a regional pride and much richer than typical grape juices found abroad.\n*   **Chimarrão (Erva-Mate):** The traditional hot mate tea of RS. (Have a separate thermos and gourd prepared. *Note: It has a strong, bitter taste, so present it as an experience to try rather than the only hot beverage.*)\n*   **Assorted Teas:** A safe alternative for those who do not drink coffee or find mate too bitter.\n\n#### 🧀 Savory Bites (Salgados)\n*   **Pão de Queijo:** Warm Brazilian cheese bread. While originating in Minas Gerais, it is universally loved across Brazil and is almost always a huge hit with foreigners because it is naturally gluten-free and delicious.\n*   **Pinhão Cozido:** Boiled Araucaria pine nuts. Since it is July, this is the perfect seasonal winter snack native to the southern Brazilian highlands.\n*   **Mini Sanduíches:** Simple cold-cut sandwiches (e.g., ham and cheese on soft bread or mini French rolls) to provide a familiar and filling option.\n\n#### 🍰 Sweet Treats (Doces)\n*   **Cuca (Kuchen):** A traditional German-Brazilian crumb cake that is deeply embedded in RS culture. *Flavors to suggest: Grape (Uva), Banana, or Doce de Leite.*\n*   **Cueca Virada (Grostoli):** Small, twisted fried dough dusted with sugar and cinnamon. Very traditional in the Italian regions of RS and perfect with coffee.\n*   **Brigadeiros:** You cannot host international guests in Brazil without offering the national chocolate truffle! \n\n---\n\nTo help your team organize and ensure everything goes smoothly, I have included some additional tips and cultural context below in collapsible sections.\n\n<details>\n<summary><b>Logistics & Organization Tips for Your Team</b></summary>\n<br>\n\n*   **Dietary Restrictions:** Always ask in advance if the guests have any allergies (e.g., nuts, gluten, dairy), follow specific diets (vegetarian/vegan), or have religious dietary restrictions.\n*   **Temperature:** July in RS can be very cold, and university buildings aren't always centrally heated. Make sure the hot drinks are kept in good thermal carafes (garrafas térmicas).\n*   **Portion Sizes:** For a standard 20-30 minute break, calculate about 4-5 savory bites and 2-3 sweet bites per person, plus 300ml of liquid.\n*   **Safe Alternatives:** While local food is great, if a guest has a sensitive stomach, having a bowl of fresh fruit (like bananas or apples) and plain crackers is a thoughtful backup.\n</details>\n\n<details>\n<summary><b>Cultural Context (Talking Points to share with your guests)</b></summary>\n<br>\n\n*   **Chimarrão ($\\text{Ilex paraguariensis}$):** You can explain to your guests that sharing *chimarrão* is a gesture of hospitality and friendship in *gaúcho* culture. Tell them about the \"roda de chimarrão\" (the circle of sharing).\n*   **Immigration Influence:** RS has a unique cultural tapestry. You can explain that the *Cuca* comes from German immigrants who settled in areas like São Leopoldo and Novo Hamburgo, while the *Grostoli* comes from the Italian immigrants in the mountains (Serra Gaúcha).\n*   **Pinhão:** Explain that this isn't a standard pine nut, but a large seed from the *Araucaria araucana* tree, which is a protected and iconic symbol of the southern Brazilian winter.\n</details>",
+            "annotations": [],
+            "logprobs": []
+          }
+        ]
+      }
+    },
+    "rs_tmp_hzillp81vkr": {
+      "id": "rs_tmp_hzillp81vkr",
+      "messageId": "msg-1784208639-tDU5J3b7C46BvtjsKH3g",
+      "data": {
+        "id": "rs_tmp_hzillp81vkr",
+        "type": "reasoning",
+        "status": "completed",
+        "content": [
+          {
+            "type": "reasoning_text",
+            "text": "The user is hosting international guests at their university in Rio Grande do Sul during July, which is winter there and gets quite cold. I should put together a menu with Brazilian and regional touches that works well for a winter break gathering."
+          }
+        ],
+        "summary": [],
+        "signature": "EvcECokBCA8YAipANXB+MxD104Ev9bBOVlx1NgujiqK1vQT6VO6LNwXGxOCONMQ1i+IDOAUnpJ3gto+TBOXZ7uJkxw/86h9/K7d5jDIPY2xhdWRlLW9wdXMtNC04OABCCHRoaW5raW5nWiQ0YzBmMDQ2Zi0yNWZkLTQ1ZmItYmZiMy1hMDhhOGUyNDljYTcSDCTF9AGhKJVyNqKhpRoMlRAVTLikEVBOXqanIjDAO1scQbj1MSHLAQyjzgttNuNDtUlMQ1dWCIG6i7l41gOx7xtTGzEiUpiqX1g3CPEqmgOgOyYUUIAoKr0A5DP+KyQLVI3/4Q2/oV8+BNLkZzSbOciTw/ZGpF13gp+hGSTExaSBLEGCNm+iPM0MDXimgAp25x+fABOnBDJCvI0ibYtVy+wDWLy+sVdOG+vpQqA0yfoq8RleJyHKV/Tv+JH9Ywd229Efv5HadeEpztL16+EUAx6ZkLtwmslKmZuVg7GkRPxSC6GMiktuJ+9ThobXKXtMbCLBcZkjt/aCbYtfaoXJlPON+Njv7WzIKPcwRNwemMvgN1mGA/zyHCZ5454UD1rVEmKvENdCcA1kAiD6POHC5nyyr511JLZjLZEUDt4FimOSUnPwPem1rnxLHoqFnVVi/3Ir7+45vAQxFrmrchvE0YNqlIW9s7cQYEh1Jkf08hiXQslUjys5RC5ImilgyzIWvnPLamsTDrSGauEJjCEaX56X+acpmkj71XWin+18I/K44CyQnEI86WGGsvBP1nqahNsZfIk5iTtj8m5SNc0COvcK+1p4J0h0OLKA6Q04x14tfa/rwXDIXpudz82BW+N3IxUCzllRvRWEohgB",
+        "format": "anthropic-claude-v1"
+      }
+    },
+    "msg_tmp_9s0n625jm68": {
+      "id": "msg_tmp_9s0n625jm68",
+      "messageId": "msg-1784208639-tDU5J3b7C46BvtjsKH3g",
+      "data": {
+        "id": "msg_tmp_9s0n625jm68",
+        "type": "message",
+        "status": "completed",
+        "role": "assistant",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "What a lovely idea! Since it's July, you'll be hosting during **winter** — and Rio Grande do Sul gets genuinely cold this time of year, so a menu with warm drinks and comforting bites will be perfect. I've also leaned into some *gaúcho* and Brazilian specialties, since international guests usually love discovering regional flavors. Here's a suggested menu you can pass along to your group.\n\n## ☕ Coffee Break Menu — Winter Edition\n\n### Hot Drinks (the stars in July!)\n- **Chimarrão** — the quintessential *gaúcho* experience; a great cultural icebreaker for international guests\n- **Fresh Brazilian coffee** (*cafezinho*) — with options for espresso and coffee with hot milk\n- **Hot chocolate** (*chocolate quente*) — thick, comforting style\n- **Assorted teas** — including chá mate, chamomile, and black tea\n- Optional: a warm mulled-style juice or *quentão* (non-alcoholic version if appropriate for a work setting)\n\n### Cold Drinks\n- Bottled water (still and sparkling)\n- Fruit juices — consider tropical flavors guests may not know: **maracujá** (passion fruit), **caju** (cashew apple), or **goiaba** (guava)\n- A soft drink option, including **Guaraná** (a fun, distinctly Brazilian choice)\n\n### Savory Bites\n- **Pão de queijo** — always a crowd-pleaser and naturally gluten-free\n- **Coxinha** and **mini quibes** — classic Brazilian *salgadinhos*\n- **Empadinhas** (chicken or heart-of-palm)\n- Cheese and cold-cut board with **queijo colonial** (a regional RS specialty) and crackers\n- **Sonho de valsa / mini sandwiches** — light options like *pão com requeijão* or *bauru*\n\n### Sweet Treats\n- **Brigadeiro** and **beijinho** — iconic Brazilian sweets that guests will remember\n- **Cuca** — a German-influenced crumb cake, very typical of RS\n- **Sonhos** or mini *pastéis de nata*\n- Fresh fruit platter (papaya, pineapple, melon, grapes) for a lighter option\n\n---\n\n### 💡 A few organizing tips for your group\n- **Ask about dietary restrictions** in advance — vegetarian, gluten, or allergies. Having a couple of clearly labeled options (like pão de queijo and fruit) covers most cases.\n- **Highlight the regional items** — a small card or a quick verbal note explaining chimarrão, cuca, and brigadeiro turns the break into a mini cultural experience.\n- **Serve drinks hot and ready** — given the July cold, prioritize keeping the coffee, chocolate, and chimarrão warm.\n- **Quantities**: for a small group plus two guests, plan roughly 3–4 savory and 2–3 sweet items per person, with generous drink refills.\n\nWould you like me to:\n1. **Scale this into specific quantities** based on your total headcount?\n2. **Create a printable version** (menu card or shopping/organization checklist) you can share with your team?\n3. **Adjust for any dietary needs** or a specific budget?\n\nJust let me know how many people total and I can tailor it further! 🇧🇷",
+            "annotations": [],
+            "logprobs": []
+          }
+        ]
+      }
+    },
+    "rs_418b8efd-981f-9c53-8c43-9eee725ecd83": {
+      "id": "rs_418b8efd-981f-9c53-8c43-9eee725ecd83",
+      "messageId": "msg-1784208639-YfU4iZpAYRLQrO1hIhNV",
+      "data": {
+        "id": "rs_418b8efd-981f-9c53-8c43-9eee725ecd83",
+        "type": "reasoning",
+        "status": "completed",
+        "summary": [
+          {
+            "type": "summary_text",
+            "text": "The query is: \"My team and I will be hosting two international guests at our university here in RS, Brazil this July. We would like to offer them some food and drinks during the break. Please suggest ...First, the query is about suggesting a menu for food and drinks for two international guests at a university in RS, Brazil in July (winter).\n\nKey context from my knowledge:\n- RS, Brazil: Gaucho culture, churrasco (barbecue), mate tea (chimarrão), coffee, bread, cheeses, ices, etc.\n- July: Winter in Brazil, cold weather, so suggest warm, comforting items.\n- International guests: Assume they like variety, not too exotic. Provide options that are familiar or explainable.\n- Break: Likely snacks, not full meal. Finger foods, easy to serve.\n\nSuggested menu structure:\n - Savory snacks\n  - Sweets\n  - Drinks: Hot for winter, local like chimarrão, coffee, juices.\n\nSpecific ideas:\n  - Pão de queijo (cheese bread) – iconic, easy."
+          }
+        ],
+        "encrypted_content": "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",
+        "format": "xai-responses-v1"
+      }
+    },
+    "st_tmp_hl6zufc3348": {
+      "id": "st_tmp_hl6zufc3348",
+      "messageId": "msg-1784208639-YfU4iZpAYRLQrO1hIhNV",
+      "data": {
+        "id": "st_tmp_hl6zufc3348",
+        "type": "openrouter:web_search",
+        "status": "completed",
+        "action": {
+          "type": "search",
+          "query": "typical snacks drinks hosting guests Rio Grande do Sul Brazil winter July RS gaucho food pão de queijo chimarrão cuca",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://www.colombo.com.br/blog/estilo-de-vida/dia-do-gaucho-chimarrao-tradicoes-rio-grande-sul/"
+            },
+            {
+              "type": "url",
+              "url": "https://portalmundoweb.com/energia-compartilhada-na-roda-social-com-cha-de-erva-mate-gaucha/"
+            },
+            {
+              "type": "url",
+              "url": "https://dimassantos.com.br/chimarrao-ritual-cultural-sul-rio-grandense/"
+            },
+            {
+              "type": "url",
+              "url": "https://bomgourmet.com/bomgourmet/produtos-ingredientes/chimarrao-origem-e-misterios-da-bebida-simbolo-do-gaucho/"
+            },
+            {
+              "type": "url",
+              "url": "https://meuchimarrao.com.br/blog/chimarrao-festa-junina-como-servir/"
+            }
+          ]
+        }
+      }
+    },
+    "rs_1aea7015-e87a-9ed3-a5fe-1b7cf1a4ca58": {
+      "id": "rs_1aea7015-e87a-9ed3-a5fe-1b7cf1a4ca58",
+      "messageId": "msg-1784208639-YfU4iZpAYRLQrO1hIhNV",
+      "data": {
+        "id": "rs_1aea7015-e87a-9ed3-a5fe-1b7cf1a4ca58",
+        "type": "reasoning",
+        "status": "completed",
+        "summary": [
+          {
+            "type": "summary_text",
+            "text": "The tool results give excellent information on typical pairings with chimarrão in Rio Grande do Sul, especially for winter.\n"
+          }
+        ],
+        "encrypted_content": "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",
+        "format": "xai-responses-v1"
+      }
+    },
+    "st_tmp_vbdr8pv3j5": {
+      "id": "st_tmp_vbdr8pv3j5",
+      "messageId": "msg-1784208639-YfU4iZpAYRLQrO1hIhNV",
+      "data": {
+        "id": "st_tmp_vbdr8pv3j5",
+        "type": "openrouter:web_search",
+        "status": "completed",
+        "action": {
+          "type": "search",
+          "query": "pinhão Rio Grande do Sul winter food how to prepare and serve for guests",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://www.receitasja.com.br/pinhao-cozido-perfeito-para-servir-em-festas-juninas-e-reunioes-em-familia/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.terra.com.br/diversao/arte-e-cultura/pinhao-no-inverno-conheca-5-receitas-tipicas-e-nutritivas-da-culinaria-gaucha,f8e86ab7b169cecea8b40e410b90810aysspdvm3.html"
+            },
+            {
+              "type": "url",
+              "url": "https://canaldareceita.com.br/como-fazer/pinhao-cozido/"
+            },
+            {
+              "type": "url",
+              "url": "https://cometobrazil.net/pinhao-traditional-winter-snack-southern-brazil/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nsctotal.com.br/noticias/conheca-a-historia-de-3-pratos-de-pinhao-e-aprenda-a-fazer-em-casa"
+            }
+          ]
+        }
+      }
+    },
+    "st_tmp_hnzes58eifw": {
+      "id": "st_tmp_hnzes58eifw",
+      "messageId": "msg-1784208639-YfU4iZpAYRLQrO1hIhNV",
+      "data": {
+        "id": "st_tmp_hnzes58eifw",
+        "type": "openrouter:web_search",
+        "status": "completed",
+        "action": {
+          "type": "search",
+          "query": "cuca recipe or typical flavors Rio Grande do Sul easy to buy",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://receitadez.com/receita-de-cuca-gaucha-com-farofa-crocante-e-deliciosa/"
+            },
+            {
+              "type": "url",
+              "url": "https://masterkitchen.com.br/receitas/cuca-alema-tradicional-receita-do-sul-com-farofa-doce-crocante/"
+            },
+            {
+              "type": "url",
+              "url": "https://receitatodahora.com.br/cuca-gaucha-tradicional-e-facil-de-fazer-a-hora-do-seu-cafe-vai-ficar-muito-mais-gostosa/"
+            },
+            {
+              "type": "url",
+              "url": "https://pilotandofogao.com.br/cuca-gaucha-tradicional-receita-completa-para-encantar/"
+            },
+            {
+              "type": "url",
+              "url": "https://receitasdebolos.com/cuca-de-banana-rs/"
+            }
+          ]
+        }
+      }
+    },
+    "rs_418d9e8e-65af-9625-956b-352b05b28e4d": {
+      "id": "rs_418d9e8e-65af-9625-956b-352b05b28e4d",
+      "messageId": "msg-1784208639-YfU4iZpAYRLQrO1hIhNV",
+      "data": {
+        "id": "rs_418d9e8e-65af-9625-956b-352b05b28e4d",
+        "type": "reasoning",
+        "status": "completed",
+        "summary": [
+          {
+            "type": "summary_text",
+            "text": "The additional search results provide great details:\nFirst, the user is asking for a menu suggestion for international guests at a university in RS, Brazil (Rio Grande do Sul, southern Brazil) in July. July is winter there, so warm foods make sense."
+          }
+        ],
+        "encrypted_content": "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",
+        "format": "xai-responses-v1"
+      }
+    },
+    "msg_tmp_g415mpsl4db": {
+      "id": "msg_tmp_g415mpsl4db",
+      "messageId": "msg-1784208639-YfU4iZpAYRLQrO1hIhNV",
+      "data": {
+        "id": "msg_tmp_g415mpsl4db",
+        "type": "message",
+        "status": "completed",
+        "role": "assistant",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "**Suggested Menu for Hosting International Guests in RS, Brazil (July – Winter)**\n\nThis menu focuses on **authentic Rio Grande do Sul (gaucho) hospitality** while remaining practical for a university break. July is winter in the South, so the emphasis is on warm, comforting items that pair beautifully with conversation.\n\nThe menu highlights iconic local flavors — especially **chimarrão** (the symbol of gaucho friendship and hospitality) and winter specialties like **pinhão** and **cuca** — balanced with familiar Brazilian favorites. It includes vegetarian options and a mix of sweet/savory. Most items can be purchased fresh from a good local *padaria* (bakery) the same morning, minimizing preparation effort for your team.\n\n### Beverages (Serve warm where possible)\n- **Chimarrão** (traditional bitter mate tea): The must-have experience. Prepare in the traditional *cuia* (gourd) with *bomba* (metal straw) and pass in a *roda* (circle). One person acts as “doador” (server). Offer a sweetened version or individual cups for guests who may find the bitterness strong at first. Use a good thermos of hot water (65–75°C — never boiling).\n- **Café brasileiro** (fresh brewed coffee): Strong and high-quality. Offer with milk (*pingado*) option.\n- **Chocolate quente** (hot chocolate): Creamy and comforting for the cold weather.\n- **Suco de uva** (grape juice) or still/sparkling water: RS is a major wine region, so grape juice feels local and refreshing.\n\n### Savory Options (Finger foods / shareable)\n- **Pão de queijo** (warm cheese bread): Soft, chewy, and addictive. Naturally gluten-free. Buy fresh and warm from the bakery or reheat just before serving.\n- **Pinhão cozido** (boiled araucaria pine nuts): A classic winter seasonal treat in RS. Boil in salted water (pressure cooker: ~40–50 minutes). Serve warm in the shell — guests peel them. Nutty, starchy, and very authentic. Great conversation starter.\n- **Coxinha** (chicken croquettes) + **vegetarian pastéis or empadas** (cheese, palmito/heart of palm, or spinach): Classic Brazilian savory pastries. Easy to buy in variety packs from padarias.\n- **Queijo colonial and cold cuts platter**: Local RS cheeses (colonial or similar) + salami or cured meats. Add slices of bread or rye bread (*pão de centeio*). Simple, elegant, and reflects the strong European (German/Italian) influence in the state. Mostly vegetarian if you separate the meats.\n\n**Optional add-on (if someone has grill access):** Small pieces of *linguiça* (grilled sausage) — very gaucho.\n\n### Sweet Options\n- **Cuca** (slices): The iconic Southern Brazilian cake with a soft base and crunchy streusel (*farofa*) topping. Get banana-cinnamon, grape (*uva*), or apple versions — all traditional in RS. Easy to buy fresh from any good padaria. Pairs perfectly with chimarrão or coffee.\n- **Brigadeiros**: Classic chocolate fudge balls. Easy for someone on the team to make (or buy). universally loved.\n- **Biscoitos de polvilho**: Light, crunchy tapioca starch cookies. Excellent with chimarrão and very traditional in the South.\n\n**Optional extras:**\n- Fresh fruit (oranges or apples — seasonal and light).\n- Popcorn or simple *bolo de fubá* (cornmeal cake) if you want more Festa Junina winter vibes.\n\n### Practical Organization Tips for Your Group\n**Quantities** (for ~8–10 people total including the 2 guests):  \n- 40–50 pieces of pão de queijo and salgados (coxinha/pastel).  \n- 1–1.5 kg pinhão (boiled).  \n- 2–3 medium cuca cakes (cut into small squares).  \n- 30–40 brigadeiros + 1–2 packs of biscoitos.  \n- 1 large cuia + good erva-mate + thermos; plus backup coffee/hot chocolate (2–3 liters total).\n\n**Division of tasks:**\n- **One person** — Handles chimarrão (buy erva-mate, cuia if needed, prepare thermos and explain the tradition to guests).\n- **One or two people** — Buy everything from a recommended padaria the morning of (pão de queijo, cuca, salgados, cheeses, biscoitos).\n- **One person** — Prepares/boils the pinhão and makes brigadeiros (if not buying).\n- **Setup** — Buffet style or pass trays. Label items (vegetarian, contains nuts, etc.). Print small cards with names and short English descriptions for the international guests.\n\n**Cultural notes to share with guests:**\n- Chimarrão is about sharing and conversation — it’s a symbol of welcome.\n- Pinhão is a beloved winter ritual in RS.\n- Cuca reflects the German immigrant heritage common in southern Brazil.\n\nThis menu is welcoming, not overwhelming, and gives your guests a real taste of Rio Grande do Sul without requiring professional catering. It works well for 30–90 minutes during a break.\n\nIf you tell me the approximate size of your team, any known dietary restrictions, budget constraints, or whether you have access to a kitchen/grill, I can refine quantities, add simple recipes, or adjust the balance further. \n\nBom proveito e uma ótima recepção aos visitantes! 🇧🇷",
+            "annotations": [
+              {
+                "type": "url_citation",
+                "url": "https://www.colombo.com.br/blog/estilo-de-vida/dia-do-gaucho-chimarrao-tradicoes-rio-grande-sul/",
+                "title": "Dia do Gaúcho: Chimarrão e Tradições no Rio Grande do Sul",
+                "start_index": 0,
+                "end_index": 0,
+                "content": "### Cuca\n\nA cuca é um bolo de origem alemã muito popular no sul do Brasil. Ela pode ser recheada com frutas, como uvas ou maçãs, e é uma ótima opção para acompanhar o chimarrão.\n\n[...]\n\n### Bolo Frito (Pastel Frito)\n\nUm bolo frito recheado com carne, queijo ou outros ingredientes é uma delícia para complementar o chimarrão.\n\n[...]\n\n## Gastronomia Gaúcha: Pratos Típicos para Complementar o Chimarrão\n\n[...]\n\nO chimarrão é uma bebida tradicional do Rio Grande do Sul, e os gaúchos costumam acompanhá-lo com uma variedade de pratos típicos. Preparamos uma lista com alguns pratos comuns que combinam bem com o chimarrão.\n\n[...]\n\n### Tortas Salgadas\n\nTortas recheadas com carne, frango ou queijo são uma opção mais substancial para servir junto com o chimarrão.\n\n[...]\n\nPor exemplo, um anfitrião prepara a bebida para receber as visitas. Quando elas chegam, a roda do chimarrão começa, e cada um bebe tudo no porongo e passa adiante, depois para a próxima pessoa e assim por diante. Em resumo, oferecer um chimarrão aos gaúchos é a melhor maneira de acolhê-los.\n\n[...]\n\n### Biscoitos Caseiros\n\nBiscoitos caseiros, como os de polvilho ou os amanteigados, são ótimos para saborear com a bebida.\n\n[...]\n\nPolenta Frita\n\nA polenta frita é uma iguaria, que o cozinheiro corta em pedaços e serve como acompanhamento para o chimarrão.\n\n[...]\n\n### Salgadinhos\n\nCoxinhas, pastéis e outros salgadinhos são ótimos para servir com chimarrão como petiscos.\n\n[...]\n\n### Churrasco\n\nUm churrasco gaúcho é sempre uma opção, e salsichões grelhados ou linguiças são perfeitos para saborear junto com a bebida.Usualmente esse prato é servido muito como petisco.\n\n[...]\n\n### Bolinho de Carne\n\nBolinhos de carne moída fritos são uma escolha tradicional para acompanhar o chimarrão.\n\n[...]\n\nA bebida verde, também conhecida como chimarrão, desempenha um papel cultural importante, pois as pessoas compartilham essa bebida em um grupo, enquanto colocam a prosa em dia.\n\n[...]\n\nUma das tradições que identifica o Rio Grande como um povo realmente tradicionalista é o chimarrão. Essa bebida é um legado dos indígenas, mais precisamente por quíchuas, aimarás e guaranis.\n\n[...]\n\nEles ingeriam uma bebida forte feita com folhas fragmentadas e água quente, num pequeno porongo. Em conjunto com isso, eles utilizavam um canudo de taquara, com fibras que impediam a passagem de fragmentos das folhas. Dessa forma, destacamos o chimarrão como a principal bebida tradicionalista rio-grandense.\n\n[...]\n\n## A Origem do Chimarrão e sua Importância Cultural"
+              },
+              {
+                "type": "url_citation",
+                "url": "https://portalmundoweb.com/energia-compartilhada-na-roda-social-com-cha-de-erva-mate-gaucha/",
+                "title": "Energia compartilhada na roda social com chá de erva-mate gaúcha - Portal Mundo Web",
+                "start_index": 0,
+                "end_index": 0,
+                "content": "O chimarrão combina perfeitamente com petiscos típicos gaúchos, equilibrando sabores e texturas para enriquecer a roda. Pães de centeio e biscoitos de polvilho fornecem base neutra; queijos de campo e salames artesanais oferecem contraste salgado que ressalta notas amargas da erva. Em tereré, frutas frescas como melancia ou abacaxi adicionam doce natural e refrescância. Para fechar, doces regionais como cucas e ambrosias trazem toque adocicado, criando harmonização que enaltece cultura local e complementa os benefícios energéticos da infusão.\n\n[...]\n\n#### Doces regionais e frutas frescas\n\nCucas de frutas ou ambrosia adicionam doçura suave que contrasta com o infusionado, enquanto fatias de melancia ou abacaxi em tereré aumentam hidratação, frescor e aporte de vitaminas, tornando o ritual mais nutritivo e saboroso.\n\n[...]\n\n## Combinações gastronômicas\n\n[...]\n\n#### Queijos e embutidos artesanais\n\nQueijos de cabra e colonial, acompanhados de salames finos, criam contraste cremoso e salgado, equilibrando compostos fenólicos da erva. Esses itens proteicos prolongam saciedade e sustentam energia mental.\n\n[...]\n\n## Ritual de compartilhamento na roda\n\n[...]\n\n#### Pães e biscoitos tradicionais\n\nPães de centeio caseiros e biscoitos de polvilho oferecem textura neutra que harmoniza com o amargor do chimarrão, potencializando a dinâmica gustativa e garantindo energia estável para longas e diversificadas conversas.\n\n[...]\n\nmate\n\n[...]\n\nO chimarrão é celebrado em roda social que segue etiqueta própria: o anfitrião, ou “doador”, inicia a primeira cuia e passa à direita. Cada participante bebe até esvaziar porção, devolve à roda sem remover a bomba e diz"
+              },
+              {
+                "type": "url_citation",
+                "url": "https://dimassantos.com.br/chimarrao-ritual-cultural-sul-rio-grandense/",
+                "title": "Chimarrão: o ritual cultural sul-rio-grandense e sua história – Blog do Dimas Santos",
+                "start_index": 0,
+                "end_index": 0,
+                "content": "oferecer"
+              },
+              {
+                "type": "url_citation",
+                "url": "https://bomgourmet.com/bomgourmet/produtos-ingredientes/chimarrao-origem-e-misterios-da-bebida-simbolo-do-gaucho/",
+                "title": "Chimarrão: origem e mistérios da bebida símbolo dos gaúchos",
+                "start_index": 0,
+                "end_index": 0,
+                "content": "Assim como é comum comer acarajé quando se visita Salvador, ou pão de queijo quando se vai a Minas Gerais, impossível visitar o Rio Grande do Sul sem experimentar o chimarrão. Contam os historiadores que sua descoberta está atrelada aos Guaranis das terras do município paranaense de Guaíra – cerca de 3.000 indígenas famosos por sua vitalidade, força, alegria e hospitalidade, graças ao consumo da infusão dessa espécie de chá, com folhas fragmentadas da erva-mate. É o que hoje chamamos de chimarrão, bebida que se espalhou não só pelo Sul do Brasil mas também por outros estados e países vizinhos.\n\n[...]\n\nA importância gastronômica dessa bebida é de muita notoriedade e sua principal característica é ser uma bebida degustada coletivamente, hábito derivado da tradição dos Guaranis de compartilhar a erva cevada em rituais comunitários. E como símbolo da hospitalidade, geralmente a cuia de chimarrão vem acompanhada de boa conversa e algumas delícias típicas: bolinho de chuva, pipoca, cueca virada, cuca, dentre outras.\n\n[...]\n\n### Combinações gastronômicas\n\n[...]\n\nBebida símbolo do Rio Grande do Sul, o chimarrão é um legado dos índios Guaranis. Sempre presente no dia a dia, constitui-se de uma das tradições mais representativas deste povo. É também conhecido como mate amargo, mas não tem nada de amargo em seu significado: é sinônimo da hospitalidade e da amizade do gaúcho.\n\n[...]\n\n“O uso dessa bebida é geral aqui. Toma-se ao levantar da cama e depois várias vezes ao dia. A chaleira de água quente está sempre ao fogo e logo que um estranho entra em casa se lhe oferece o mate”. Estas são palavras do naturalista francês Auguste de Saint Hilaire, após visita em solo gaúcho por volta do ano de 1820.\n\n[...]\n\n### Um pouco de história\n\n[...]\n\nAlém de ser matéria-prima para o chimarrão, de uma forma bastante inusitada a erva-mate tem sido utilizada como ingrediente para diversas receitas:\n\n[...]\n\n:\n\n[...]\n\nhumanidade, fazendo jus à titulação de símbolo da hospitalidade”, afirma"
+              },
+              {
+                "type": "url_citation",
+                "url": "https://meuchimarrao.com.br/blog/chimarrao-festa-junina-como-servir/",
+                "title": "Chimarrão na Festa Junina: Como Servir Mate no Arraial | Meu Chimarrão — Meu Chimarrão",
+                "start_index": 0,
+                "end_index": 0,
+                "content": "- pinhão cozido: talvez a harmonização mais natural para o frio do Sul;\n- bolo de fubá: o amargor do mate equilibra o doce e a textura seca;\n- paçoca e pé de moleque: a erva corta um pouco a sensação gordurosa do amendoim;\n- pipoca salgada: simples, barata e perfeita para roda longa;\n- cuca: especialmente as versões de farofa, banana ou uva;\n- milho assado ou cozido: combina pela rusticidade e pelo clima de festa.\n\n[...]\n\n## O Que Combina com Chimarrão na Mesa Junina\n\n[...]\n\nBoas combinações:\n\n[...]\n\nNo Sul do Brasil, especialmente no Rio Grande do Sul, é comum que o mate apareça em encontros de inverno, festas comunitárias, reuniões de família e eventos de escola. A festa junina, por acontecer justamente quando o frio ganha força, abre espaço para o chimarrão como bebida de convivência. Ele aquece as mãos, acompanha a conversa e funciona como contraponto amargo aos doces típicos.\n\n[...]\n\nSe houver quentão, vinho quente ou bebidas alcoólicas, mantenha o chimarrão como opção separada. Não faz sentido misturar tudo no mesmo ritual. O mate funciona melhor como bebida de conversa, antes ou depois da mesa principal.\n\n[...]\n\nO chimarrão é amargo, vegetal e quente. Essa combinação conversa muito bem com comidas doces, gordurosas e de milho. Ele ajuda a limpar o paladar entre uma mordida e outra, sem competir com o sabor dos pratos.\n\n[...]\n\nFesta junina combina com frio, fogueira, pinhão, milho, bolo de fubá e conversa demorada. Para quem vive a cultura do mate, também combina muito bem com chimarrão. A cuia circulando no arraial cria pausa, aproxima as pessoas e dá ao encontro aquele ritmo de roda que o mate sempre teve: um gole, uma história, uma risada e mais água quente.\n\n[...]\n\nA faixa mais segura continua sendo entre 65 °C e 75 °C. Em festa junina, o ideal é aquecer a água um pouco acima do ponto de consumo e transferir para uma boa garrafa térmica, mas sem deixar ferver. Se a chaleira ferveu por descuido, espere alguns minutos antes de servir.\n\n[...]\n\n## Temperatura da Água: Quente, Mas Sem Queimar\n\n[...]\n\nO chimarrão e a festa junina têm algo em comum: os dois são rituais coletivos. Nenhum dos dois existe apenas pelo alimento ou pela bebida. O valor está no encontro, na repetição dos gestos, na memória familiar e na identidade regional.\n\n[...]\n\nChimarrão na Festa Junina: Como Servir Mate no Arraial | Meu Chimarrão — Meu Chimarrão\n\n[...]\n\nEm noite fria, a tentação é ferver a água para manter o chimarrão quente por mais tempo. Esse é um erro comum. Água fervente queima a erva, deixa o mate amargo demais e pode estragar a cuia, especialmente se ela for de porongo.\n\n[...]\n\nSe a festa faz parte de uma sequência de encontros no frio, o guia de chimarrão no inverno ajuda a conectar arraial, pinhão, geada, térmica e roda em um só roteiro sazonal.\n\n[...]\n\nCom esses cuidados, o chimarrão entra na festa junina sem virar trabalho extra. Ele ocupa o lugar que sempre ocupou bem: uma bebida simples, quente, compartilhada e cheia de significado. No arraial, entre o pinhão e o bolo de fubá, a cuia ajuda a prolongar a conversa e dá ao frio de junho um sabor ainda mais brasileiro.\n\n[...]\n\n## Por Que Chimarrão Combina com Festa Junina\n\n[...]\n\ncom leite. Ele usa erva-mate coada, leite quente e doçura controlada, funcionando bem para quermesse, mesa de bolo e visita que ainda não conhece a cuia.\n\n[...]\n\nPara quem quer servir em canecas, sem roda compartilhada, uma alternativa prática é o mate coc\n\n[...]\n\n, Tereré ou Mate Doce?\n\n[...]\n\n## Chimarr\n\n[...]\n\ncomida doce, ambiente externo, muita gente passando, crianças curiosas, vento frio e uma mesa cheia de preparos quentes. Para o chimarrão funcionar bem no arraial, é preciso pensar em praticidade, higiene, temperatura da água, escolha da erva-mate e combinação com os pratos típicos.\n\n[...]\n\nO tereré pede erva mais"
+              },
+              {
+                "type": "url_citation",
+                "url": "https://www.receitasja.com.br/pinhao-cozido-perfeito-para-servir-em-festas-juninas-e-reunioes-em-familia/",
+                "title": "Pinhão cozido perfeito para servir em festas juninas e reuniões em família",
+                "start_index": 0,
+                "end_index": 0,
+                "content": "Abra a panela com cuidado e escorra a água.\n\n[...]\n\nSirva os pinhões ainda quentes.\n\n[...]\n\nLave bem os pinhões em água corrente para remover qualquer sujeira da casca.\n\n[...]\n\nQuando pegar pressão, abaixe o fogo e cozinhe por 40 a 50 minutos.\n\n[...]\n\nDesligue o fogo e espere a pressão sair naturalmente.\n\n[...]\n\nCubra com água, deixando cerca de 3 dedos acima dos pinhões.\n\n[...]\n\nAdicione o sal, se desejar.\n\n[...]\n\nColoque os pinhões em uma panela de pressão.\n\n[...]\n\n- Escolha pinhões com casca brilhante e sem rachaduras.\n- Quanto maiores os pinhões, mais tempo podem precisar para cozinhar.\n- Se estiverem muito duros, cozinhe por mais 10 minutos na pressão.\n- Faça um pequeno corte na ponta antes de cozinhar para facilitar na hora de descascar.\n- Sirva ainda morno, pois a casca sai mais facilmente.\n\n[...]\n\nTampe a panela e leve ao fogo alto.\n\n[...]\n\n- Guarde os pinhões cozidos na geladeira por até 5 dias.\n- Armazene em recipiente bem fechado.\n- Também podem ser congelados por até 3 meses.\n- Para consumir novamente, aqueça em água quente ou no micro-ondas.\n- Evite deixar os pinhões cozidos em temperatura ambiente por muitas horas.\n\n[...]\n\nConservação e Armazenamento\n\n[...]\n\n### Instruções\n\n[...]\n\nO pinhão cozido é uma das receitas mais tradicionais do Sul do Brasil, especialmente nos dias mais frios. Simples de preparar, ele conquista pelo sabor suave, textura macia e valor nutritivo. Seja para servir como petisco ou acompanhar um café quentinho, essa delícia típica é sempre uma ótima escolha para reunir a família e aproveitar os sabores da estação.\n\n[...]\n\nA casca fica mais fácil de abrir e a polpa interna fica macia ao morder.\n\n[...]\n\n### Ingredientes\n\n[...]\n\nComo saber se o pinhão está cozido?\n\n[...]\n\n- Seleções Epeciais\n- 1 kg de pinhão\n- Água suficiente para cobrir os pinhões\n- 1 colher (sopa) de sal (opcional)"
+              },
+              {
+                "type": "url_citation",
+                "url": "https://www.terra.com.br/diversao/arte-e-cultura/pinhao-no-inverno-conheca-5-receitas-tipicas-e-nutritivas-da-culinaria-gaucha,f8e86ab7b169cecea8b40e410b90810aysspdvm3.html",
+                "title": "Pinhão no inverno: conheça 5 receitas típicas e nutritivas da culinária gaúcha",
+                "start_index": 0,
+                "end_index": 0,
+                "content": "Com a chegada do friozinho típico do inverno no Rio Grande do Sul, um sabor do pinhão começa a invadir as cozinhas, feiras e festas do interior. Semente da Araucária — árvore símbolo da região Sul — o pinhão é mais que um ingrediente, é um verdadeiro patrimônio afetivo dos gaúchos.\n\nFoto:\n\n[...]\n\nModo de preparo:\n\n1. Lave bem os pinhões.\n2. Coloque na panela de pressão e cubra com água.\n3. Adicione o sal, tampe e leve ao fogo.\n4. Depois que a panela pegar pressão, cozinhe por 40 a 50 minutos.\n5. Espere sair toda a pressão, escorra e sirva ainda quente!\n\nDica: dá pra fazer no fogão a lenha também — o sabor fica ainda mais especial!\n\n### Farofa de pinhão\n\n[...]\n\n### Pinhão cozido na pressão (o clássico!)\n\nIngredientes:\n\n- 500g de pinhão\n- Água suficiente para cobrir\n- 1 colher (sopa) de sal grosso (opcional)\n\n[...]\n\nModo de preparo:\n\n[...]\n\nPresença garantida nas mesas da Serra Gaúcha, na região das Hortênsias, nos Campos de Cima da Serra e até em áreas como Passo Fundo e Serra do Botucaraí, o pinhão atravessa gerações com seu aroma inconfundível e sabor acolhedor. Basta começar a temporada e já é possível ver panelas de pressão ganhando protagonismo nos lares e bancas de rua oferecendo saquinhos fumegantes dessa delícia.\n\nMas o pinhão não é só saboroso — ele é também nutritivo. Rico em amido, fibras, vitaminas do complexo B, ferro e cálcio, ele funciona como um alimento funcional e energético, ideal para quem precisa de um \"gás\" a mais para enfrentar as baixas temperaturas.\n\nE para quem acha que pinhão só se come cozido, a gente separou 5 jeitos deliciosos (e práticos!) de preparar esse ingrediente versátil, com receitinhas pra você testar em casa:\n\n[...]\n\nIngredientes:\n\n[...]\n\nModo de preparo:\n\n[...]\n\nIngredientes:\n\n[...]\n\nModo de preparo:\n\n1. Espalhe os pinhões diretamente sobre a chapa quente ou nas brasas da churrasqueira.\n2. Mexa de vez em quando para não queimar.\n3. Quando as cascas começarem a abrir e o cheiro ficar forte, estão prontos.\n4. Deixe amornar, descasque e sirva com sal.\n\n[...]\n\n### Pinhão assado na brasa ou na chapa\n\n[...]\n\nDica: perfeito para acompanhar o churrasco ou curtir ao redor do fogo com a família.\n\n[...]\n\nIngredientes:\n\n- Pinhões crus, com casca\n- Sal grosso (opcional)\n\n[...]\n\n### Paçoca de pinhão com carne\n\n[...]\n\nModo de preparo:\n\n1. Refogue a cebola e o alho até dourar.\n2. Adicione a carne moída e cozinhe até secar bem.\n3. Tempere a gosto e misture o pinhão triturado.\n4. Cozinhe por mais 5 minutos, mexendo sempre.\n5. Sirva como recheio de pão, acompanhamento ou petisco.\n\n[...]\n\nDica: fica uma delícia servido com arroz e feijão ou como recheio de pastel assado.\n\n[...]\n\nDica: sirva com torradinhas ou pão caseiro para um jantar aconchegante!\n\n[...]\n\n### Sopa cremosa de pinhão\n\n[...]\n\nDica: combina muito bem como acompanhamento de carnes ou no churrasco de inverno!\n\n[...]\n\nIngredientes:\n\n- 1 xícara de pinhão cozido e triturado\n- 300g de carne moída (patinho ou acém)\n- 1 cebola picada\n- 2 dentes de alho\n- Sal, pimenta, cheiro-verde e cominho a gosto\n\n[...]\n\n1. Em uma frigideira, derreta a manteiga e refogue a cebola e o alho até dourar.\n2. Acrescente o pinhão picado e refogue por mais alguns minutos.\n3. Adicione a farinha aos poucos, mexendo sempre.\n4. Acerte o sal, finalize com cheiro-verde e sirva.\n\n[...]\n\n- 2 xícaras de pinhão cozido e triturado\n- 1 alho-poró fatiado\n- 1 cebola picada\n- 2 colheres (sopa) de manteiga\n- 1 litro de caldo de legumes ou carne\n- 100ml de creme de leite\n- Sal, pimenta-do-reino e noz-moscada a gosto\n\n[...]\n\n- 1 xícara de pinhão cozido e picado\n- 1/2 cebola picada\n- 2 dentes de alho picados\n- 2 colheres (sopa) de manteiga ou banha\n- 1 xícara de farinha de mandioca\n- Sal e cheiro-verde a gosto\n\n[...]\n\n1. Refogue a cebola e o alho-poró na manteiga até ficarem macios.\n2. Junte o pinhão triturado e mexa bem.\n3. Acrescente o caldo e deixe ferver por 10 minutos.\n4. Bata tudo com um mixer ou no liquidificador até virar um creme.\n5. Volte ao fogo, adicione o creme de leite e ajuste os temperos.\n\n[...]\n\nAgora que você já sabe preparar o pinhão de vários jeitos, não tem desculpa: aproveite a temporada, chame a família e transforme suas noites frias em momentos saborosos e cheios de tradição!"
+              },
+              {
+                "type": "url_citation",
+                "url": "https://canaldareceita.com.br/como-fazer/pinhao-cozido/",
+                "title": "Receita: Como Fazer Pinhão Cozido",
+                "start_index": 0,
+                "end_index": 0,
+                "content": "- Temperos adicionais: Além do sal e da folha de louro, você pode experimentar adicionar outros temperos ao seu gosto, como pimenta-do-reino, alho picado ou até um pouco de manteiga para dar mais sabor aos pinhões.\n- Cozimento mais rápido: Se você estiver com pressa e quiser acelerar o processo, pode utilizar uma panela de pressão. Nesse caso, os pinhões devem ser cozidos por cerca de 20 a 30 minutos após a panela pegar pressão.\n- Acompanhamento: O pinhão cozido é um excelente acompanhamento para churrascos, feijoadas ou até como parte de um lanche, servido com pães, queijos e embutidos."
+              },
+              {
+                "type": "url_citation",
+                "url": "https://cometobrazil.net/pinhao-traditional-winter-snack-southern-brazil/",
+                "title": "Pinhão: The Traditional Winter Snack of Southern Brazil - Come to Brazil!",
+                "start_index": 0,
+                "end_index": 0
+              },
+              {
+                "type": "url_citation",
+                "url": "https://www.nsctotal.com.br/noticias/conheca-a-historia-de-3-pratos-de-pinhao-e-aprenda-a-fazer-em-casa",
+                "title": "Conheça a história de 3 pratos de pinhão e aprenda a fazer em casa - NSC Total",
+                "start_index": 0,
+                "end_index": 0,
+                "content": "Um dos modos de preparo mais comuns é, também, o mais simples. Coloque o pinhão sobre a chapa de um fogão a lenha, aproveite o calor das chamas para se desconectar, conversar com amigos, descasque a semente, e coma.\n\n[...]\n\nSe você não tiver um fogão a lenha, não tem problema! Você pode colocar os pinhões em uma frigideira e cozinhá-los no fogão a gás por aproximadamente 30 minutos.\n\n[...]\n\nModo de preparo\n\n[...]\n\nEm uma panela de pressão, cubra os pinhões com água e cozinhe em fogo médio. Conte 25 minutos a partir do momento em que a panela pegar pressão. Em seguida, desligue o fogo e espere sair todo o vapor. Descasque os pinhões com e os triture em um liquidificador ou processador de alimentos. Faça o mesmo com a calabresa.\n\n[...]\n\n## Bônus: Pinhão na chapa\n\n[...]\n\nModo de preparo\n\n[...]\n\nIngredientes\n\n[...]\n\nJunte o bacon, mexa por alguns minutos, adicione a cebolinha e a salsinha. Pode servir acompanhado de fatias de pão, ou compor uma refeição, com arroz, feijão e complementos.\n\n[...]\n\nA paçoca de pinhão já era um alimento consumido por algumas populações indígenas que viviam na região antes da colonização europeia. Depois, ela foi adaptada às tradições tropeiras:\n\n[...]\n\nEm seguida, corte a cebola, o bacon e o pimentão, todos em cubos. Frite o bacon em fogo médio até dourar. Junte a carne de gado e adicione a carne suína pouco a pouco, e depois a calabresa. Quando a carne bovina, suína e a calabresa estiverem cozidas, adicione o pinhão, cebola e pimentão.\n\n[...]\n\nIngredientes\n\n[...]\n\n## Paçoca de Pinhão\n\n[...]\n\n## Entrevero de Pinhão"
+              },
+              {
+                "type": "url_citation",
+                "url": "https://receitadez.com/receita-de-cuca-gaucha-com-farofa-crocante-e-deliciosa/",
+                "title": "RECEITA DE CUCA GAUCHA COM FAROFA CROCANTE E DELICIOSA - Receita Dez - Seu Blog de Receitas Culinárias",
+                "start_index": 0,
+                "end_index": 0,
+                "content": "Originalmente, a Streuselkuchen era um bolo simples, muitas vezes feito com fermento natural (levain) e coberto com uma farofa à base de farinha, açúcar e manteiga. Com o tempo e a adaptação aos ingredientes locais, a receita passou por transformações significativas. No Brasil, a massa tornou-se mais macia e aerada, frequentemente enriquecida com leite e ovos, e os recheios ganharam uma diversidade incrível, incorporando frutas tropicais como banana, goiaba, e o delicioso doce de leite, além das tradicionais uvas e requeijão. O que antes era uma cobertura simples, transformou-se na icônica “farofa crocante” que define a Cuca Gaúcha moderna.\n\n[...]\n\nA Cuca, ou “Streuselkuchen” como é conhecida em sua terra natal, a Alemanha, é muito mais do que um simples bolo. É um legado culinário que viajou através dos oceanos e se enraizou profundamente na cultura do sul do Brasil, especialmente no Rio Grande do Sul e em Santa Catarina. Sua história começa com os imigrantes alemães que, a partir do século XIX, buscaram novas oportunidades nas terras férteis do sul brasileiro. Eles trouxeram consigo não apenas suas esperanças e sonhos, mas também suas tradições, sua língua e, claro, suas receitas. Entre elas, a Streuselkuchen, um bolo coberto com “Streusel”, que em alemão significa “farofa” ou “migalhas”.\n\n[...]\n\nA Cuca se tornou um símbolo de hospitalidade e de “café colonial”, uma tradição gaúcha que celebra a culinária farta e diversificada. Ela é um prato de domingo, um presente entre vizinhos e uma peça central em qualquer festa ou reunião familiar. Sua presença nas mesas gaúchas é tão intrínseca que é difícil imaginar um “café da tarde” sem a sua textura macia e a doçura da farofa. A evolução da Streuselkuchen para a Cuca Gaúcha é um testemunho da capacidade da culinária de absorver influências, se adaptar e criar algo novo e igualmente amado, mantendo viva a memória de suas origens, mas com um toque inconfundível do Brasil.\n\n[...]\n\nOs recheios mais populares e tradicionais da Cuca Gaúcha incluem banana com canela, doce de leite, uva, e creme de baunilha (creme confeiteiro). Outras opções muito apreciadas são maçã com canela, goiabada (muitas vezes combinada com queijo) e, para os mais aventureiros, até mesmo versões salgadas com requeijão ou linguiça. A versatilidade da cuca permite explorar uma vasta gama de sabores, desde os mais clássicos até os mais inovadores.\n\n[...]\n\n- Banana com Canela: 5 bananas nanicas maduras, 2 colheres de sopa de açúcar, 1 colher de chá de canela em pó.\n- Doce de Leite: 500g de doce de leite de boa qualidade.\n- Uva: 500g de uvas sem sementes (verdes ou roxas).\n- Creme Confeiteiro: 1 lata de leite condensado, 1 caixa de creme de leite, 2 gemas, 2 colheres de sopa de amido de milho, 500 ml de leite, 1 colher de chá de essência de baunilha.\n\n[...]\n\n## Quais os Recheios Mais Populares?\n\n[...]\n\n- 200g de Farinha de Trigo Tipo 1: A base da farofa.\n- 150g de Açúcar (cristal ou refinado): O açúcar é essencial para a crocância e caramelização. O cristal pode dar um toque extra de textura.\n- 100g de Manteiga Sem Sal Gelada (em cubos): A manteiga gelada é fundamental para criar as migalhas perfeitas e evitar que a farofa vire uma pasta.\n- 1 colher de chá de Canela em Pó (opcional): Para um aroma e sabor clássicos da cuca.\n- 1 pitada de Sal: Para equilibrar o doce.\n\n[...]\n\nPara o Recheio (Sua Escolha Saborosa):\n\n[...]\n\nferment\n\n[...]\n\nativar\n\n[...]\n\nPasso 1: Ingredientes Gelados são a Chave Em uma tigela média, combine a farinha de trigo, o açúcar (cristal ou refinado), a canela em pó (se estiver usando) e uma pitada de sal. Misture bem os ingredientes secos. O grande segredo para uma farofa perfeita e crocante é usar a manteiga bem gelada e cortada em cubos pequenos. A manteiga gelada impede que a farofa se transforme em uma pasta, garantindo as migalhas desejadas.\n\n[...]\n\nbiológico\n\n[...]\n\nPasso 2: O Método de Incorporação Com as pontas dos dedos, incorpore a manteiga gelada aos ingredientes sec\n\n[...]\n\n## A História Saborosa da Cuca Gaúcha\n\n[...]\n\n. Esfregue a mistura entre os dedos, fazendo movimentos rápidos e leves, como se estivesse esfarelando. O objetivo é que a manteiga se misture à farinha e ao açúcar, formando pequenas migalhas, sem derreter completamente. Evite amassar ou sovar, pois isso desenvolverá o glúten da farinha e deixará a farofa pesada e menos crocante. Se a farofa começar a esquentar nas suas mãos, coloque-a na geladeira por 10-15 minutos antes de continuar.\n\n[...]\n\n## A Magia da Farofa Crocante e Delici\n\n[...]\n\n-\n\n[...]\n\nPara a Farofa Crocante e Deliciosa (A Coroa da Cuca):\n\n[...]\n\nmas algumas opções clássicas\n\n[...]\n\nfarofa\n\n[...]\n\nferme"
+              },
+              {
+                "type": "url_citation",
+                "url": "https://masterkitchen.com.br/receitas/cuca-alema-tradicional-receita-do-sul-com-farofa-doce-crocante/",
+                "title": "Cuca Alemã Tradicional: Receita do Sul com Farofa Doce Crocante - Master Kitchen",
+                "start_index": 0,
+                "end_index": 0,
+                "content": "### Origem\n\nA cuca alemã deriva do Kuchen (bolo) trazido por imigrantes alemães ao Sul do Brasil, sobretudo ao Rio Grande do Sul e Santa Catarina. A adaptação local incorporou ingredientes regionais e consolidou a característica mais marcante do doce: a farofa doce crocante (streusel) sobre uma massa fofa. Tornou-se item clássico de cafés coloniais e padarias da região.\n\n### Ingredientes principais da Cuca Alemã Tradicional (Gaúcha)\n\nEstrutura em duas camadas: massa + cobertura (streusel):\n\n- Farinha de trigo\n- Açúcar\n- Ovos\n- Leite\n- Manteiga\n- Fermento biológico (ou químico, em versões rápidas)\n- Canela (comum na cobertura)\n\nCoberturas e recheios usuais:\n\n- Banana, uva, maçã ou doce de leite\n\n---\n\n## Variações por região\n\n- Rio Grande do Sul: Cuca mais alta, com banana e canela.\n- Santa Catarina: Uso frequente de uva e farofa mais generosa.\n- Paraná: Versões de padaria com massa mais leve e fermento químico.\n\n---\n\n## Receita de Cuca Alemã Tradicional (do zero)\n\n### Ingredientes (forma média)\n\nMassa\n\n- 3 xícaras de farinha de trigo\n- ½ xícara de açúcar\n- 2 ovos\n- 1 xícara de leite morno\n- 2 colheres (sopa) de manteiga\n- 10 g de fermento biológico seco\n- 1 pitada de sal\n\nFarofa (streusel)\n\n- 1 xícara de farinha de trigo\n- ½ xícara de açúcar\n- 3 colheres (sopa) de manteiga\n- 1 colher (chá) de canela\n\nCobertura (opcional)\n\n- 3 bananas em rodelas (ou outra fruta)\n\n---\n\n## Modo de preparo\n\n1. Ativar o fermentoMisture o fermento com o leite morno e um pouco de açúcar. Deixe descansar por 5 a 10 minutos.\n2. Preparar a massaEm tigela, misture farinha, açúcar, ovos, manteiga e o fermento ativado. Trabalhe até formar massa macia e levemente pegajosa.\n3. DescansarCubra e deixe crescer por cerca de 1 hora, até dobrar de volume.\n4. MontarEspalhe a massa em forma untada. Distribua as frutas por cima.\n5. Preparar a farofaMisture os ingredientes da farofa com as pontas dos dedos até formar uma textura granulada.\n6. Cobrir e assarEspalhe a farofa sobre a massa e leve ao forno preaquecido a 180 °C por 30 a 40 minutos.\n\n---\n\n## Ponto correto\n\nA cuca deve ficar com massa macia e levemente úmida, coberta por uma farofa crocante e dourada.\n\n### Dicas técnicas\n\n- Não exagere na farinha da massa para evitar ressecamento.\n- A farofa deve ficar solta, não compactada.\n- Pode substituir fermento biológico por químico para versão mais rápida (com leve alteração de textura).\n\n[...]\n\n# Cuca Alemã Tradicional: Receita do Sul com Farofa Doce Crocante\n\n[...]\n\nCuca Alemã Tradicional: Receita do Sul com Farofa Doce Crocante - Master Kitchen"
+              },
+              {
+                "type": "url_citation",
+                "url": "https://receitatodahora.com.br/cuca-gaucha-tradicional-e-facil-de-fazer-a-hora-do-seu-cafe-vai-ficar-muito-mais-gostosa/",
+                "title": "Cuca gaúcha tradicional e fácil de fazer: a hora do seu café vai ficar muito mais gostosa",
+                "start_index": 0,
+                "end_index": 0
+              },
+              {
+                "type": "url_citation",
+                "url": "https://pilotandofogao.com.br/cuca-gaucha-tradicional-receita-completa-para-encantar/",
+                "title": "Cuca Gaúcha Tradicional: Receita Completa para Encantar",
+                "start_index": 0,
+                "end_index": 0,
+                "content": "##"
+              },
+              {
+                "type": "url_citation",
+                "url": "https://receitasdebolos.com/cuca-de-banana-rs/",
+                "title": "Receita de Cuca de Banana Gaúcha - receitasdebolos.com",
+                "start_index": 0,
+                "end_index": 0,
+                "content": "Quando se trata de preparar a tradicional cuca gaúcha tradicional, é importante considerar a sustentabilidade dos ingredientes utilizados. Optar por ingredientes locais e sazonais, como as deliciosas bananas de produtores da região, não só garante ingredientes mais frescos, mas também apoia a agricultura familiar e reduz a pegada de carbono.\n\n[...]\n\nAo dar preferência aos produtos da agricultura familiar, você fortalece a economia local e apoia o desenvolvimento sustentável de sua comunidade. Essa escolha consciente valoriza o trabalho dos pequenos produtores e garante que sua cuca de banana com farofa seja preparada com ingredientes frescos e cheios de história.\n\n[...]\n\nAo escolher ingredientes selecionados com cuidado, como ovos de galinhas criadas soltas e farinha de trigo orgânica, você não apenas contribui para uma cuca de banana com farofa mais saborosa, mas também promove práticas sustentáveis. Essa abordagem preserva as tradições culinárias e respeita o meio ambiente, resultando em uma experiência gastronômica ainda mais especial.\n\n[...]\n\n## Sustentabilidade e Cuca de Banana\n\n[...]\n\n### A importância da agricultura familiar\n\n[...]\n\n### Ingredientes locais e sazonais\n\n[...]\n\nA cuca de banana gaúcha é uma sobremesa tradicional do Sul do Brasil, ideal para reuniões familiares e lanches da tarde. Sua origem está ligada aos imigrantes alemães que se estabeleceram na região. A cuca é caracterizada por uma massa fofinha e úmida, coberta por uma farofa crocante, e nesta versão, inclui um delicioso recheio de banana com doce de leite. A receita pode ser servida quente ou fria, agradando a todos os paladares.\n\n[...]\n\n1. 4 bananas-nanicas maduras\n2. 1 xícara de açúcar (160 gramas)\n3. 1 xícara de farinha de trigo (140 gramas)\n4. 4 colheres de sopa de manteiga gelada\n5. 1 colher de chá de canela em pó\n\n[...]\n\nA cuca de banana se diferencia de outros bolos pela sua cobertura crocante de farofa e pelo frequente uso de frutas em seu recheio. Enquanto outros bolos podem ter coberturas mais lisas ou açucaradas, a cuca mantém sua característica textura rústica, conferindo-lhe um sabor único e inconfundível.\n\n[...]\n\nA cuca chegou ao Brasil trazida pelos imigrantes alemães que se estabeleceram no sul do país, especialmente nos estados do Rio Grande do Sul e Santa Catarina. Ao longo dos anos, a receita foi se adaptando e ganhando características regionais, tornando-se um dos símbolos da cultura gaúcha e catarinense.\n\n[...]\n\n## Variações da Cuca de Banana\n\n[...]\n\ncobertura\n\n[...]\n\n### Ingredientes para a cobertura\n\n[...]\n\n- Farinha de trigo\n- Açúcar\n- Ovos\n- Leite\n- Manteiga ou margarina\n- Fermento\n- Banana\n\n[...]\n\n1 colher de sopa de fermento para bolo\n- 1 pitada de sal\n\n[...]\n\nde banana\n\n[...]\n\nde Banana\n\n[...]\n\n. Essa sobremesa típica é caracterizada"
+              }
+            ],
+            "logprobs": []
+          }
+        ]
+      }
+    },
+    "rs_0afcb8e92bcfb428016a58dd004988819081fe3b4f4908b711": {
+      "id": "rs_0afcb8e92bcfb428016a58dd004988819081fe3b4f4908b711",
+      "messageId": "msg-1784208639-duAlKHL1GCTHklH1SOT7",
+      "data": {
+        "id": "rs_0afcb8e92bcfb428016a58dd004988819081fe3b4f4908b711",
+        "type": "reasoning",
+        "status": "completed",
+        "summary": [
+          {
+            "type": "summary_text",
+            "text": "**Planning menu for guests**\n\nI’m considering a coffee break menu for international guests in Rio Grande do Sul during July, which is winter. I need to ask about dietary restrictions to ensure accessibility and possibly incorporate regional Brazilian foods. We might have two guests and a team, which will affect portion sizes. I’ll keep it simple and avoid overly messy items, including bilingual labels. Alcohol is likely not an option, and I should ensure food safety while being mindful of vegetarians and those with gluten or lactose sensitivities. Let's draft this clearly!"
+          }
+        ],
+        "encrypted_content": "gAAAAABqWN0GVe1JCcIq7jcy6s221L9kxsyuLnOPH8aZQzF-jHtp3wfw1MnxBSjBq170lqXCWC2pQXTpL63g9hqvHyFkiQ9Y8px5GA4np-iUZSqKcWqZmocgom2PGQ6jTlLsKPTGR1f-KQc4jKYCKVqgntCJ42LMHwoEWMqScQbFMHUKtCUedHrFQyxD1Isx3TkNn-htYqhWSmrsGPsSnQyzrfBnlAGfctdL-tclvMepx9bHFPTnatgCYh0U8cKnC4JfBs4lzVGTQY7wte2gavHBnN2YhHLCd1epYuXnlv7JwHhCA4aBRgRdYBr3hiKzccormTUFVoBfmpXOMllrVcfTj0ZrAqCLkDlXFUYbCuuD-4_C_YMB7t29CtvlnIJcYkJPCSI6M_J9Zo-riAdptkLAbdHg3DztgxjSsSWbcJ4Ejbjc-2zF2J3F4sWliQxQNP35_mNnXk0nOMwgAb-R5nDAwsHI_KF3QbPcZbfCOyxJdBToYOLXE_5QqdmVsI517tNNfg7LAwZ8nspx3pE2T8b5G4taPnY6Tmdn8nA2kuG9M8TE1afdG9ktH8_junzBhNSVUAmqCreyyoH-YoJgZvj8IoYQuxtlA_9-K_2Rwl46WMy8AKNbYP9r3kZIdF6WAncXfnofpdQdPRxWykHybE-V-iNL8eH89ZPobMET4pGO-Z4K0XpsxV4dseeprVu2yTrUW6qL9W3YwMp-FyLZiadWWtXC7-JGTOn081em0TQhQMCpo9uOo2IPfE_po6CrVr8uyq5r6aCm2h9KEQ-lom10NDX1X-JPqK_wm1aKVoQ8IQfd0HE1bJ-bduZXmQquAOdkQelWjdtfgdG8SbMiRX9Ho8MT8AazURQ16cccAdsj8YTl07veDW3fN57N7jMT5gcZhDtlMv8ma7I3qS-Of2U3uFh6Kzp-9SB3jSu9rCPJzVc4oH6F0D-dz1DD678GVOFjnbeTyQ8RfF7OE5ri_LGmw9slXQfhBts2Z5I4iq6QeeGGgxmkZhZFRwD2oTWNcUoWkfNHCeKWoHNIUQj2PpxTmpR9pNt7hk7nE1dDqnH_5H7uT6R8tWMtakHFAP7iNLrXLwl7yo9an3XRcnfm2C8EChEGboDVhPgYbQ3ic50Yul0AIjcG2eX3prnxvKjnE4zX9awg_davhBqS22ralm2lEwA5ljYM9HhZ8Fby3Tc1yxaVNvEelPqeg1NuwqGctVVYAaqssAAp9FfVZyxKvcaxPCVzyiZwXT_86iF1iT6ezyt-jtWujY-jVkRMr2BVhCmerFaD1KPHAnPoJ_yLVwv1SJ9FMNf9huvp7754LKx9Tq34_rlbYb8KW7ijuGf1yQpD34DSII80ONwu7Jz8u4GyyzDzwUUDiRevPh2O6aOmbDyy-xrjzVbtzv_qDbi1_Vfnt_R7EwFVRSjC-AlzkAW5T_WVVgWCOQSKoyqdG5ON7h5rqt3HdH_9NlpVxbjgPOqD8PfCW8BWhB11G37-DreB4MZeQpuVfCnv7NkEQVDsLzrAiC0X3I0CkDAex1JddaBkeq71_aZratwqQi_031Gg6E3obs79DbrgejWGOimO1wH11lJ2G2QsdxxfO_ecBXveVnXXYnpo00SHGfav4hba8MaoqgkhpV3LOZjoSUl7X7XKFNU75n8G-50kPupSYacvwQ8WcjWFWw-6bVSSoPuixr81O9sZTxljN98AYBuSHZWUeOizOodcQPo6Um7tYdNahsG1iIFpbpSAJ8Yunl96fLsk3JWcupfs_4EI_LQ7BY1zGwlGCTj4eRU5j2ERFfGkc1fwFd8XAGMKZr5l_oR93rEv387wEbxU1KN9afaopOny214JLhkHnOLaEOHBRTR6zC6e3z3LPLVAMS3v1BpUiSD80tLntQ==",
+        "format": "openai-responses-v1"
+      }
+    },
+    "msg_tmp_rlyflmuy0x8": {
+      "id": "msg_tmp_rlyflmuy0x8",
+      "messageId": "msg-1784208639-duAlKHL1GCTHklH1SOT7",
+      "data": {
+        "id": "msg_tmp_rlyflmuy0x8",
+        "type": "message",
+        "status": "completed",
+        "role": "assistant",
+        "content": [
+          {
+            "type": "output_text",
+            "text": "## Suggested coffee-break menu — July in Rio Grande do Sul\n\nA welcoming menu with regional flavors and warm options for winter:\n\n### Drinks\n- Freshly brewed coffee, with regular and lactose-free milk\n- Assorted teas\n- Hot chocolate\n- Still and sparkling water\n- Grape juice from Rio Grande do Sul\n- Optional cultural tasting: **chimarrão**, served separately with a brief explanation\n\n### Savory foods\n- Mini **pão de queijo**\n- Small sandwiches with:\n  - Cheese, tomato, and herbs\n  - Chicken filling\n- Mini baked pastries, including at least one vegetarian option\n- Gluten-free crackers or tapioca bites\n\n### Sweet foods\n- Slices of **cuca gaúcha**\n- **Brigadeiros**\n- Fresh seasonal fruit\n- A simple lactose- or gluten-free cake/cookie option\n\n### Practical notes\n- Ask guests beforehand about allergies, dietary restrictions, and religious requirements.\n- Label items in Portuguese and English, particularly **vegetarian**, **vegan**, **gluten-free**, and **contains nuts**.\n- Provide sugar, sweetener, napkins, small plates, cups, and cutlery.\n- For a break of $20$–$30$ minutes, plan approximately $5$–$7$ small food items per person.\n- Keep hot drinks in thermal dispensers and sandwiches refrigerated until shortly before serving.\n- Avoid making chimarrão the only regional drink, as its bitter flavor and shared vessel may be unfamiliar to visitors.\n\n### Ready-to-share version\n\n> **Coffee-Break Menu**  \n> Coffee, assorted teas, hot chocolate, water, and grape juice; mini pão de queijo; chicken and vegetarian sandwiches; baked pastries; cuca gaúcha; brigadeiros; fresh fruit; and gluten- and lactose-free alternatives. All foods will be labeled, and dietary restrictions will be confirmed in advance.",
+            "annotations": [],
+            "logprobs": []
+          }
+        ]
+      }
+    }
+  },
+  "artifacts": {},
+  "artifactFiles": {},
+  "artifactVersions": {},
+  "artifactFileContents": {}
+}
