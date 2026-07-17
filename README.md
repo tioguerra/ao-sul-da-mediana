@@ -16,7 +16,21 @@ O repositório documenta **dois experimentos próprios**, com dados brutos, scri
 
 ## Experimento 1 — o mesmo pedido, três cardápios
 
-Em 16 de julho de 2026, quatro modelos de fronteira receberam o mesmo pedido, um cardápio de intervalo para receber dois visitantes estrangeiros na universidade em julho, em formulações diferentes: português coloquial com marcas gaúchas, português formal sem lugar e inglês sem localização. Em português, julho é inverno e o cardápio traz chimarrão (4/4) e cuca (4/4) na condição gaúcha; em inglês sem lugar, o mesmo julho vira verão, entre wraps, hummus e frutas de verão. As exportações brutas das conversas e as contagens estão em [`artigo/coffee-break/`](artigo/coffee-break/).
+Em 16 de julho de 2026, quatro modelos de fronteira receberam o mesmo pedido, um cardápio de intervalo para receber dois visitantes estrangeiros na universidade em julho, em formulações diferentes: português coloquial com marcas gaúchas, português formal sem lugar e inglês sem localização. Em português, julho é inverno; em inglês sem lugar, o mesmo julho vira verão. Cada célula abaixo conta quantos modelos (de 4) mencionaram o item:
+
+| Item | português coloquial gaúcho | português formal | inglês, sem lugar |
+| --- | :---: | :---: | :---: |
+| chimarrão | **4** | 0 | 0 |
+| cuca | **4** | 0 | 0 |
+| pinhão | 1 | 0 | 0 |
+| negrinho | 1 | 0 | 0 |
+| brigadeiro | 3 | **4** | 0 |
+| pão de queijo | **4** | **4** | 0 |
+| hummus | 0 | 3 | **4** |
+| wraps | 0 | 0 | 3 |
+| frutas de verão | 0 | 0 | **4** |
+
+A bebida-símbolo aparece sempre com o nome rio-grandense, chimarrão, nunca com o "mate" corrente no Uruguai e na Argentina; sob o dialeto gaúcho, um modelo trocou brigadeiro pelo regional negrinho. As exportações brutas das conversas e as notas da sondagem estão em [`artigo/coffee-break/`](artigo/coffee-break/).
 
 ## Experimento 2 — gaúchos no mapa de Inglehart–Welzel
 
