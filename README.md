@@ -127,6 +127,18 @@ Sem esse argumento, o script usa somente as coordenadas agregadas já documentad
 - Houve uma observação por combinação de prompt; temperatura zero não assegura determinismo.
 - Onze respostas do Gemini não foram pontuáveis e foram preservadas sem imputação.
 
+## Autor
+
+<img src="media/rodrigo.jpg" width="140" align="left" alt="Foto de Rodrigo da Silva Guerra" />
+
+**Rodrigo da Silva Guerra** · Universidade Federal do Rio Grande (FURG)
+
+[rodrigoguerra.com](https://rodrigoguerra.com) · [github.com/tioguerra](https://github.com/tioguerra)
+
+Trabalho preparado para o Simpósio 31 do XVI Encontro do CELSUL (Porto Alegre, julho de 2026).
+
+<br clear="left" />
+
 ## Como citar
 
 Use o metadado de [CITATION.cff](CITATION.cff). Enquanto o artigo não possui DOI:
