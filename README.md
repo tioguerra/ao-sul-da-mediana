@@ -57,6 +57,28 @@ O prompt brasileiro aproximou os cinco modelos do Brasil, mas nenhum terminou te
 
 A leitura completa está em [Resultados e discussão](artigo/mapa-cultural/analise-resultados-distancias-llms.md). A metodologia, os identificadores dos modelos, o parser, a cobertura e as limitações estão na [nota metodológica](artigo/mapa-cultural/nota-metodologica-llms-multicondicao.md).
 
+## Experimento 3 — telefone sem fio: a marca regional some primeiro?
+
+![Sobrevivência do léxico gaúcho ao longo de 15 reescritas, por modelo](artigo/telefone-sem-fio/figuras/sobrevivencia-regional-por-modelo.png)
+
+Se um texto com léxico regional passa muitas vezes pela mesma ferramenta generativa, esse léxico se apaga? Nove trechos dos *Contos Gauchescos* de Simões Lopes Neto (1912, domínio público) foram reescritos em cadeia por cinco modelos: cada geração reescreve a anterior, sem ver o original, por 15 gerações. Mede-se quantos regionalismos de uma lista congelada de 90 itens (verificada em dicionários e léxicos gauchescos) sobrevivem a cada passo. O desenho tem controles não regionais coetâneos em português e inglês, três instruções, comprimento fixo, e braços de sensibilidade (grafia de 1912) e de calibração de variância.
+
+A perda depende radicalmente do modelo. Após 15 reescritas com "melhore a escrita", a fração do léxico gaúcho ainda presente (média de 9 trechos):
+
+| Modelo | sobrevivência em G15 |
+| --- | ---: |
+| GPT-5.6 Terra | 83% |
+| Grok 4.5 | 71% |
+| Claude Sonnet 5 | 37% |
+| Sabiá-4 | 32% |
+| Gemini 3.5 | 19% |
+
+A maior queda ocorre já na primeira reescrita. O Sabiá-4, modelo brasileiro, está no grupo que mais apaga, coerente com o Experimento 2: a bandeira no nome não protege o léxico regional. Em três dos cinco modelos, o regional cai mais que palavras comuns de raridade comparável, um efeito cultural além da mera raridade. A instrução decide: a reescrita neutra retém 30% do léxico regional, "melhore a escrita" 48%, e "melhore preservando o vocabulário regional" 82% (atenua, sem anular). Itens sem sinônimo padrão (chimarrão, guaiaca, nhandu) sobrevivem por necessidade referencial; os que têm variante concorrente (china, morocha, cancha) somem primeiro. A variação entre execuções idênticas é de ~3,6 pontos percentuais, muito menor que as diferenças entre modelos.
+
+Delimitação: cadeias de reescrita por inferência modelam o uso repetido da ferramenta, não o retreino de modelos sobre saídas sintéticas; a ponte com o colapso de modelos (Shumailov et al., 2024) é analogia fundamentada. A leitura completa, com todas as figuras, está em [Resultados](artigo/telefone-sem-fio/analise-resultados.md); o desenho pré-registrado, os prompts congelados e as fontes por item estão no [plano experimental](artigo/telefone-sem-fio/plano-experimental.md).
+
+> **Nota sobre linguagem de época:** as sementes e, por consequência, as saídas dos modelos reproduzem o léxico de uma obra de 1912, incluindo termos raciais e étnicos datados (por exemplo no conto "O negro Bonifácio") e o vocabulário gauchesco histórico ("china", "bugre"). As saídas brutas em [`dados/cadeias/`](artigo/telefone-sem-fio/dados/cadeias/) são publicadas sem edição, para fidelidade ao dado; a presença desses termos é do material-fonte, não endosso.
+
 ## Estrutura do repositório
 
 ```text
