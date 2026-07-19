@@ -1,0 +1,9 @@
+# Experimento 3 (planejado) — Telefone sem fio: a marca regional some primeiro?
+
+Cadeias de reescrita iterada: cada geração é a reescrita da anterior pelo mesmo modelo, sem memória do original. A pergunta: o léxico regional gaúcho, que vive na cauda da distribuição de frequências, desaparece mais rápido que o vocabulário comum de raridade comparável? E cadeias que partem de textos diferentes convergem para textos parecidos entre si?
+
+**Status: corpus e listas preparados; nenhuma chamada a modelo foi feita.** As 15 sementes estão em [corpus-semente/](corpus-semente/) com a proveniência completa (fontes, seleção, regras de modernização e hashes) em [proveniencia.md](corpus-semente/proveniencia.md); [lista-regionalismos.csv](lista-regionalismos.csv) (184 itens, rascunho do anotador 1) e [lista-controle-pareado.csv](lista-controle-pareado.csv) (162 pares propostos) aguardam a revisão do segundo anotador antes do congelamento por hash; os prompts congeláveis estão em [prompts.py](prompts.py).
+
+O desenho completo, com hipóteses pré-registradas, prompts congelados, métricas, regras de censura e critérios de falseamento, está em [plano-experimental.md](plano-experimental.md). O plano passou por uma rodada de crítica adversarial (metodologia quantitativa, linguística, engenharia de reprodutibilidade) antes de qualquer coleta; o registro de mudanças está no cabeçalho do documento.
+
+Desenho em números: 5 modelos × 15 sementes (9 trechos dos *Contos Gauchescos*, 1912, domínio público; 3 controles coetâneos de prosa não regional em português; 3 controles em inglês padrão dos anos 1920, para a régua da "vantagem de casa" da língua de treinamento) × 20 gerações, com 3 instruções em português (neutra, melhoria, preservação) e 2 em inglês = 210 cadeias e 4.200 chamadas, com tetos de gasto impostos pelo coletor, publicadas brutas neste diretório após a coleta.

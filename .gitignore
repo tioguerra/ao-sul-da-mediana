@@ -42,3 +42,8 @@ review_render/
 manuscrito/latex/
 manuscrito/rascunho.md
 manuscrito/ao-sul-da-mediana-rascunho.pdf
+
+# Experimento 3 (telefone sem fio): operacionais, fora da publicação
+artigo/telefone-sem-fio/dados/piloto/
+artigo/telefone-sem-fio/dados/gasto.json
+artigo/telefone-sem-fio/build*/
